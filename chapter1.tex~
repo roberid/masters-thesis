@@ -1,0 +1,142 @@
+\chapter{Introduction}
+\label{chap:intro}
+
+Galaxies are the star formation engines of the universe.  Our own galaxy, the Milky Way, forms stars at a rate of 2-4 M$_{\odot}$ yr$^{-1}$, a modest rate \citep[and references therein]{kennicuttEvans12}.  Elsewhere in the universe live a zoo of other types of galaxies, for example Starburst galaxies generating enormous amounts of stars at rates as high as 1000 M$_{\odot}$ yr$^{-1}$ \citep{solomon05}.   It is the interplay between stars and the Interstellar Medium (ISM) that shapes the structure and properties of galaxies, particularly how efficiently stars are made.  Recent large-scale observational surveys, like The HI Nearby Galaxies Survey (THINGS) have provided us with a look at galaxies and star formation on sub-kpc scales \citep{THINGSpaper}.   There are many complex processes involved in the ISM, including star formation, gas heating and cooling and stellar feedback as described below.
+
+\section{Star Formation}
+
+In the local universe stars form exclusively in dense clouds of dust and molecular hydrogen gas within galaxies.  Collectively, these clouds are referred to as Giant Molecular Clouds (GMCs) and have average densities of 100 cm$^{-3}$ and masses above $10^4$ M$_{\odot}$ \citep{tielensBook}.  While these objects contain the fuel for star formation, this fuel will not be entirely consumed.  We can define a depletion time, $\tau_{dep}$, defined as the timescale required to consume the available molecular hydrogen reservoir at the current star formation rate.  When averaged over kpc scales, this timescale is thought to fall between $1-2$ Gyr \citep{leroy2013}.  In typical galaxies the conversion of GMC gas into stars is thought to be extremely inefficient, with only 1-2\% of gas actually becoming stars \citep{krumholzTan07}.
+
+Although the process is inefficient, stars will eventually condense out of molecular clumps and cores, even denser substructures within GMCs \citep{mckeeOstriker07}.  Star formation proceeds in cores where the average density has surpassed $10^4$ cm$^{-3}$ \citep{lada10}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{figures/chapter1/aa500531_f11_cropa.jpeg}
+\caption[The observed global Kennicutt-Schmidt relation]{The global Kennicutt-Schmidt relation.  Figure taken from \cite{kennicuttEvans12}.  }
+\label{fig:globalKS}
+\end{figure}
+
+The rate of star formation correlates strongly with gas density, specifically that of molecular hydrogen (H$_2$).  For entire galaxies, this correlation emerges in the form of the Kennicutt-Schmidt relation \citep{schmidt59, kennicutt98}.  This relation correlates star formation rate surface density ($\Sigma_{\text{SFR}}$) with gas surface density ($\Sigma_{\text{gas}}$):
+\begin{equation}
+\Sigma_{\text{SFR}} = \text{A} \Sigma_{\text{gas}}^{\text{N}}
+\end{equation}
+where typically A$=2.5\times 10^{-4}$ M$_{\odot}$ kpc$^{-2}$ yr$^{-1}$ and the power-law slope is N$=1.4$ \citep{kennicutt98}.  The global Kennicutt-Schmidt relation is shown in Figure \ref{fig:globalKS}, which plots the average star formation rate surface density and gas surface density within the optical radius for a selection of galaxies \citep{kennicuttEvans12}.  This relation holds for a variety of galaxies; Low Surface Brightness (LSB) galaxies, normal spirals and starburst galaxies are all plotted in Figure \ref{fig:globalKS}.  There is uncertainty regarding how well galaxies actually follow this relation, and even what the power-law index should be.  Since molecular hydrogen itself is not directly observable, it is traced by carbon monoxide (CO), which then requires the use of a conversion factor (X$_{\text{CO}}$) to discern the true H$_2$ content.  The appropriate value for this conversion factor is often uncertain, and variations can lead to a different power-law index than expected from the usual Kennicutt-Schmidt relation \citep{shetty11, narayanan12}.  As seen in Figure \ref{fig:globalKS} certain galaxies stray more than an order of magnitude from the expected relation.
+
+The global Kennicutt-Schmidt relation describes the average properties of galaxies with the optical radius.  This relation also holds on smaller scales.  The THINGS survey contains high resolution data for a sample of galaxies in the nearby universe \citep{THINGSpaper}.  \cite{bigiel08} take 18 galaxies from this sample to explore the Kennicutt-Schmidt relation on local (sub-kpc) scales.  The authors confirm that the Kennicutt-Schmidt relation does hold on local scales, and find a strong correlation between the molecular gas content of a galaxy and the star formation rate.  Further, there is no correlation between star formation rate and atomic hydrogen content.  This is seen in Figure \ref{fig:globalKS}, where there is a transition from a power-law relation at a surface density of $\sim$10 M$_{\odot}$ pc$^{-2}$, corresponding to the transition to an atomic hydrogen dominated regime.
+
+\subsection{Stellar Feedback}
+
+Stars return energy to their birth environments via many different mechanisms throughout their lives.  These mechanisms are referred to as stellar feedback.  Young stars generate UV flux.  Far UV (FUV) radiation heats dust grains which will in turn heat gas.  Extreme UV (EUV) radiation photo-ionizes gas surrounding the star, creating an HII region.  These HII regions are a source of radiation pressure, which injects momentum into adjacent gas.  Radiation pressure is a significant form of feedback for extremely luminous stars.  Newly formed massive stars generate stellar winds.  These winds inject energy and momentum back into the ISM \citep{tielensBook}.  
+
+At the ends of their lives, massive stars will undergo explosive core-collapse (type II) supernova events \citep{carrollOstlie}.  Considering a cluster, for every 100 M$_{\odot}$ of stars formed, one star will end its life with a supernova event, depositing 10$^{51}$ erg of energy into the surrounding ISM \citep[and references therein]{krumholz14}.
+
+Stellar feedback plays an important role in shaping the structure of the galaxy.  It injects turbulence into the ISM, assists in making gas unavailable for star formation and shapes the clouds where stars do form.  All of these processes play their own role in the equilibrium state of the ISM.  
+
+\section{The Interstellar Medium}
+
+The ISM is home to the gas and dust that will potentially fuel star formation.  The ISM has a divided phase structure, with gas preferentially existing in hot, warm or cold phases.  The hot ionized medium (HIM) consists of gas with temperatures above $10^5$ K.  This gas is mainly heated by supernovae and lives mostly out of the plane of the galactic disc \citep{mckeeOstriker77}.  Hot ionized gas is detected via UV wavelength absorption lines and X-ray emission lines.  However, because of its low volume-filling fraction measurements of gas in this phase are not well constrained. For example, the mass of gas existing in this phase is uncertain \citep{tielensBook}.
+
+\begin{table}
+ \begin{center}
+ \caption{The Phase Structure of the ISM \label{tab:phase}}
+ \begin{tabular}{lcccc}
+ & & & & \\
+ \hline
+ \hline \\[-2ex]
+ Phase & $T^a$ & $n_0^a$ & $H^a$ & Mass Fraction$^b$ \\
+ \vspace{0.2cm}
+   & (K) & (cm$^{-3}$) & pc & (\%)\\
+  \hline \\[-2ex]
+  Hot Ionized Medium (HIM) & > $10^5$ &  0.003 &3000 & ---\\%X-RAY emission, UV absorption 
+  \\
+  Warm Ionized Medium (WIM) & 8000 & 0.1 & 900 & 0.13  \\%Halpha, pulsar dispersion
+  Warm Neutral Medium (WNM) & 8000 & 0.5 & $\sim$300 & 0.38 \\%HI 21 cm emission
+  \\
+  Cold Neutral Medium (CNM) & 80 & 50 & 94 & 0.29 \\ %HI 21 cm absorption
+  Molecular Clouds & 10 & $>200$ & 75 & 0.18 \\ %Radio and IR molecular lines (CO)
+  \hline \\[-2ex]
+  \multicolumn{5}{l}{\footnotesize{$^a$Typical temperatures, densities and scale heights as listed in \cite{tielensBook}}}\\
+  \multicolumn{5}{l}{\footnotesize{$^b$Calculated based on total masses tabulated in \cite{tielensBook}}} \\
+ \end{tabular}
+ \end{center} 
+\end{table}
+
+The warm phase consists of a warm ionized medium (WIM) and a warm neutral medium (WNM).  Gas in these phases has a temperature of around 8000 K \citep{tielensBook}. Warm neutral gas is detected using 21 cm line emission from HI gas.  Warm ionized gas is detected using emission from the H$\alpha$ recombination line and from pulsar dispersion.  Lastly, the cold phase hosts the cold neutral medium (CNM) and dense molecular clouds.  Cold neutral gas is detected using the 21 cm line absorption from HI gas. Molecular hydrogen makes up the main constituent of the cloud phase.  In these circumstances molecular hydrogen does not reach temperatures where emission is possible.  Since it cannot be directly observed, carbon monoxide (CO) is often used as a tracer.  This information is summarized in Table \ref{tab:phase}.
+
+These phases reflect specific physical input from stars but also at what temperatures and densities cooling is more or less efficient.  An influential idea due to \cite{FGH69} is that of thermal instability that tends to separate cooler gas into warm and cold phases.  The authors show that warm and cold neutral media could exist in pressure equilibrium, producing a two-phase medium.
+
+\subsection{Heating and Cooling in the ISM}
+
+Heating and cooling processes provide the net energy balance in the ISM.  Different mechanisms for cooling gas are dominant at different temperatures in the ISM.  At low temperatures, cooling is dominated by the excitation of trace metals, such as ionized carbon (CII).  At high temperatures ($T>10^4$ K), cooling is dominated by the collisional ionization of neutral hydrogen (HI).  This cooling must be balanced by a source of heating for thermal equilibrium to be maintained.  Photoelectric heating is the most significant heating process for the neutral ISM though UV, included here, is also significant.  Further sources of heating include cosmic rays and X-rays \citep{tielensBook}.  This balance between heating and cooling contributes to the two-phase structure of the ISM.  In Figure \ref{fig:cool} we plot the equilibrium temperature curve (solid black line), with coloured lines denoting contours of constant cooling time.  When gas exists in the hot diffuse phase, cooling times are long.  The denser gas gets, the shorter the cooling times, leading to thermal instability (gas will separate into a diffuse warm phase and a denser cold phase).   Dynamics processes such as turbulence modify the outcome as seen in the results section.
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.5\textwidth]{figures/chapter1/coolBenincasa.png}
+ \caption[Equilibrium phase diagram]{Cooling times in the interstellar medium.  The solid black line denotes the equilibrium temperature for a given density.  The different coloured lines denote contours of constant cooling time. Figure courtesy of James Wadsley.}
+ \label{fig:cool}
+\end{figure}
+
+
+\section{The Interplay Between Stars and the ISM}
+
+Star formation is a cyclic process.  Stars condense out of dense gas in the ISM.  These stars unavoidably disrupt their birth environments, which in turn either promotes or discourages further star formation.  If the net effect is negative feedback, we can see this process as self-regulating.
+
+The main physical driver of this self-regulation is effective pressure.  Pressure is required to balance the weight of gas in a galactic disc:
+\begin{equation}
+P_{\text{tot}} = \int \rho g \ \text{d}z
+\end{equation}
+where $P_{\text{tot}}$ is the total pressure, $\rho$ is the gas density and $g$ is the acceleration due to vertical gravity.  \cite{ostriker10} argue that this process can be understood by considering that stars provide an effective pressure to the disc.  Stars add to the vertical gravity in the disk and are generators of both thermal and turbulent pressure .   As a result, the total pressure in the disc will correlate strongly with the amount of star formation \citep{ostriker10}.
+
+This total pressure comes from both turbulent and thermal sources. The thermal pressure can be calculated as
+ \begin{equation}
+  P_{\text{th}} = c_s^2\rho
+ \end{equation}
+where $\rho$ is the density of a gas particle and $c_s$ is the sound speed, 
+\begin{equation}
+c_s = \sqrt{ \frac{k \gamma T}{\mu m_p}}
+ \end{equation}
+ with $\mu=1.29$, $\gamma=\frac{5}{3}$.   Sources of thermal pressure include stellar feedback, UV radiation and photoelectric heating.  The turbulent pressure can be calculated as
+  \begin{equation}
+  P_{\text{turb}} = v_z^2\rho
+ \end{equation}
+where $v_z$ is the vertical velocity component of a gas particle.  Sources of turbulent pressure include stellar feedback and galactic shear.  It is these factors which will balance the weight of the ISM and regulate star formation to its equilibrium state \citep{ostriker10}.
+
+The role of self-regulation can be seen empirically in the Kennicutt-Schmidt relation (see Figure \ref{fig:globalKS}).  However, while all types of galaxies appear to lie close to the power-law relation, it is clear that different types of galaxies occupy different regimes of the plot.  This fact is due to the mechanisms by which star formation self-regulates.  Above 100 M$_{\odot}$ pc$^{-2}$, in the upper right-hand portion of the plot live starburst galaxies (red, gold and blue points).  In starburst galaxies the ISM is composed almost completely of molecular gas and as a result they have very high star formation rates and efficiencies \citep{solomon05}.  In these environments turbulence is very important to star formation \citep{shettyOstriker12, faucher13}.  Normal galaxies live between $\sim10$ and 100 M$_{\odot}$ pc$^{-2}$ (filled purple circles).  Here FUV heating is instead the dominant mechanism of regulation \citep{ostriker10}.  Low surface brightness (LSB) galaxies are found at gas surface densities below $\sim10$ M$_{\odot}$ pc$^{-2}$ (purple crosses).  In this case, it is perhaps the inability of gas to easily form a cold phase via thermal instabilities which limits the rate of star formation \citep{schaye04}.  
+
+What we can take away from this is that the formation of a cold medium is the rate limiting step for star formation.  This cold phase is needed to host the formation of molecular hydrogen gas.  In starburst galaxies this is not so crucial, as the ISM is already mainly composed of $H_2$ and so star formation is extremely efficient.  In LSB galaxies however, the ISM is dominated by atomic hydrogen.  In Figure \ref{fig:globalKS} it is these galaxies which clearly fall away from the expected relation, implying interesting physics.  This is a similar composition to what is seen in the outer edges of normal galactic discs and provides us with a laboratory to explore how large a role the availability of a cold phase plays in setting the star formation rate.    
+
+The Toomre $Q$ parameter is a measure used to describe the degree to which gas in a thin disc is gravitationally unstable.
+\begin{equation}
+Q = \frac{\kappa \sigma_g}{\pi G \Sigma_g }
+\end{equation}
+where $\kappa$ is the epicycle frequency,  $\sigma_g$ is the gas velocity dispersion and $\Sigma_g$ is the gas surface density.  Collections of gas with $Q<1$ are considered gravitationally unstable.  Although this can be used to judge for instability, it is not a reliable measure to correlate available gas with actual star formation events \citep{leroy08}.
+
+\cite{elmegreen94} first proposed that it is not the Q parameter that dictates what gas will form stars, but rather the presence of a two phase medium in pressure equilibrium.  \cite{gerritsenIcke97} employ N-body simulations to show that stars can form only from gas existing in the cold dense/phase of the ISM.  The importance of this cold phase separation for star formation is further reinforced by  \cite{hunter98} and \cite{elmegreen02}.
+
+ Through the use of analytical models, \cite{schaye04} applies this idea to the outer discs of galaxies.  There is a clear radius in galaxies where star formation is sharply truncated.  This truncation is well supported by observational evidence.  In these regions there is a decrease in the thermal velocity dispersion, $\sigma_{\text{th}}$.  This drastic drop is associated with the transition from a warm to a cold gas phase, and is responsible for triggering gravitational instability.  This corresponds to a critical surface density, $\Sigma_{\text{crit}}$, below which it is not possible to support large-scale star formation.  The critical surface density should fall between 3-10 M$_{\odot}$ pc$^{-2}$, corresponding to a pressure, $P/k$, between 100-1000 cm$^{-3}$.  This phenomenon is possible on a large range of scales, and can proceed even in the presence of turbulent support \citep{schaye04}.
+
+
+\section{Numerical Studies of the ISM}
+
+Star formation is a process involving many scales and is heavily influenced by the galactic environment.  At the core of questions involving the ISM and star formation lie GMCs.  GMCs exist within the cold/dense phase of the ISM and hold the fuel for star formation.  The most direct way to study this cold phase is through the use of numerical simulations.  There are two tactics when considering how to approach this problem.  One can use high resolution simulations of small regions, focusing on the formation of small numbers of GMCs in a local context (see for example \cite{heitsch08}, \cite{ntormousi11}).  Moving up one scale, one can instead sacrifice resolution but include the whole galactic disc environment.  When considering which approach to use, one must keep in mind that the three main drivers of structure in galactic discs are thought to be galactic shear, the two-phase instability, and star formation/stellar feedback.  It is the interplay of these drivers which regulates GMC formation and, consequently, star formation. In order to include all of this physics, the most desirable approach, and the approach we use in this thesis, is to employ full galactic disc simulations. 
+
+This is a deceptively difficult problem to attack.  The formation of a cold phase in simulations is extremely resolution sensitive. As well the physics involved is non-linear; the interplay between star formation, feedback, and the structure of the ISM is in no way straight-forward.  Further, turbulence is generated at the largest scales of the galaxy and then cascades down to smaller scales.  Simulations have difficulty with this cascade, and holding turbulent power on GMC scales in the ISM.
+
+This problem has been heavily studied in recent years.  \cite{tasker09} and \cite{tasker11} employ simulations of a Milky Way type galaxy, both with and without star formation, respectively.  In cases with no star formation, gas is allowed to collect without any form of regulation.  This unchecked buildup can lead to cases of runaway collapse. \cite{dobbs2011} study GMC formation in galactic discs with strong spiral structure.  This structure is meant to model the strong spiral patterns associated with a nearby perturber, similar to the case of M51 and its companion.  These simulations include stellar feedback.  The authors are able to produce a fraction of cold gas consistent with observations.  \cite{bonnell13} debut a new approach by perfuming a low resolution simulation of a full galactic disc and then harvesting interesting regions for re-simulation at higher resolution. 
+
+
+\subsection{The Impacts of Numerical Choices}
+
+Studies of the ISM employing simulations often require the use of recipes for unresolvable physics.  
+\cite{hopkinsQM11} explore the impact of changing the choice of star formation parameters on the ISM.  The authors find that the star formation rate is largely insensitive to parameters associated with the star formation law.  However, the processes related to stellar feedback are extremely important.  Further, \cite{hopkinsQM12} find that the type of stellar feedback employed has a large impact on the outcome of the simulation.  The authors compare the effects of energy and momentum injection from types I and II supernovae, stellar winds, radiation pressure and HII photo-ionization.  \cite{agertz13} and \cite{agertzKravtsov14} also explore this parameter dependence with similar findings.
+
+
+\section{Overview}
+
+The relationship between star formation and the evolution of galaxies involves a great deal of interconnected physics. In order to better understand these connections it is desirable to use a suite of many simulations, where each process can be explored in a controlled set-up.  For these reasons, we have chosen to follow a different approach from those discussed above. We have modelled a relatively quiet isolated galaxy with no old stellar population and no perturbers.  The choice of an isolated galaxy excludes the effects of complicated environmental factors such as mergers, cosmic evolution and a lack of axi-symmetry.   While our galaxy is quiet, we have included both star formation and extremely efficient feedback, all done at high resolution.
+
+The remainder of the thesis will proceed as follows.  In Chapter \ref{chap:methods} we outline the simulation code \textsc{Gasoline} and what we have added to it for this work.  We also introduce our method for the generation of initial conditions for our galactic discs.  Chapter \ref{chap:discussion} lists the suite of simulations employed and discusses our findings from these simulations.  Finally, in Chapter \ref{chap:conclusion}  we give concluding remarks and discuss thoughts for future work.
+% Bibliography
+%
+\bibliographystyle{apj}
+\bibliography{thesis}

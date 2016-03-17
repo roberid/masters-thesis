@@ -1,0 +1,321 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Put in all your personal macros here				      
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% various text macros
+
+\newcommand{\eight}{850~$\mu$m\xspace}
+\newcommand{\four}{450~$\mu$m\xspace}
+\newcommand{\clfind}{clfind2d\xspace}
+\newcommand\arcmin{\mbox{$^\prime$}}
+\newcommand\arcsec{\mbox{$^{\prime\prime}$}}
+\newcommand\ion[2]{#1$\;${\small\rmfamily\@Roman{#2}}\relax}%
+\newcommand\sun{\odot}%
+
+% stuff to make aastex bibliography style work
+
+% Journal names from aastex.cls
+\let\jnl@style=\rmfamily
+\def\ref@jnl#1{{\jnl@style#1}}%
+\newcommand\aj{\ref@jnl{AJ}}%
+          % Astronomical Journal
+\newcommand\actaa{\ref@jnl{Acta Astron.}}%
+  % Acta Astronomica
+\newcommand\araa{\ref@jnl{ARA\&A}}%
+          % Annual Review of Astron and Astrophys
+\newcommand\apj{\ref@jnl{ApJ}}%
+          % Astrophysical Journal
+\newcommand\apjl{\ref@jnl{ApJ}}%
+          % Astrophysical Journal, Letters
+\newcommand\apjs{\ref@jnl{ApJS}}%
+          % Astrophysical Journal, Supplement
+\newcommand\ao{\ref@jnl{Appl.~Opt.}}%
+          % Applied Optics
+\newcommand\apss{\ref@jnl{Ap\&SS}}%
+          % Astrophysics and Space Science
+\newcommand\aap{\ref@jnl{A\&A}}%
+          % Astronomy and Astrophysics
+\newcommand\aapr{\ref@jnl{A\&A~Rev.}}%
+          % Astronomy and Astrophysics Reviews
+\newcommand\aaps{\ref@jnl{A\&AS}}%
+          % Astronomy and Astrophysics, Supplement
+\newcommand\azh{\ref@jnl{AZh}}%
+          % Astronomicheskii Zhurnal
+\newcommand\baas{\ref@jnl{BAAS}}%
+          % Bulletin of the AAS
+\newcommand\caa{\ref@jnl{Chinese Astron. Astrophys.}}%
+  % Chinese Astronomy and Astrophysics
+\newcommand\cjaa{\ref@jnl{Chinese J. Astron. Astrophys.}}%
+  % Chinese Journal of Astronomy and Astrophysics
+\newcommand\icarus{\ref@jnl{Icarus}}%
+  % Icarus
+\newcommand\jcap{\ref@jnl{J. Cosmology Astropart. Phys.}}%
+  % Journal of Cosmology and Astroparticle Physics
+\newcommand\jrasc{\ref@jnl{JRASC}}%
+          % Journal of the RAS of Canada
+\newcommand\memras{\ref@jnl{MmRAS}}%
+          % Memoirs of the RAS
+\newcommand\mnras{\ref@jnl{MNRAS}}%
+          % Monthly Notices of the RAS
+\newcommand\na{\ref@jnl{New A}}%
+  % New Astronomy
+\newcommand\nar{\ref@jnl{New A Rev.}}%
+  % New Astronomy Review
+\newcommand\pra{\ref@jnl{Phys.~Rev.~A}}%
+          % Physical Review A: General Physics
+\newcommand\prb{\ref@jnl{Phys.~Rev.~B}}%
+          % Physical Review B: Solid State
+\newcommand\prc{\ref@jnl{Phys.~Rev.~C}}%
+          % Physical Review C
+\newcommand\prd{\ref@jnl{Phys.~Rev.~D}}%
+          % Physical Review D
+\newcommand\prl{\ref@jnl{Phys.~Rev.~Lett.}}%
+          % Physical Review Letters
+\newcommand\pasa{\ref@jnl{PASA}}%
+  % Publications of the Astron. Soc. of Australia
+\newcommand\pasp{\ref@jnl{PASP}}%
+          % Publications of the ASP
+\newcommand\pasj{\ref@jnl{PASJ}}%
+          % Publications of the ASJ
+\newcommand\qjras{\ref@jnl{QJRAS}}%
+          % Quarterly Journal of the RAS
+\newcommand\rmxaa{\ref@jnl{Rev. Mexicana Astron. Astrofis.}}%
+  % Revista Mexicana de Astronomia y Astrofisica
+\newcommand\skytel{\ref@jnl{S\&T}}%
+          % Sky and Telescope
+\newcommand\solphys{\ref@jnl{Sol.~Phys.}}%
+          % Solar Physics
+\newcommand\sovast{\ref@jnl{Soviet~Ast.}}%
+          % Soviet Astronomy
+\newcommand\ssr{\ref@jnl{Space~Sci.~Rev.}}%
+          % Space Science Reviews
+\newcommand\zap{\ref@jnl{ZAp}}%
+          % Zeitschrift fuer Astrophysik
+\newcommand\nat{\ref@jnl{Nature}}%
+          % Nature
+\newcommand\iaucirc{\ref@jnl{IAU~Circ.}}%
+          % IAU Cirulars
+\newcommand\aplett{\ref@jnl{Astrophys.~Lett.}}%
+          % Astrophysics Letters and Communications
+\newcommand\apspr{\ref@jnl{Astrophys.~Space~Phys.~Res.}}%
+          % Astrophysics Space Physics Research
+\newcommand\bain{\ref@jnl{Bull.~Astron.~Inst.~Netherlands}}%
+          % Bulletin Astronomical Institute of the Netherlands
+\newcommand\fcp{\ref@jnl{Fund.~Cosmic~Phys.}}%
+          % Fundamental Cosmic Physics
+\newcommand\gca{\ref@jnl{Geochim.~Cosmochim.~Acta}}%
+          % Geochimica Cosmochimica Acta
+\newcommand\grl{\ref@jnl{Geophys.~Res.~Lett.}}%
+          % Geophysics Research Letters
+\newcommand\jcp{\ref@jnl{J.~Chem.~Phys.}}%
+          % Journal of Chemical Physics
+\newcommand\jgr{\ref@jnl{J.~Geophys.~Res.}}%
+          % Journal of Geophysical Research
+\newcommand\jqsrt{\ref@jnl{J.~Quant.~Spec.~Radiat.~Transf.}}%
+          % Journal of Quantitiative Spectroscopy and Radiative Trasfer
+\newcommand\memsai{\ref@jnl{Mem.~Soc.~Astron.~Italiana}}%
+          % Mem. Societa Astronomica Italiana
+\newcommand\nphysa{\ref@jnl{Nucl.~Phys.~A}}%
+          % Nuclear Physics A
+\newcommand\physrep{\ref@jnl{Phys.~Rep.}}%
+          % Physics Reports
+\newcommand\physscr{\ref@jnl{Phys.~Scr}}%
+          % Physica Scripta
+\newcommand\planss{\ref@jnl{Planet.~Space~Sci.}}%
+          % Planetary Space Science
+\newcommand\procspie{\ref@jnl{Proc.~SPIE}}%
+          % Proceedings of the SPIE
+
+								      
+%%%%
+% figures macros
+%%%%
+
+\newcommand{\comment}[1]{{\tt #1}}
+\newcommand{\blankcomment}[1]{{}}
+
+% length macro for supermongo figures
+\newlength{\smwidth}
+\setlength{\smwidth}{5.95in}
+\newlength{\smheight}
+\setlength{\smheight}{5.95in}
+
+% 1st  argument is base file name
+% 2nd arg is x size
+% 3rd arg is y size
+% 4th argument is caption
+% 5th argument is TOC/LOF caption
+% 6th arg is label
+% 7th arg is figure placement code
+\newcommand{\singlefigure}[7]{%
+\begin{figure}[#7]%[htbp]%
+\begin{center}\hspace{0pt}%
+\ifpdf
+\resizebox{#2}{#3}{%
+\includegraphics{figs/#1.pdf}%
+%\includegraphics[18pt,144pt][591pt,718pt]{figs/#1.pdf}%
+}%
+\else
+\resizebox{#2}{#3}{%
+\includegraphics{figs/#1.ps}%
+}%
+\fi
+\caption[#5]{#4}%
+\label{#6}%
+\end{center}%
+\end{figure}%
+%
+}
+
+\newcommand{\singlefigurewip}[7]{%
+\begin{figure}[#7]%[htbp]%
+\begin{center}\hspace{0pt}%
+\ifpdf
+\resizebox{#2}{#3}{%
+\includegraphics[angle=270]{figs/#1.pdf}%
+%\includegraphics[18pt,144pt][591pt,718pt]{figs/#1.pdf}%
+}%
+\else
+\resizebox{#2}{#3}{%
+\includegraphics[angle=270]{figs/#1.ps}%
+}%
+\fi
+\caption[#5]{#4}%
+\label{#6}%
+\end{center}%
+\end{figure}%
+%
+}
+
+\newcommand{\singlefigurejpg}[7]{%
+\begin{figure}[#7]%[htbp]%
+\begin{center}\hspace{0pt}%
+\ifpdf
+\resizebox{#2}{#3}{%
+\includegraphics{figs/#1.jpg}%
+}%
+\else
+\resizebox{#2}{#3}{%
+\includegraphics{figs/#1.ps}%
+}%
+\fi
+\caption[#5]{#4}%
+\label{#6}%
+\end{center}%
+\end{figure}%
+%
+}
+
+\newcommand{\fourfigure}[8]{%
+\begin{figure}[#8]%
+  \begin{minipage}[t]{0.49\textwidth}%
+    \begin{center}%
+     \ifpdf%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#1.pdf}}%
+     \else%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#1.ps}}%
+     \fi%
+    \end{center}%
+  \end{minipage}%
+\hfill%
+  \begin{minipage}[t]{0.49\textwidth}%
+    \begin{center}%
+     \ifpdf%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#2.pdf}}%
+     \else%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#2.ps}}%
+     \fi%
+    \end{center}%
+  \end{minipage}%
+\\%
+  \begin{minipage}[t]{0.49\textwidth}%
+    \begin{center}%
+     \ifpdf%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#3.pdf}}%
+     \else%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#3.ps}}%
+     \fi%
+    \end{center}%
+  \end{minipage}%
+\hfill%
+  \begin{minipage}[t]{0.49\textwidth}%
+    \begin{center}%
+     \ifpdf%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#4.pdf}}%
+     \else%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#4.ps}}%
+     \fi%
+    \end{center}%
+  \end{minipage}%
+  \caption[#6]{#5}%
+  \label{#7}%
+\end{figure}%
+}
+
+
+\newcommand{\twofigure}[6]{%
+\begin{figure}[#6]%
+  \begin{minipage}[t]{0.49\textwidth}%
+    \begin{center}%
+     \ifpdf%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#1.pdf}}%
+     \else%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#1.ps}}%
+     \fi%
+    \end{center}%
+  \end{minipage}%
+\hfill%
+  \begin{minipage}[t]{0.49\textwidth}%
+    \begin{center}%
+     \ifpdf%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#2.pdf}}%
+     \else%
+        \resizebox{0.99\textwidth}{0.99\textwidth}{\includegraphics{figs/#2.ps}}%
+     \fi%
+    \end{center}%
+  \end{minipage}%
+  \caption[#4]{#3}%
+  \label{#5}%
+\end{figure}%
+}
+
+\newcommand{\ngc}[1]{NGC~#1}
+\newcommand{\mrk}[1]{Mrk~0#1}
+\newcommand{\ugc}[1]{UGC~#1}
+\newcommand{\ic}[1]{IC~#1}
+
+\newcommand{\Deg}{\ensuremath{^\circ}}
+\newcommand{\Sup}[1]{\ensuremath{^{\rm #1}}}
+\def\RA[#1 #2 #3.#4]{\ensuremath{ #1\Sup{h}#2\Sup{m}#3\Sup{s}\llap.#4  }}
+\def\dec[#1 #2 #3.#4]{\ensuremath{ #1\Deg#2'#3''\llap.#4 }}
+\def\Dec[#1 #2 #3]{\ensuremath{ #1\Deg#2'#3'' }}
+\newcommand{\lta}{\raisebox{0.48ex}{\rlap{\ensuremath{\mathchar"113C}}\raisebox{-1.18ex}{\ensuremath{\mathchar"1218}}}}
+\newcommand{\gta}{\raisebox{0.48ex}{\rlap{\ensuremath{\mathchar"113E}}\raisebox{-1.18ex}{\ensuremath{\mathchar"1218}}}}
+\newcommand{\normal}{``normal''}
+\newcommand{\lsun}{\ensuremath{{\rm L}_\odot}}
+\newcommand{\BR}{\ensuremath{(B\!-\!R)_0}}
+\newcommand{\BV}{\ensuremath{(B\!-\!V)_0}}
+\newcommand{\VR}{\ensuremath{(V\!-\!R)_0}}
+\newcommand{\BI}{\ensuremath{(B\!-\!I)_0}}
+\newcommand{\VI}{\ensuremath{(V\!\!-\!I)_0}}
+
+\newcommand{\chem}[2]{#1\,{\footnotesize #2}}
+\newcommand{\p}{\ensuremath{\phantom{1}}}
+\newcommand{\dsh}{\p\llap}
+\newcommand{\sci}[2]{\ensuremath{#1\times10^{#2}}}
+\newcommand{\B}{\ensuremath{\surd}}
+\newcommand{\pB}{\dag}
+
+\setlength{\marginparsep}{0.12in}
+\setlength{\marginparwidth}{0.75in}
+\newcommand{\marginnote}[1]{\marginpar{\flushleft\baselineskip=1.5pt $\star\star$#1}}
+%\newcommand{\oldmarginnote}[1]{\relax}
+\def\oldmarginnote#1{\unskip\relax}
+
+%\setcounter{secnumdepth}{3}
+%\makeatletter
+%\renewcommand*\l@figure{\@dottedtocline{1}{1.5em}{2.7em}}
+%%% widen the lof label number
+%%% default in report.cls was {1}{1.5em}{2.3em}
+%\makeatother
+

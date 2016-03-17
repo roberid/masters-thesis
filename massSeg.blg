@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Mageia)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: massSeg.aux
+The style file: apj.bst
+Database file #1: masters-thesis.bib
+You've used 29 entries,
+            2948 wiz_defined-function locations,
+            843 strings with 12597 characters,
+and the built_in function-call counts, 20265 in all, are:
+= -- 1450
+> -- 2148
+< -- 7
++ -- 795
+- -- 765
+* -- 2090
+:= -- 3953
+add.period$ -- 29
+call.type$ -- 29
+change.case$ -- 371
+chr.to.int$ -- 28
+cite$ -- 29
+duplicate$ -- 542
+empty$ -- 781
+format.name$ -- 850
+if$ -- 3677
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 29
+newline$ -- 91
+num.names$ -- 116
+pop$ -- 388
+preamble$ -- 1
+purify$ -- 371
+quote$ -- 0
+skip$ -- 447
+stack$ -- 0
+substring$ -- 605
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 261
+warning$ -- 0
+while$ -- 115
+width$ -- 0
+write$ -- 292

@@ -1,0 +1,48 @@
+% define the various title-page, preamble variables
+
+\newcommand{\firstname}{Ian}
+\newcommand{\middlename}{D.}
+\newcommand{\lastname}{Roberts}
+\newcommand{\degrees}{B.Sc.}
+\newcommand{\thetitle}{Title}
+\newcommand{\halftitle}{Short Title}
+\newcommand{\thedegree}{Master of Science}
+\newcommand{\shortdegree}{M.Sc.}
+\newcommand{\currentmonth}{Current Month}
+\newcommand{\currentyear}{2016}
+\newcommand{\department}{Physics and Astronomy}
+\newcommand{\shortdepartment}{Physics and Astronomy}
+\newcommand{\degreefrom}{McMaster University}
+\newcommand{\theuniversity}{McMaster University}
+\newcommand{\bindingyear}{2016}
+\newcommand{\submissionyear}{2016}
+\newcommand{\submissionmonth}{Submission Month}
+\newcommand{\supervisor}{Laura Parker}
+\newcommand{\thelocation}{Hamilton, Ontario}
+
+\newcommand{\firstpages}{\pageref{frontmatterpages}}
+\newcommand{\lastpages}{\pageref{finalpage}}
+
+
+\halftitlepage
+\thesistitle
+\descriptivenotes
+\cleardoublepage
+\begin{abstract} 
+
+\input{abstract.tex}
+
+\end{abstract}
+
+%uncomment at the end
+\begin{acknowledgement}
+\input{Acknowledgements.tex}
+\end{acknowledgement}
+
+\dedication{dedication here}
+
+\tableofcontents
+\listoffigures
+%\listofequations%very optional
+\listoftables
+%\label{lastfirst

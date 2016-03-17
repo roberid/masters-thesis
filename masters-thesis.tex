@@ -1,0 +1,109 @@
+%\documentclass{macthesis}
+\documentclass[twoside]{macthesis}
+%\usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{multirow}
+\usepackage{natbib} 
+\usepackage{chapterbib} 
+\usepackage{graphicx}
+\usepackage{deluxetable}
+\usepackage{subfigure}
+\usepackage{float}
+%\usepackage{lscape}
+%\usepackage{supertabular}
+%\usepackage{longtable}
+%\usepackage{sidecap}
+\usepackage{pifont}
+
+\newcommand{\Msun}{\mathrm{M_{\sun}}}
+
+%%\newcommand{\chapterbib}{
+%% \bibliographystyle{mn2e}
+%% \bibliography{references}
+%%}\input{thesis.tex}
+
+%
+
+% \newif\ifpdf
+% \ifx\pdfoutput\undefined
+%         \pdffalse
+% \else
+%         \pdfoutput=1
+%         \pdftrue
+% \fi
+% \ifpdf
+%         \usepackage[pdftex]{graphicx}
+% %        \usepackage[pdftex]{rotating}
+% \else
+%         \usepackage{rotating}
+%         \usepackage{epsf}
+% 	\usepackage{graphicx}
+% \fi
+% \ifpdf
+%         \pdfpageheight=11in
+%         \pdfpagewidth=8.5in
+%         \pdfinfo{ 
+%                 /Title (Thesis)
+%                 /Subject (Thesis)
+%                 /Author (Iman Author)
+%                 }
+% \fi
+% \usepackage{epsf,graphicx,rotating}
+\usepackage{mypig}
+%\usepackage{mycite}
+%\usepackage{verbatim}
+%\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+% draft written across paper (only is ps mode)
+%\usepackage{draftcopy}
+%\draftcopyName{Work in Progress}{105}
+%
+
+%\usepackage{epsfig}
+%\DeclareGraphicsExtensions{.eps, .jpg}
+
+\usepackage[T1]{fontenc}
+
+\raggedbottom
+\frenchspacing
+\graphicspath{{figures/}}
+
+\begin{document}
+%\bibliographystyle{apj}
+\include{front}
+
+\pagestyle{myheadings}
+\pagenumbering{arabic}
+
+%cite --> citet
+%e.g. --> citep[e.g.][]{stuff}
+
+\cleardoublepage
+\include{introduction}
+
+\cleardoublepage
+\include{massSeg}
+
+
+%\appendix
+%\input{Appendix}
+%
+% Bibliography
+%
+%\bibliography{thesis}
+
+\clearpage
+\vspace*{0.3\textheight}
+\begin{center}
+{\Large\bf
+This page intentionally left blank.
+}
+\end{center}
+\addtocounter{page}{-1}
+\label{finalpage}
+
+
+\end{document}
+\end
+
+

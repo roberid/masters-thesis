@@ -1,0 +1,18 @@
+\gdef \the@ipfilectr {@-1}
+\contentsline {preface}{Descriptive Notes}{ii}
+\contentsline {preface}{\abstractname }{iii}
+\contentsline {preface}{\acknowledgementname }{iv}
+\contentsline {preface}{\listfigurename }{vii}
+\contentsline {preface}{\listtablename }{viii}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\contentsline {chapter}{\numberline {2}Mass segregation trends in SDSS galaxy groups}{3}
+\contentsline {section}{\numberline {2.1}Introduction}{3}
+\contentsline {section}{\numberline {2.2}Data}{6}
+\contentsline {section}{\numberline {2.3}Results}{9}
+\contentsline {subsection}{\numberline {2.3.1}Mass segregation in SDSS groups}{9}
+\contentsline {subsection}{\numberline {2.3.2}Massive galaxy fraction}{10}
+\gdef \the@ipfilectr {}

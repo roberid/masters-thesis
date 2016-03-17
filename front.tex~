@@ -1,0 +1,48 @@
+% define the various title-page, preamble variables
+
+\newcommand{\firstname}{Samantha}
+\newcommand{\middlename}{M.}
+\newcommand{\lastname}{Benincasa}
+\newcommand{\degrees}{B.Sc.}
+\newcommand{\thetitle}{On the Relationship Between Star Formation and the Interstellar Medium in Numerical Simulations}
+\newcommand{\halftitle}{On the Relationship Between Star Formation and the ISM}
+\newcommand{\thedegree}{Master of Science}
+\newcommand{\shortdegree}{M.Sc.}
+\newcommand{\currentmonth}{September}
+\newcommand{\currentyear}{2014}
+\newcommand{\department}{Physics and Astronomy}
+\newcommand{\shortdepartment}{Physics and Astronomy}
+\newcommand{\degreefrom}{McMaster University}
+\newcommand{\theuniversity}{McMaster University}
+\newcommand{\bindingyear}{2014}
+\newcommand{\submissionyear}{2014}
+\newcommand{\submissionmonth}{October}
+\newcommand{\supervisor}{James Wadsley, Hugh Couchman}
+\newcommand{\thelocation}{Hamilton, Ontario}
+
+\newcommand{\firstpages}{\pageref{frontmatterpages}}
+\newcommand{\lastpages}{\pageref{finalpage}}
+
+
+\halftitlepage
+\thesistitle
+\descriptivenotes
+\cleardoublepage
+\begin{abstract} 
+
+\input{Abstract.tex}
+
+\end{abstract}
+
+%uncomment at the end
+\begin{acknowledgement}
+\input{Acknowledgements.tex}
+\end{acknowledgement}
+
+\dedication{dedication here}
+
+\tableofcontents
+\listoffigures
+%\listofequations%very optional
+\listoftables
+%\label{lastfirst

@@ -1,0 +1,8 @@
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\addvspace {15\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\addvspace {15\p@ }
+\gdef \the@ipfilectr {}
