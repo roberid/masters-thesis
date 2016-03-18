@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: massSeg.aux
 The style file: apj.bst
 Database file #1: masters-thesis.bib
-You've used 29 entries,
+You've used 40 entries,
             2948 wiz_defined-function locations,
-            843 strings with 12597 characters,
-and the built_in function-call counts, 20265 in all, are:
-= -- 1450
-> -- 2148
+            899 strings with 14728 characters,
+and the built_in function-call counts, 26392 in all, are:
+= -- 1936
+> -- 2672
 < -- 7
-+ -- 795
-- -- 765
-* -- 2090
-:= -- 3953
-add.period$ -- 29
-call.type$ -- 29
-change.case$ -- 371
-chr.to.int$ -- 28
-cite$ -- 29
-duplicate$ -- 542
-empty$ -- 781
-format.name$ -- 850
-if$ -- 3677
++ -- 986
+- -- 945
+* -- 2673
+:= -- 5123
+add.period$ -- 40
+call.type$ -- 40
+change.case$ -- 475
+chr.to.int$ -- 39
+cite$ -- 40
+duplicate$ -- 751
+empty$ -- 1081
+format.name$ -- 1063
+if$ -- 4832
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 29
-newline$ -- 91
-num.names$ -- 116
-pop$ -- 388
+missing$ -- 40
+newline$ -- 124
+num.names$ -- 160
+pop$ -- 502
 preamble$ -- 1
-purify$ -- 371
+purify$ -- 475
 quote$ -- 0
-skip$ -- 447
+skip$ -- 616
 stack$ -- 0
-substring$ -- 605
+substring$ -- 845
 swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 261
+type$ -- 360
 warning$ -- 0
-while$ -- 115
+while$ -- 159
 width$ -- 0
-write$ -- 292
+write$ -- 402

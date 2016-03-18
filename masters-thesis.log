@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Mageia) (format=pdflatex 2015.7.3)  17 MAR 2016 11:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Mageia) (format=pdflatex 2015.7.3)  18 MAR 2016 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -179,6 +179,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box30
 )
+(/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks22
+)
 (/usr/share/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
@@ -204,18 +208,18 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 (./front.aux) (./introduction.aux) (./massSeg.aux))
 \openout1 = `masters-thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -224,12 +228,12 @@ LaTeX Font Info:    ... okay on input line 71.
 \scratchbox=\box31
 \nofMPsegments=\count115
 \nofMParguments=\count116
-\everyMPshowfont=\toks22
+\everyMPshowfont=\toks23
 \MPscratchCnt=\count117
 \MPscratchDim=\dimen119
 \MPnumerator=\count118
 \makeMPintoPDFobject=\count119
-\everyMPtoPDFconversion=\toks23
+\everyMPtoPDFconversion=\toks24
 ) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -382,41 +386,42 @@ File: figures/Rfrac.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/Rfrac.pdf used on input line 246.
 (pdftex.def)             Requested size: 397.48499pt x 160.96175pt.
 
-[10] [11 <./figures/Rfrac.pdf>] (./massSeg.bbl [12] [13
+[10] [11 <./figures/Rfrac.pdf>] [12] [13] [14] [15] (./massSeg.bbl [16]
+[17
 
-] [14] [15])) [16]
-[16
+] [18] [19] [20])) [21] [21
 
 
-] (./masters-thesis.aux (./front.aux) (./introduction.aux) (./massSeg.aux)) ) 
+] (./masters-thesis.aux (./front.aux)
+(./introduction.aux) (./massSeg.aux)) ) 
 Here is how much of TeX's memory you used:
- 3745 strings out of 493315
- 46868 string characters out of 6143676
- 113254 words of memory out of 5000000
- 7077 multiletter control sequences out of 15000+600000
+ 3811 strings out of 493315
+ 47989 string characters out of 6143676
+ 114681 words of memory out of 5000000
+ 7140 multiletter control sequences out of 15000+600000
  17505 words of font info for 46 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,6n,30p,1104b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/
-usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmssdc10.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
-bx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></us
-r/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-d
-ist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1
-/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
-r/sfcc1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-</usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/tex
-mf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on masters-thesis.pdf (27 pages, 304240 bytes).
+ 38i,6n,30p,1104b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/c
+m-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmssdc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
+texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/font
+s/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/
+cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx20
+74.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf-dist/
+fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
+ti1200.pfb>
+Output written on masters-thesis.pdf (32 pages, 316162 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
+ 320 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

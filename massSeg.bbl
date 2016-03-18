@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{40}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abazajian} {et~al.}(2009){Abazajian}, {Adelman-McCarthy},
@@ -37,6 +37,10 @@
   {\v Z}., {Knapp}, G.~R., {Lupton}, R.~H., {Munn}, J.~A., {Schneider}, D.~P.,
   {Tegmark}, M., \& {Zehavi}, I. 2005{\natexlab{b}}, \aj, 129, 2562
 
+\bibitem[{{Boylan-Kolchin} {et~al.}(2008){Boylan-Kolchin}, {Ma}, \&
+  {Quataert}}]{boylan2008}
+{Boylan-Kolchin}, M., {Ma}, C.-P., \& {Quataert}, E. 2008, \mnras, 383, 93
+
 \bibitem[{{Brough} {et~al.}(2006){Brough}, {Forbes}, {Kilborn}, \&
   {Couch}}]{brough2006}
 {Brough}, S., {Forbes}, D.~A., {Kilborn}, V.~A., \& {Couch}, W. 2006, \mnras,
@@ -59,10 +63,22 @@
 \bibitem[{{Chandrasekhar}(1943)}]{chandrasekhar1943}
 {Chandrasekhar}, S. 1943, \apj, 97, 255
 
+\bibitem[{{Conroy} {et~al.}(2007){Conroy}, {Ho}, \& {White}}]{conroy2007}
+{Conroy}, C., {Ho}, S., \& {White}, M. 2007, \mnras, 379, 1491
+
+\bibitem[{{De Lucia} {et~al.}(2012){De Lucia}, {Weinmann}, {Poggianti},
+  {Arag{\'o}n-Salamanca}, \& {Zaritsky}}]{delucia2012}
+{De Lucia}, G., {Weinmann}, S., {Poggianti}, B.~M., {Arag{\'o}n-Salamanca}, A.,
+  \& {Zaritsky}, D. 2012, \mnras, 423, 1277
+
 \bibitem[{{Eke} {et~al.}(2005){Eke}, {Baugh}, {Cole}, {Frenk}, {King}, \&
   {Peacock}}]{eke2005}
 {Eke}, V.~R., {Baugh}, C.~M., {Cole}, S., {Frenk}, C.~S., {King}, H.~M., \&
   {Peacock}, J.~A. 2005, \mnras, 362, 1233
+
+\bibitem[{{Gan} {et~al.}(2010){Gan}, {Kang}, {Hou}, \& {Chang}}]{gan2010}
+{Gan}, J.-L., {Kang}, X., {Hou}, J.-L., \& {Chang}, R.-X. 2010, Research in
+  Astronomy and Astrophysics, 10, 1242
 
 \bibitem[{{Geller} \& {Huchra}(1983)}]{geller1983}
 {Geller}, M.~J. \& {Huchra}, J.~P. 1983, \apjs, 52, 61
@@ -73,6 +89,19 @@
 {Hogg}, D.~W., {Blanton}, M.~R., {Brinchmann}, J., {Eisenstein}, D.~J.,
   {Schlegel}, D.~J., {Gunn}, J.~E., {McKay}, T.~A., {Rix}, H.-W., {Bahcall},
   N.~A., {Brinkmann}, J., \& {Meiksin}, A. 2004, \apjl, 601, L29
+
+\bibitem[{{Hou} {et~al.}(2014){Hou}, {Parker}, \& {Harris}}]{hou2014}
+{Hou}, A., {Parker}, L.~C., \& {Harris}, W.~E. 2014, \mnras, 442, 406
+
+\bibitem[{{Jiang} {et~al.}(2008){Jiang}, {Jing}, {Faltenbacher}, {Lin}, \&
+  {Li}}]{jiang2008}
+{Jiang}, C.~Y., {Jing}, Y.~P., {Faltenbacher}, A., {Lin}, W.~P., \& {Li}, C.
+  2008, \apj, 675, 1095
+
+\bibitem[{{McGee} {et~al.}(2009){McGee}, {Balogh}, {Bower}, {Font}, \&
+  {McCarthy}}]{mcgee2009}
+{McGee}, S.~L., {Balogh}, M.~L., {Bower}, R.~G., {Font}, A.~S., \& {McCarthy},
+  I.~G. 2009, \mnras, 400, 937
 
 \bibitem[{{Oemler}(1974)}]{oemler1974}
 {Oemler}, Jr., A. 1974, \apj, 194, 1
@@ -86,6 +115,11 @@
   {Saglia}, R., {Zaritsky}, D., {Best}, P., {Clowe}, D., {Milvang-Jensen}, B.,
   {Jablonka}, P., {Pell{\'o}}, R., {Rudnick}, G., {Simard}, L., {von der
   Linden}, A., \& {White}, S. 2008, \apj, 684, 888
+
+\bibitem[{{Pracy} {et~al.}(2005){Pracy}, {Driver}, {De Propris}, {Couch}, \&
+  {Nulsen}}]{pracy2005}
+{Pracy}, M.~B., {Driver}, S.~P., {De Propris}, R., {Couch}, W.~J., \& {Nulsen},
+  P.~E.~J. 2005, \mnras, 364, 1147
 
 \bibitem[{{Presotto} {et~al.}(2012){Presotto}, {Iovino}, {Scodeggio},
   {Cucciati}, {Knobel}, {Bolzonella}, {Oesch}, {Finoguenov}, {Tanaka}, {Kova{\v
@@ -115,6 +149,19 @@
 {Simard}, L., {Mendel}, J.~T., {Patton}, D.~R., {Ellison}, S.~L., \&
   {McConnachie}, A.~W. 2011, \apjs, 196, 11
 
+\bibitem[{{Springel} {et~al.}(2005){Springel}, {White}, {Jenkins}, {Frenk},
+  {Yoshida}, {Gao}, {Navarro}, {Thacker}, {Croton}, {Helly}, {Peacock}, {Cole},
+  {Thomas}, {Couchman}, {Evrard}, {Colberg}, \& {Pearce}}]{springel2005}
+{Springel}, V., {White}, S.~D.~M., {Jenkins}, A., {Frenk}, C.~S., {Yoshida},
+  N., {Gao}, L., {Navarro}, J., {Thacker}, R., {Croton}, D., {Helly}, J.,
+  {Peacock}, J.~A., {Cole}, S., {Thomas}, P., {Couchman}, H., {Evrard}, A.,
+  {Colberg}, J., \& {Pearce}, F. 2005, \nat, 435, 629
+
+\bibitem[{{Taffoni} {et~al.}(2003){Taffoni}, {Mayer}, {Colpi}, \&
+  {Governato}}]{taffoni2003}
+{Taffoni}, G., {Mayer}, L., {Colpi}, M., \& {Governato}, F. 2003, \mnras, 341,
+  434
+
 \bibitem[{{Tal} {et~al.}(2014){Tal}, {Dekel}, {Oesch}, {Muzzin}, {Brammer},
   {van Dokkum}, {Franx}, {Illingworth}, {Leja}, {Magee}, {Marchesini},
   {Momcheva}, {Nelson}, {Patel}, {Quadri}, {Rix}, {Skelton}, {Wake}, \&
@@ -134,6 +181,11 @@
   {White}, \& {Weinmann}}]{vonderlinden2010}
 {von der Linden}, A., {Wild}, V., {Kauffmann}, G., {White}, S.~D.~M., \&
   {Weinmann}, S. 2010, \mnras, 404, 1231
+
+\bibitem[{{Vulcani} {et~al.}(2014){Vulcani}, {De Lucia}, {Poggianti}, {Bundy},
+  {More}, \& {Calvi}}]{vulcani2014}
+{Vulcani}, B., {De Lucia}, G., {Poggianti}, B.~M., {Bundy}, K., {More}, S., \&
+  {Calvi}, R. 2014, \apj, 788, 57
 
 \bibitem[{{Vulcani} {et~al.}(2013){Vulcani}, {Poggianti}, {Oemler}, {Dressler},
   {Arag{\'o}n-Salamanca}, {De Lucia}, {Moretti}, {Gladders}, {Abramson}, \&

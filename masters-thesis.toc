@@ -17,4 +17,8 @@
 \contentsline {subsection}{\numberline {2.3.2}Massive galaxy fraction}{10}
 \contentsline {section}{\numberline {2.4}Discussion}{12}
 \contentsline {subsection}{\numberline {2.4.1}Effect of including low-mass galaxies}{12}
+\contentsline {subsection}{\numberline {2.4.2}Halo mass dependence}{13}
+\contentsline {subsection}{\numberline {2.4.3}Reconciling previous results}{15}
+\contentsline {section}{\numberline {2.5}Conclusion}{15}
+\contentsline {section}{\numberline {2.6}Acknowledgements}{16}
 \gdef \the@ipfilectr {}
