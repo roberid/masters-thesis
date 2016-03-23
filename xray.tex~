@@ -1,0 +1,370 @@
+\chapter{Comparing galaxy morphology and star formation properties in
+  X-ray bright and faint groups and cluster}
+\label{chap:xray}
+
+\section{Introduction}
+\label{sec:intro_x}
+
+Numerous studies have shown a strong environmental dependence on the
+star-forming and morphological properties of galaxies
+\citep[e.g.][]{butcher1978, dressler1980, postman1984, dressler1999,
+  blanton2005b, wetzel2012}.  Low-density regimes tend to be dominated
+by star-forming, late-type galaxies whereas high-density areas, such
+as galaxy clusters, tend to be primarily populated by quiescent,
+early-type galaxies.  Within individual clusters, galaxy morphologies
+tend to distribute as a function of local density (or equivalently
+cluster-centric radius), with high fractions of late-type galaxies
+being found at large radii and the regions near the cluster core being
+dominated by early-types \citep[e.g.][]{dressler1980, postman1984,
+  postman2005}.  This effect has become known as the
+morphology-density relation.  While galaxies tends to distribute based
+on their star-forming and morphological properties, the mechanism(s)
+responsible for the quenching of star formation and morphological
+transformations in galaxies are not well constrained -- although many
+have been proposed.  Both mergers and impulsive galaxy-galaxy
+interactions (`harassment') \citep[e.g.][]{moore1996} can induce
+starburst events in galaxies leading to rapid consumption of gas
+reserves and star formation quenching.  Within the virial radius of a
+group or cluster the stripping of gas from galaxies becomes
+efficient.  Both the stripping of hot halo gas (`strangulation')
+\citep[e.g.][]{kawata2008} and cold gas stripping due to a dense
+intracluster medium (`ram-pressure') \citep[e.g.][]{gunn1972} can
+quench star formation.  As well, tidal interactions can affect gas
+reservoirs by transporting gas from the galactic halo outwards which
+subsequently allows it to more easily be stripped from the galaxy
+\citep{chung2007}.
+\par
+On top of these environmental quenching mechanisms, previous authors
+have found that secular processes, which depend on galaxy mass, appear
+to play a significant role in star formation quenching
+\citep{balogh2004, muzzin2012}.  The emergent picture for star
+formation quenching appears to be some combination of environmental
+quenching mechanisms and internal, secular processes.  In particular,
+\citep{peng2010} suggests that in the low-redshift Universe,
+environmental quenching is dominant for galaxies with $M_\star \lesssim
+10^{10.5}\Msun$, whereas for galaxies with $M_\star \gtrsim
+10^{10.5}\Msun$ mass quenching plays the more important role.
+\par
+While environmental and mass quenching within individual haloes are
+seemingly strong effects, it is important to realize that groups and
+clusters are not isolated structures.  In particular, galaxies can be
+pre-quenched in group haloes prior to infall into a larger cluster.
+This `pre-processing' suggests that many galaxies may already be
+quenched upon cluster infall.  Simulations have shown that between
+$\sim 25$ and $45$ per cent of infalling cluster galaxies may have
+been pre-processed \citep{mcgee2009, delucia2012}.  Observationally,
+\citep{hou2014} find that $\sim 25$ per cent fo the infall population
+reside in subhaloes for massive clusters ($M_H \gtrsim 10^{14.5}\Msun$).
+This pre-quenching of galaxies in groups could potentially be driven
+by galaxy interactions and mergers which are favoured in the group
+regime as a result of lower relative velocities between member
+galaxies \citep{barnes1985, brough2006}.
+\par
+An important method for study the quenching mechanisms in groups and
+clusters is to study the dependence of the star formation and
+morphological properties of galaxies on the conditions of their host
+halo (e.g.\ halo mass, X-ray luminosity, etc.).  In particular, if
+quenching mechanisms depend on the density of the intra-group/cluster
+medium (IGM/ICM) -- for example, ram-pressure stripping of cold gas --
+then one would expect to see galaxy populations which are
+preferentially passive in haloes with high X-ray luminosities.  Such
+correlations have been looked for in previous studies, primarily
+within cluster environments.
+\par
+In particular, \citet{ellingson2001} find no positive correlation
+between the fraction of old galaxies and X-ray gas density.
+\citet{balogh2002a} conclude that the level of star formation found in
+their `low-$L_X$' sample is consistent with the levels seen in their
+CNOC1 sample consisting of higher mass clusters.  \citet{fairley2002}
+and \citet{wake2005} both study the fractions of blue galaxies at
+intermediate redshifts and find no discernible trend between blue
+fraction and X-ray luminosity.  Using multivariate regression
+\citet{popesso2007b} find that cluster star formation depends on
+cluster richness but find no additional dependence on X-ray
+luminosity.  In addition, they find no significant correlation between
+star-forming fraction and any global cluster property ($M_{200}$,
+$\sigma_v$, $N_\mathrm{gal}$, and $L_X$).  \citet{lopes2014} find no
+dependence of blue fraction on X-ray luminosity and the only slight
+dependence they find between disc fraction and X-ray luminosity is
+within the central and most dense regions.
+\par
+Conversely, \citet{balogh2002b} find that galaxies in their
+`low-$L_X$' sample have preferentially high disc fractions compared to
+galaxies in their `high-$L_X$' sample.  \citet{postman2005} find that
+the bulge-dominated fraction for galaxies in high X-ray luminosity
+clusters is higher than for those in low X-ray luminosity clusters.
+In contrast with their star formation results, \citet{popesso2007b} do
+find a significant anticorrelation between blue fraction and X-ray
+luminosity.  Finally, \citet{urquhart2010} find an anticorrelation
+between blue fraction and X-ray temperature for galaxies in
+intermediate redshift clusters.
+\par
+In this paper we revisit the dependence of galaxy star formation and
+morphological properties on the X-ray luminosity of the host halo.
+Specifically, as a result of the large SDSS X-ray sample presented in
+\citet{wang2014}, we are able to control for stellar mass, halo mass,
+and radial dependences through fine-binning of the data set.  This
+allows us to more directly investigate the effect of X-ray luminosity
+on galaxies in different environments.
+\par
+The results of this study are presented as follows.  In
+Section~\ref{sec:data_x} we briefly describe the SDSS group catalogues
+utilized in this work, as well as the star formation and morphology
+catalogues which we match to the group data set.  In
+Section~\ref{sec:results_x} we present the primary results of this
+paper, specifically, the differences between star-forming and
+morphological trends in environments with different X-ray
+luminosities.  In Section~\ref{sec:discussion_x} we provide a
+discussion of the results presented in this paper.  Finally, in
+Section~\ref{sec:conclusions_x} we provide a summary of the key
+results and make concluding statements.
+\par
+In this paper we assume a $\Lambda$ cold dark matter cosmology with
+$\Omega_M = 0.3$, $\Omega_\Lambda = 0.7$, and $H_0 = 70\,\mathrm{km}\,\mathrm{s^{-1}}\,\mathrm{Mpc^{-1}}$.
+
+\section{Data}
+\label{sec:data_x}
+
+\subsection{Yang group catalogue}
+
+This work relies heavily on the group catalogue of \citet{yang2007}.
+The Yang group catalogue is constructed by applying the iterative
+halo-based group finder of \citet{yang2005, yang2007} to the New York
+University Value-Added Galaxy Catalogue (NYU-VAGC;
+\citealt{blanton2005a}), which is based on the Sloan Digital Sky
+Survey Data Release 7 (SDSS-DR7; \citealt{abazajian2009}).  The Yang
+group catalogue has a wide range of halo masses, spanning from $\sim
+10^{12}\Msun$ to $\sim 10^{15}\Msun$.  The catalogue contains both
+objects which would be classified as groups ($10^{12} \lesssim M_H
+\lesssim 10^{14}$) and as clusters ($M_H \gtrsim 10^{14}\Msun$),
+however for brevity we will refer to all systems as groups regardless
+of mass.
+\par
+Groups are initially populated using the traditional
+friends-of-friends (FOF) algorithm \citep[e.g.][]{huchra1982}, as well
+as assigning galaxies not yet linked to FOF groups as the centres of
+potential groups.  Next, the characteristic luminosity, $L_{19.5}$,
+defined as the combined luminosity of all group members with
+$^{0.1}M_r - 5\log h \le -19.5$, is calculated for each group.  Using
+the value of $L_{19.5}$ along with an assumption for the group
+mass-to-light ratio, $M_H/L_{19.5}$, a tentative halo mass is assigned
+on a group-by-group basis.  The tentative halo mass is used to
+calculate a virial radius and velocity dispersion for each group,
+which are then used to add or remove galaxies from the system.
+Galaxies are assigned to groups under the assumption that the
+distribution of galaxies in phase space follows that of dark matter
+particles -- the distribution of which is assumed to follow a
+spherical NFW profile \citep{navarro1997}.  This process is iterated
+until the group memberships no longer change.
+\par
+Final halo masses given in the Yang group catalogue are determined
+using the ranking of the characteristic stellar mass,
+$M_{\star,\mathrm{grp}}$, and assuming a relationship between $M_H$
+and $M_{\star,\mathrm{grp}}$ \citep{yang2007}.
+$M_{\star,\mathrm{grp}}$ is defined by Yang et al. as
+
+\begin{equation}
+  M_{\star,\mathrm{grp}} = \frac{1}{g(L_{19.5},\,L_\mathrm{lim})}
+  \sum_i \frac{M_{\star,i}}{C_i},
+\end{equation}
+
+\noindent
+where $M_{\star,i}$ is the stellar mass of the $i$th member galaxy,
+$C_i$ is the completeness of the survey at the position of that
+galaxy, and $g(L_{19.5},\,L_\mathrm{lim})$ is a correction factor
+which accounts for galaxies missed due to the magnitude limit of the
+survey.  The statistical error in $M_H$ is on the order of
+$0.3\,\mathrm{dex}$ and mostly independent of halo mass
+\citep{yang2007}.
+
+\subsection{SDSS X-ray catalogue}
+
+To study the X-ray properties of the group sample, we utilize the SDSS
+X-ray catalogue of \citet{wang2014}, which combines ROSAT All Sky
+Survey (RASS) X-ray images in conjunction with optical groups
+identified from SDSS-DR7 \citep{yang2007} to estimate X-ray
+luminosities around $\sim 65\,000$ spectroscopic groups.
+\par
+To identify X-ray luminosities for individual groups, the algorithm of
+\citet{shen2008} is employed.  Beginning from an optical group, the
+most massive galaxies (MMGs) of that group are identifed -- up to four
+MMGs are kept.  The RASS field in which the MMGs reside are then
+identified, and an X-ray source catalogue is generated in the
+$0.5-2.0\,\mathrm{keV}$ band \citep{wang2014}.  The maximum X-ray
+emission density point is used to identify the X-ray centre of the
+group, and any X-ray sources not associated with the group
+(e.g.\ point source quasars or stellar object cross-matched from RASS
+and SDSS-DR7), within one virial radius , are masked out.  Values for
+the X-ray background, centred on the X-ray centre, are determined and
+subtracted off and the X-ray luminosity, $L_X$, is calculated by
+integrating the source count profile within the X-ray radius.
+\par
+Determining X-ray luminosities in this manner is susceptible to
+`source confusion'.  Due to projection it is possible for more than
+one group to contribute to the X-ray emission within the X-ray radius,
+leading to an overestimation of the X-ray luminosity for a given
+group.  To account for this effect \citet{wang2014} calculate the
+`expected' average X-ray flux, $F_{X,i}$, for each group using the
+average $L_X - M_H$ relation taken from \citet{mantz2010}.  They then
+calculate the sum of the expected fluxes from each group for
+multigroup systems and determine the contribution fraction,
+$f_{\mathrm{mult},i}$, for each group defined as
+
+\begin{equation}
+  f_{\mathrm{mult},i} = F_{X,i} / \Sigma_i F_{X,i}.
+\end{equation}
+
+\noindent
+The contribution factor will approximate the fraction of the observed
+X-ray luminosity intrinsic to the individual group in question,
+therefore applying this fraction to each group will act to debias the
+measured X-ray luminosity from source confusion contamination.
+\par
+Within the Wang catalogue 817 groups have $\mathrm{S/N} > 3$, compared
+to the total of $34\,522$ groups with positive detections (positive
+count rates after background subtraction) and $\mathrm{S/N} > 0$.  We
+run our analysis for groups with $\mathrm{S/N} > 3$ as well as groups
+with $\mathrm{S/N} > 0$ and find that our choice of signal-to-noise
+cut does not change the trends that we observe, therefore we focus on
+the total sample ($\mathrm{S/N} > 0$) to ensure a sample size which is
+large enough to finely bin the data in various properties
+simultaneously.
+
+\subsection{Final data set}
+
+To obtain the final data set, we match the Wang SDSS X-ray catalogue
+to the Yang SDSS group catalogue, giving us both optical and X-ray
+group properties for the sample.  To obtain individual galaxy
+properties we further match the data set to various public SDSS
+catalogues as follows.
+\par
+We utilize stellar masses given in the NYU-VAGC, which are computed
+following the methodology of \citet{blanton2007}.
+\par
+To obtain star formation rates (SFRs) and specific star formation
+rates ($\mathrm{SSFR} = \mathrm{SFR} / M_\star$) we match the
+catalogue of \citet{brinchmann2004} to the sample.  SFRs given by
+Brinchmann et al. are determined using emission line fluxes whenever
+possible; however, in the case of no clear emission lines or
+contamination from active galactic nuclei (AGNs), SFRs are determined
+using the strength of the $4000\,\mathrm{\mathring{A}}$ break
+($D_n4000$) \citep{brinchmann2004}.
+\par
+We obtain galaxy morphologies from the catalogue of
+\citet{simard2011}.  Simard et al. perform two-dimensional bulge +
+disc decompositions for over one million galaxies from the Legacy area
+of the SDSS-DR7, using three different fitting models: a pure
+S{\'e}rsic model, a bulge + disc model with a de Vaucouleurs ($n_b =
+4$) bulge, and a bulge + disc model with a free $n_b$.  To distinguish
+between discy and elliptical galaxies we utilize the galaxy S{\'e}rsic
+index, $n_g$, from the pure S{\'e}rsic decomposition.  We also use the
+$V_\mathrm{max}$ weights given by Simard et al. to correct for the
+incompleteness of our sample.
+\par
+We calculate group-centric distances for each galaxy using the
+redshift of the group and the angular separation between the galaxy
+and the luminosity-weighted centre of its host group.  We normalize
+all of the galaxy radii by the virial radius of the host group,
+$R_{180}$, which we calculate as in \citet{yang2007}
+
+\begin{equation}
+  R_{180} =
+  1.26\,h^{-1}\,\mathrm{Mpc}\,\left(\frac{M_H}{10^{14}\,h^{-1}\,\Msun}
+  \right )^{1/3} (1 + z_g)^{-1},
+\end{equation}
+
+\noindent
+where $z_g$ is the redshift of the group centre.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\textwidth]{mh_lx_con.pdf}
+  \caption{Density contours for log X-ray luminosity versus log halo
+    mass.  Dashed line corresponds to the linear least-squares
+    best-fitting relationship.}
+  \label{fig:mh_lx_con}
+\end{figure}
+
+The final data set includes groups with halo masses ranging between
+$10^{13} - 10^{15}\,\Msun$, and galaxies with stellar masses ranging
+from $10^9 - 10^{11.3}\,\Msun$.  Group X-ray luminosities in the data
+set are between $10^{39.6} -
+10^{46.4}\,\mathrm{erg}\,\mathrm{s^{-1}}$, with a median value of
+$10^{43.9}\,\mathrm{erg}\,\mathrm{s^{-1}}$, and are strongly
+correlated with halo mass (see Fig.~\ref{fig:mh_lx_con}).  We do not
+make an explicit radial cut, however over 99 per cent of member
+galaxies fall within 1.5 virial radii.  Our final sample contains
+$3\,902$ low-redshift ($z < 0.1$) groups hosting $41\,173$ galaxies.
+The catalogue of \citet{wang2014} contains $\sim 35\,000$ groups.  The
+fact that the final sample in this work is significantly smaller than
+the original catalogue is twofold.  First, we restrict our sample to
+redshifts smaller than 0.1 which reduces the number of groups from
+$\sim 35\,000$ at $z < 0.2$ to $\sim 18\,000$ at $z < 0.1$.  The
+second important cut is that we require $10^{13} < M_H < 10^{15}\Msun$
+and a number of groups in the Wang catalogue have halo masses, $M_H <
+10^{13}\Msun$ (where halo masses have been obtained from the catalogue
+of \citealt{yang2007}).  This cut reduces the remaining number of
+groups from $\sim 18\,000$ to $\sim 3\,900$.  It should be noted that
+the majority of the $M_H < 10^{13}\Msun$ groups removed from the data
+set are groups with very low membership.
+\par
+To determine the effect of X-ray luminosity on star formation and
+morphology we consider two X-ray luminosity samples for the majority
+of our analysis, which we refer to as the X-ray weak (XRW) and X-ray
+strong (XRS) samples.  Similar to \citet{wang2014}, we define the XRS
+sample to consist of all galaxies found below the $\log M_H - \log
+L_X$ trend line.  This leads to an approximately equal number of
+galaxies within the XRW and XRS samples.  We also performed our
+analysis with a cut between the two X-ray samples at the median X-ray
+luminosity of the data set, as well as defining the two samples using
+the first and the fourth quartiles, however these alternative
+definitions of the two X-ray samples do not change the trends that we
+observe.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\textwidth]{data_smooth_lx2.pdf}
+  \caption{Smoothed distributions for halo mass and X-ray luminosity
+    within the sample.  Distributions are shown for both the X-ray
+    strong (red, dashed) and the X-ray weak (blue, solid) samples.
+    Shaded regions correspond to $2\sigma$ confidence intervals
+    obtained from random bootstrap resampling.}
+  \label{fig:data_smooth_lx2}
+\end{figure} 
+
+Smoothed distributions for halo mass and X-ray luminosity are shown in
+Fig.~\ref{fig:data_smooth_lx2} for both X-ray luminosity samples.
+Density distributions are calculated using the \texttt{density}
+\{\texttt{stats}\} function in the statistical computing language
+\textsc{R} \citep{r2013}\footnote{http://www.R-project.org/} using a
+Gaussian kernel.
+\par
+We study the dependence of star formation rates and morphology on
+stellar mass by binning the data by stellar mass and calculating the
+disc and star-forming fractions for each bin.  Binning by stellar mass
+is important to account for the systematic dependence of star
+formation and morphology on stellar mass
+\citep[e.g.][]{brinchmann2004, whitaker2012}.  Additionally, as the
+relative balance between environmental and mass quenching is not well
+understood, it is important to investigate the effects of environment
+at a given stellar mass.
+\par
+We define the star-forming fraction, $f_{SF}$, as the fraction of
+galaxies in each bin with $\log \mathrm{SSFR} > -11$.
+\citet{wetzel2012} show that at low redshift the division between the
+red sequence and the blue cloud is found at $\log \mathrm{SSFR} \simeq
+-11$ across a wide range of halo masses.
+
+\section{Results}
+\label{sec:results_x}
+
+\section{Discussion}
+\label{sec:discussion_x}
+
+\section{Summary \& Conclusions}
+\label{sec:conclusions_x}
+
+% Bibliography
+%
+\bibliographystyle{apj}
+\bibliography{masters-thesis}

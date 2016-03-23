@@ -2,8 +2,8 @@
 \contentsline {preface}{Descriptive Notes}{ii}
 \contentsline {preface}{\abstractname }{iii}
 \contentsline {preface}{\acknowledgementname }{iv}
-\contentsline {preface}{\listfigurename }{vii}
-\contentsline {preface}{\listtablename }{viii}
+\contentsline {preface}{\listfigurename }{viii}
+\contentsline {preface}{\listtablename }{x}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
@@ -21,4 +21,17 @@
 \contentsline {subsection}{\numberline {2.4.3}Reconciling previous results}{15}
 \contentsline {section}{\numberline {2.5}Conclusion}{15}
 \contentsline {section}{\numberline {2.6}Acknowledgements}{16}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{\numberline {3}Comparing galaxy morphology and star formation properties in X-ray bright and faint groups and cluster}{23}
+\contentsline {section}{\numberline {3.1}Introduction}{23}
+\contentsline {section}{\numberline {3.2}Data}{27}
+\contentsline {subsection}{\numberline {3.2.1}Yang group catalogue}{27}
+\contentsline {subsection}{\numberline {3.2.2}SDSS X-ray catalogue}{29}
+\contentsline {subsection}{\numberline {3.2.3}Final data set}{30}
+\contentsline {section}{\numberline {3.3}Results}{35}
+\contentsline {subsection}{\numberline {3.3.1}Star-forming and morphology trends in strong and weak $L_X$ samples}{35}
+\contentsline {subsection}{\numberline {3.3.2}Radial dependence of star-forming and morphology trends}{36}
+\contentsline {section}{\numberline {3.4}Discussion}{36}
+\contentsline {section}{\numberline {3.5}Summary \& Conclusions}{36}
 \gdef \the@ipfilectr {}
