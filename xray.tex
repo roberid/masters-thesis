@@ -232,6 +232,26 @@ simultaneously.
 
 \subsection{Final data set}
 
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\textwidth]{mh_lx_con.pdf}
+  \caption{Density contours for log X-ray luminosity versus log halo
+    mass.  Dashed line corresponds to the linear least-squares
+    best-fitting relationship.}
+  \label{fig:mh_lx_con}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.8\textwidth]{data_smooth_lx2.pdf}
+  \caption{Smoothed distributions for halo mass and X-ray luminosity
+    within the sample.  Distributions are shown for both the X-ray
+    strong (red, dashed) and the X-ray weak (blue, solid) samples.
+    Shaded regions correspond to $2\sigma$ confidence intervals
+    obtained from random bootstrap resampling.}
+  \label{fig:data_smooth_lx2}
+\end{figure} 
+
 To obtain the final data set, we match the Wang SDSS X-ray catalogue
 to the Yang SDSS group catalogue, giving us both optical and X-ray
 group properties for the sample.  To obtain individual galaxy
@@ -275,27 +295,7 @@ $R_{180}$, which we calculate as in \citet{yang2007}
 
 \noindent
 where $z_g$ is the redshift of the group centre.
-
-\begin{figure}[!ht]
-  \centering
-  \includegraphics[width=\textwidth]{mh_lx_con.pdf}
-  \caption{Density contours for log X-ray luminosity versus log halo
-    mass.  Dashed line corresponds to the linear least-squares
-    best-fitting relationship.}
-  \label{fig:mh_lx_con}
-\end{figure}
-
-\begin{figure}[!ht]
-  \centering
-  \includegraphics[width=0.8\textwidth]{data_smooth_lx2.pdf}
-  \caption{Smoothed distributions for halo mass and X-ray luminosity
-    within the sample.  Distributions are shown for both the X-ray
-    strong (red, dashed) and the X-ray weak (blue, solid) samples.
-    Shaded regions correspond to $2\sigma$ confidence intervals
-    obtained from random bootstrap resampling.}
-  \label{fig:data_smooth_lx2}
-\end{figure} 
-
+\par
 The final data set includes groups with halo masses ranging between
 $10^{13} - 10^{15}\,\Msun$, and galaxies with stellar masses ranging
 from $10^9 - 10^{11.3}\,\Msun$.  Group X-ray luminosities in the data
@@ -449,6 +449,88 @@ and in all haloes the two samples converge at moderate to high stellar
 mass.
 
 \subsection{Radial dependence of star-forming and morphology trends}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\textwidth]{disk_sfFrac_w_lx2_mh_rxh.pdf}
+  \caption{Star-forming (solid lines) and disc (dashed lines)
+    fractions versus stellar mass, for galaxies outside of their host
+    X-ray radius and for different halo mass bins and
+    the two $L_X$ samples.  Error bars correspond to
+    $1\sigma$ Bayesian binomial confidence intervals given in \citet{cameron2011}}
+  \label{fig:disk_sfFrac_w_lx2_mh_rxh}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\textwidth]{disk_sfFrac_w_lx2_mh_rxl.pdf}
+  \caption{Same as Fig.~\ref{fig:disk_sfFrac_w_lx2_mh_rxh} for
+    galaxies inside of their host X-ray radius.}
+  \label{fig:disk_sfFrac_w_lx2_mh_rxl}
+\end{figure}
+
+Within host groups X-ray emission is concentrated at relatively small
+group-centric radii, with X-ray emission generally extending out to
+half a virial radius \citep{wang2014}.  If the trends we are observing
+are a result of increased gas density, we would expect to see enhanced
+trends (i.e.\ a larger difference between the XRS and XRW samples) at
+small group-centric radii and suppressed trends at large radii.  To
+test this we further divide the data into subsets corresponding to
+those galaxies that lie within the X-ray emission radius (using the
+X-ray radius, $R_\mathrm{Xray}$, given in \citealt{wang2014}) and
+those galaxies that lie outside of the X-ray radius.  We again plot
+star-forming/disc fraction versus stellar mass, in narrow halo mass
+bins, for the large and small radius subsamples.  The results of this
+analysis are shown in Figs~\ref{fig:disk_sfFrac_w_lx2_mh_rxh} and
+\ref{fig:disk_sfFrac_w_lx2_mh_rxl}, where the two figures correspond
+to disc fraction and star-forming fraction trends for the large and
+small radius subsamples, respectively.
+\par
+Examination of Figs~\ref{fig:disk_sfFrac_w_lx2_mh_rxh} and
+\ref{fig:disk_sfFrac_w_lx2_mh_rxl} shows that for both galaxies found
+within their host halo's X-ray radius and those found outside, we
+still see an increase in star-forming and disc fractions in the XRW
+sample -- as before this effect is strongest in the intermediate-to
+high-mass haloes and at low stellar mass.  Also the disc and
+star-forming fractions tend to be higher at large radii, which is
+consistent with the morphology-density relation.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\textwidth]{lxDiff_r.pdf}
+  \caption{SF and disc excess versus stellar mass for both galaxies
+    within (purple, solid) and outside (green, dashed) of the X-ray
+    radius.  Panels a-d show SF excess for four halo mass bins and
+    panels e-h show disc excess for four halo mass bins.  Shaded
+    regions represent $1\sigma$ confidence intervals.}
+  \label{fig:lxDiff_r}
+\end{figure}
+
+To further investigate if the increase in star-forming and disc
+fractions in the XRW sample compared to the XRS sample -- which we
+will refer to as the `SF excess' and the `disc excess' -- depends on
+whether you consider galaxies within or outside of the X-ray radius,
+we show SF and disc excess versus stellar mass in
+Fig.~\ref{fig:lxDiff_r}.  We quantitatively define SF and disc excess
+as
+
+\begin{align}
+  & \mathrm{SF}\;\mathrm{excess} = f_{SF}(\mathrm{XRW}) -
+  f_{SF}(\mathrm{XRS}) \\
+  & \mathrm{Disc}\;\mathrm{excess} = f_{D}(\mathrm{XRW}) -
+  f_{D}(\mathrm{XRS})
+\end{align}
+
+\noindent
+where $f_{SF}(\mathrm{XRW})$ and $f_{SF}(\mathrm{XRS})$ are the
+star-forming fractions in the XRW and XRS samples respectively, and
+analogously for $f_D(\mathrm{XRW})$ and $f_D(\mathrm{XRS})$.
+\par
+We find no radial dependence for SF and disc excess as the two radial
+subsamples in Fig.~\ref{fig:lxDiff_r} show overlap for all halo and
+stellar masses.  With the exception in Fig.~\ref{fig:lxDiff_r}(c) where
+the SF excess, for low-mass galaxies, is stronger for galaxies within
+the X-ray radius. 
 
 \section{Discussion}
 \label{sec:discussion_x}
