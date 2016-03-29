@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: xray.aux
 The style file: apj.bst
 Database file #1: masters-thesis.bib
-You've used 45 entries,
+You've used 64 entries,
             2948 wiz_defined-function locations,
-            925 strings with 15344 characters,
-and the built_in function-call counts, 28427 in all, are:
-= -- 2128
-> -- 2764
-< -- 11
-+ -- 1019
-- -- 972
-* -- 2828
-:= -- 5493
-add.period$ -- 45
-call.type$ -- 45
-change.case$ -- 504
-chr.to.int$ -- 43
-cite$ -- 45
-duplicate$ -- 847
-empty$ -- 1220
-format.name$ -- 1113
-if$ -- 5244
-int.to.chr$ -- 3
+            1023 strings with 18823 characters,
+and the built_in function-call counts, 38314 in all, are:
+= -- 2935
+> -- 3552
+< -- 15
++ -- 1306
+- -- 1239
+* -- 3736
+:= -- 7374
+add.period$ -- 64
+call.type$ -- 64
+change.case$ -- 669
+chr.to.int$ -- 61
+cite$ -- 64
+duplicate$ -- 1208
+empty$ -- 1731
+format.name$ -- 1445
+if$ -- 7123
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 44
-newline$ -- 139
-num.names$ -- 180
-pop$ -- 536
+missing$ -- 63
+newline$ -- 196
+num.names$ -- 256
+pop$ -- 719
 preamble$ -- 1
-purify$ -- 504
+purify$ -- 669
 quote$ -- 0
-skip$ -- 697
+skip$ -- 986
 stack$ -- 0
-substring$ -- 959
-swap$ -- 4
+substring$ -- 1352
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 405
+type$ -- 576
 warning$ -- 0
-while$ -- 179
+while$ -- 255
 width$ -- 0
-write$ -- 454
+write$ -- 644

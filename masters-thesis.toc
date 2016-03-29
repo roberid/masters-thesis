@@ -31,7 +31,10 @@
 \contentsline {subsection}{\numberline {3.2.3}Final data set}{30}
 \contentsline {section}{\numberline {3.3}Results}{35}
 \contentsline {subsection}{\numberline {3.3.1}Star-forming and morphology trends in strong and weak $L_X$ samples}{35}
-\contentsline {subsection}{\numberline {3.3.2}Radial dependence of star-forming and morphology trends}{36}
-\contentsline {section}{\numberline {3.4}Discussion}{38}
-\contentsline {section}{\numberline {3.5}Summary \& Conclusions}{38}
+\contentsline {subsection}{\numberline {3.3.2}Radial dependence of star-forming and morphology trends}{38}
+\contentsline {section}{\numberline {3.4}Discussion}{42}
+\contentsline {subsection}{\numberline {3.4.1}AGN contamination}{44}
+\contentsline {subsection}{\numberline {3.4.2}Implications for star formation quenching}{47}
+\contentsline {subsection}{\numberline {3.4.3}Group evolutionary/dynamical state}{53}
+\contentsline {section}{\numberline {3.5}Summary \& Conclusions}{56}
 \gdef \the@ipfilectr {}

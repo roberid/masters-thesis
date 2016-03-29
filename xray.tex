@@ -232,25 +232,14 @@ simultaneously.
 
 \subsection{Final data set}
 
-\begin{figure}[!ht]
+\begin{figure}[!tp]
   \centering
-  \includegraphics[width=\textwidth]{mh_lx_con.pdf}
+  \includegraphics[width=0.8\textwidth]{mh_lx_con.pdf}
   \caption{Density contours for log X-ray luminosity versus log halo
     mass.  Dashed line corresponds to the linear least-squares
     best-fitting relationship.}
   \label{fig:mh_lx_con}
 \end{figure}
-
-\begin{figure}[!ht]
-  \centering
-  \includegraphics[width=0.8\textwidth]{data_smooth_lx2.pdf}
-  \caption{Smoothed distributions for halo mass and X-ray luminosity
-    within the sample.  Distributions are shown for both the X-ray
-    strong (red, dashed) and the X-ray weak (blue, solid) samples.
-    Shaded regions correspond to $2\sigma$ confidence intervals
-    obtained from random bootstrap resampling.}
-  \label{fig:data_smooth_lx2}
-\end{figure} 
 
 To obtain the final data set, we match the Wang SDSS X-ray catalogue
 to the Yang SDSS group catalogue, giving us both optical and X-ray
@@ -295,7 +284,18 @@ $R_{180}$, which we calculate as in \citet{yang2007}
 
 \noindent
 where $z_g$ is the redshift of the group centre.
-\par
+
+\begin{figure}[!tp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{data_smooth_lx2.pdf}
+  \caption{Smoothed distributions for halo mass and X-ray luminosity
+    within the sample.  Distributions are shown for both the X-ray
+    strong (red, dashed) and the X-ray weak (blue, solid) samples.
+    Shaded regions correspond to $2\sigma$ confidence intervals
+    obtained from random bootstrap resampling.}
+  \label{fig:data_smooth_lx2}
+\end{figure} 
+
 The final data set includes groups with halo masses ranging between
 $10^{13} - 10^{15}\,\Msun$, and galaxies with stellar masses ranging
 from $10^9 - 10^{11.3}\,\Msun$.  Group X-ray luminosities in the data
@@ -386,7 +386,7 @@ that we observe.
 \subsection{Star-forming and morphology trends in strong and weak
   $L_X$ samples}
 
-\begin{figure}[!ht]
+\begin{figure}[!tp]
   \centering
   \includegraphics[width=\textwidth]{disk_sfFrac_w_lx1234.pdf}
   \caption{Left: star-forming fraction versus stellar mass for the
@@ -406,7 +406,7 @@ star-forming and disc fractions follow a consistent marching order
 with respect to X-ray luminosity.  The disc and star-forming fractions
 decrease as X-ray luminosity increases.
 
-\begin{figure}[!ht]
+\begin{figure}[!tp]
   \centering
   \includegraphics[width=\textwidth]{disk_sfFrac_w_lx2_mh.pdf}
   \caption{Star-forming (solid lines) and disc (dashed lines)
@@ -450,7 +450,7 @@ mass.
 
 \subsection{Radial dependence of star-forming and morphology trends}
 
-\begin{figure}[!ht]
+\begin{figure}[!tp]
   \centering
   \includegraphics[width=\textwidth]{disk_sfFrac_w_lx2_mh_rxh.pdf}
   \caption{Star-forming (solid lines) and disc (dashed lines)
@@ -461,7 +461,7 @@ mass.
   \label{fig:disk_sfFrac_w_lx2_mh_rxh}
 \end{figure}
 
-\begin{figure}[!ht]
+\begin{figure}[!tp]
   \centering
   \includegraphics[width=\textwidth]{disk_sfFrac_w_lx2_mh_rxl.pdf}
   \caption{Same as Fig.~\ref{fig:disk_sfFrac_w_lx2_mh_rxh} for
@@ -495,7 +495,7 @@ high-mass haloes and at low stellar mass.  Also the disc and
 star-forming fractions tend to be higher at large radii, which is
 consistent with the morphology-density relation.
 
-\begin{figure}[!ht]
+\begin{figure}[!tp]
   \centering
   \includegraphics[width=\textwidth]{lxDiff_r.pdf}
   \caption{SF and disc excess versus stellar mass for both galaxies
@@ -516,9 +516,9 @@ as
 
 \begin{align}
   & \mathrm{SF}\;\mathrm{excess} = f_{SF}(\mathrm{XRW}) -
-  f_{SF}(\mathrm{XRS}) \\
+  f_{SF}(\mathrm{XRS}) \label{eq:f_sf} \\
   & \mathrm{Disc}\;\mathrm{excess} = f_{D}(\mathrm{XRW}) -
-  f_{D}(\mathrm{XRS})
+  f_{D}(\mathrm{XRS}) \label{eq:f_d}
 \end{align}
 
 \noindent
@@ -535,8 +535,374 @@ the X-ray radius.
 \section{Discussion}
 \label{sec:discussion_x}
 
+\begin{figure}[!tp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{r_smooth_lx2.pdf}
+  \caption{Smoothed radial distributions of galaxies in the XRW (blue,
+  solid) and XRS (red, dashed) samples.  Shaded regions correspond to
+  $2\sigma$ confidence intervals obtained from random bootstrap resampling.}
+  \label{fig:r_smooth_lx2}
+\end{figure}
+
+We find that star-forming and disc fractions are systematically lower
+in the XRS sample than galaxies in XRW environments.  This trend
+persists even upon controlling for any halo mass dependence, however
+the observed difference between the XRS and the XRW sample is not
+enhanced when considering only those galaxies within the X-ray radius
+of the host halo.
+\par
+There are two major observed effects which have been found to impact
+the distributions of early-type and late-type galaxies within cluster
+environments.  The so called `Butcher-Oemler' (BO) effect is the
+observational trend that the blue fraction of cluster galaxies are
+positively correlated with redshift \citep[e.g.][]{butcher1984,
+  ellingson2001, loh2008, urquhart2010}.  However, it should be noted
+that there is still debate when it comes to the physical nature of the
+BO effect (for example, see: \citealt{andreon1999, andreon2004,
+  andreon2006}.  Since we are only considering low-redshift ($z <
+0.1$) galaxies the BO effect should be negligible.
+\par
+The second major effect is the previously mentioned morphology-density
+relationship.  In order to determine if the morphology-density
+relation is affecting the trends we observe, we must check if there
+are significant differences in the radial distributions of the XRS and
+the XRW samples.  For instance, if the XRW sample is found at
+systematically high group-centric radii compared to the XRS sample,
+then the morphology-density relation could explain why we find
+systematically larger star-forming and disc fractions in the XRW
+sample.  In Fig.~\ref{fig:r_smooth_lx2} we plot the smoothed radial
+distributions for both the XRS and the XRW samples.  We see no
+systematic difference between the two distributions, in fact they are
+nearly indistinguishable from one another, and therefore any observed
+differences betwee the XRS and XRW samples are not being driven by
+difffering radial distributions.
+
+\subsection{AGN contamination}
+
+\begin{figure}[!tp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{AGNFrac_w_lx2.pdf}
+  \caption{BPT identified AGN fraction versus stellar mass for the XRW
+  and XRS samples.  Error bars correspond to $1\sigma$ Bayesian
+  binomial confidence intervals given in \citet{cameron2011}.}
+  \label{fig:AGNFrac_w_lx2}
+\end{figure}
+
+When considering X-ray properties of galaxy groups it is important to
+ensure that the observed X-ray emission is due to the hot IGM and not
+due to contamination from AGN or other X-ray sources.  In
+\citet{wang2014} bright point sources, such as stars and quasars, are
+masked out, however it is still important to ensure that our results
+are not being contaminated by galaxies housing non-point source AGN.
+\par
+In Fig.~\ref{fig:AGNFrac_w_lx2} we plot AGN fraction versus stellar
+mass for the XRW and XRS samples.  We use AGN classified by
+\citet{kauffmann2003}, which are identified using the location of
+galaxies on the BPT diagram \citep{baldwin1981}.  I should be noted
+that \citet{trouille2010} show that between 20 and 50 per cent
+(depending on the dividing line between AGN and star-forming galaxies
+used) of X-ray identified AGN fail to be classified as AGN on the BPT
+diagram.
+\par
+We see that the AGN fraction tends to be larger within the XRS sample,
+however at all stellar masses the number of AGN galaxies is a modest
+fraction (less than 5 per cent) of the total sample, for both XRS and
+XRW galaxies.  Most relevant is the fact that at low stellar mass the
+AGN fraction is consistently below one per cent, for both the XRW and
+XRS samples, whereas the trends we observe with X-ray luminosity are
+exclusively seen at low stellar mass
+(e.g.\ Fig.~\ref{fig:disk_sfFrac_w_lx2_mh}).  We examined disc and
+star-forming fractions for a subsample of the data with galaxies
+identified as AGN removed and found that removing AGN galaxies from
+the sample does not change the observed trends.  Furthermore, we
+examined trends after removing all groups that house galaxies
+identified as AGN and again found no change in the observed trends.
+Therefore we conclude that AGN are not a significant contributor to
+the observed trends in star-forming and disc fractions.
+
+\subsection{Implications for star formation quenching}
+
+\begin{figure}[!tp]
+  \centering
+  \includegraphics[width=\textwidth]{lxDiff_cs.pdf}
+  \caption{SF and disc excess versus stellar mass for both centrals
+    (gold, solid) and satellites (grey, dashed).  Shaded regions
+    correspond to $1\sigma$ confidence intervals.}
+  \label{fig:lxDiff_cs}
+\end{figure}
+
+Tje relative importance of various galaxy quenching mechanisms is an
+important, open question.  Galaxy populations in groups can be
+classified as either `central' (located at the centre of the group
+dark matter halo) or `satellite' galaxies.  These two populations are
+expected to evolve differently \citep[e.g.][]{vandenbosch2008b}, and
+therefore when attempting to elucidate information on the quenching of
+galaxies it is important to consider centrals and satellites as
+distinct populations.  In Fig.~\ref{fig:lxDiff_cs} we plot SF and disc
+excess (equations~\ref{eq:f_sf} and \ref{eq:f_d}) versus stellar mass,
+considering separately central and satellite galaxies.  Central
+galaxies are defined as the most massive group galaxies and satellite
+galaxies are defined as all galaxies which have not been classified as
+centrals.
+\par
+When considering satellite galaxies in Fig.~\ref{fig:lxDiff_cs}(a) we
+find that galaxies within the XRW sample have consistently larger
+star-forming fractoins at low stellar mass
+($\mathrm{SF}\;\mathrm{excess} > 0$), while at large stellar mass the
+XRW and XRS samples are indistinguishable.  When considering only
+central galaxies we find that there is no difference between the XRW
+and XRS samples ($\mathrm{SF}\;\mathrm{excess} \approx 0$) when
+considering star-forming fraction.  We observe qualitatively similar
+trends for disc excess in Fig.~\ref{fig:lxDiff_cs}(b).  This implies
+that whatever effect X-ray luminosity has on star-forming and
+morphological properties it only affects satellite galaxies, central
+galaxies are insensitive to the group X-ray properties.  This is not
+surprising given that central galaxies are massive, and we see no
+difference between the XRS and XRW at large stellar mass.
+\par
+One interpretation of the differences we observe between the XRW and
+XRS samples would be to invoke the ram-pressure stripping of satellite
+galaxies.  The rate at which galaxies will lose gas through
+ram-pressure stripping will increase in proportion to $L_X$
+\citep{fairley2002}.  Therefore if ram-pressure is an important
+mechanism when it comes to the quenching of galaxies, a decrease in
+star-forming fraction should be observed with increasing X-ray
+luminosity.  It should be noted that although we observe very similar
+trends for star-forming and disc fractions, it is not clear whether
+ram-pressure stripping can efficiently drive galaxy morphology
+transformations from late to early type \citep{christlein2004}.  Prior
+studies \citep[e.g.][]{gavazzi2003, kenney2004, muzzin2014} have found
+evidence of ram-pressure stripping.  We note as well that other
+studies \citep[e.g.][]{balogh2002a, fairley2002, wake2005, lopes2014}
+have found no clear trend between star-forming or blue fractions and
+X-ray luminosity.  At first glance the results shown in
+Fig.~\ref{fig:disk_sfFrac_w_lx2_mh} are consistent with ram-pressure
+stripping; at low stellar masses there are lower star-forming
+fractions in the XRS sample.  One difference between the results we
+observe and previous studies is that we narrowly bin our data in
+stellar mass.  Since star-forming and morphological properties depend
+strongly on stellar mass, any residual dependence on X-ray luminosity
+may be lost without controlling for stellar mass.  In addition our
+sample size is significantly larger than most previous studies, so it
+may be that trends with X-ray luminosity are subtle enough to be
+missed without large statistics.
+
+\begin{figure}[!tp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{met_m.pdf}
+  \caption{Mean stellar metallicity versus stellar mass for
+    star-forming (blue, dashed) and passive (red, solid) galaxies,
+    divided by galaxies in the XRS (top) and XRW (bottom) samples.
+    Shaded regions correspond to $1\sigma$ confidence intervals
+    obtained from random bootstrap resampling.}
+  \label{fig:met_m}
+\end{figure}
+
+If the trends we detect are driven by ram-pressure we would expect a
+radial dependence of our trends with X-ray luminosity.  The efficiency
+of ram-pressure stripping is proportional to $\rho v^2$
+\citep{wake2005, popesso2007b}, where $\rho$ is the IGM density and
+$v$ is the speed of the member galaxies.  Since the IGM density is
+highest at small group-centric radii, the efficiency of ram-pressure
+stripping should increase towards small radii.  In
+Fig.~\ref{fig:lxDiff_r} we showed that the observed SF excess does not
+strongly depend on radius.  We conclude that this lack of radial
+dependence is inconsistent with the ram-pressure stripping scenario.
+\par
+Another often-envoked mechanism for regulating star formation is
+`galaxy strangulation' \citep{larson1980, balogh2000, kawata2008,
+  peng2015}.  Strangulation is a mechanism in which the replenishment
+of cold gas on to galaxies is halted, which in turn leads to galaxy
+quenching once the galaxy has exhausted its existing cold gas
+reservoirs.  The time-scales over which a galaxy will be quenched by
+strangulation are longer than the times associated with the direct
+stripping of cold gas reserves (ram-pressure).  Recently,
+\citet{peng2015} have argued that it is possible to differentiate
+between strangulation and direct stripping using metallicity
+differences between star-forming and quiescent galaxy populations.  We
+direct the reader to \citet{peng2015} for a more complete discussion,
+however the main idea is that quenching by strangulation will result
+in higher metallicities for passive galaxies compared to star-forming
+galaxies.  This is a result of star formation continuing even after
+the gas supply has been halted which will increase stellar metallicity
+until the cold gas reserves have been exhausted and the galaxy has
+therefore been quenched.  This trend in metallicity is not expected
+from direct stripping, where star formation shuts off quickly after
+the removal of cold gas.
+\par
+To investigate the effect of strangulation on the galaxy sample in
+this study we follow \citet{peng2015} and calculate mean stellar
+metallicity versus stellar mass considering star-forming and passive
+galaxies separately, for galaxies within our XRW sample as wel as our
+XRS sample.  Metallicities are matched to our sample from the
+catalogue of \citet{gallazzi2005}, and mean metallicities are
+calculated in stellar mass bins with widths of $0.15\,\mathrm{dex}$.
+Not all of the galaxies within this sample have measured
+metallicities, and our XRW and XRS samples are reduced to $10\,939$
+(52 per cent of total sample) and $8\,851$ (44 per cent of total
+sample) member galaxies respectively.
+\par
+In Fig.~\ref{fig:met_m} we see higher stellar metallicities for
+passive galaxies compared to star-formers, which we interpret as
+evidence for strangulation playing a significant role in star
+formation quenching.  Of particular interest for this work is the
+behaviour at low stellar mass which is where the dependence of star
+formation and morphology on X-ray luminosity is observed (see
+Fig.~\ref{fig:disk_sfFrac_w_lx2_mh}).  We see a somewhat stronger
+strangulation signal (ie.\ difference between passive and star-former
+metallicity) for galaxies in the XRS sample compared to the XRW
+sample, at low stellar mass.
+\par
+In light of this observed difference, it is important to note that
+compiling this subsample of galaxies with measured metallicities does
+not affect all stellar masses equally.  Specifically, low-mass
+galaxies are preferentially removed from the sample when matching to
+the metallicity catalogue.  In particular, 69 per cent of low-mass
+($M_\star < 10^{9.5}\Msun$) galaxies in the XRS sample do not have
+measured metallicities, whereas in the XRW sample 75 per cent of
+low-mass galaxies do not ahve measured metallicities.  Not only are
+low-mass galaxies being preferentially lost, but the fraction of
+low-mass galaxies being lost is slightly different between the two
+X-ray samples.  Therefore, although the results in
+Fig.~\ref{fig:met_m} are consistent with strangulation -- and more
+specifically, somewhat stronger strangulation at the low-mass end of
+the XRS sample -- we suggest that this trend be interpreted with
+caution as completeness differences could be playing some role.
+
+\subsection{Group evolutionary/dynamical state}
+
+The dynamical state of galaxy groups is an important evolutionary
+indicator and can potentially influence galaxy properties.  Trends
+with X-ray luminosity may reflect that the XRW and XRS samples have
+different dynamical properties as it is expected that more evolved
+groups with relaxed dynamics would be more X-ray luminous
+\citep{popesso2007a}.
+\par
+Theoretically the velocity distribution of galaxies within a group in
+dynamical equilibrium should have a characteristic Gaussian shape.
+Groups lacking this Gaussian distribution can therefore be considered
+as being unevolved, dynamically young systems.  To investigate the
+dependence on the dynamical state of the groups in our data set we
+follow the procedure of \citet{hou2009} and apply the Anderson-Darling
+normality (ADN) test to the velocity distributions of the galaxies in
+the group sample.  The ADN test is a non-parametric test which
+compares the cumulative distribution function (CDF) of the data to the
+CDF of a normal distribution to determine the probability (p-value)
+that the difference between the distribution of the data and that of a
+Gaussian is as large as observed (or larger), under the assumption
+that the data is in fact normally distributed.  For our dynamical
+analysis we use a subset of the data consisting of only those groups
+with eight or more members ($31\,820$ galaxies in $1\,456$ groups), in
+order to ensure reasonable statistics when applying the ADN test.  To
+obtain values for the ADN statistic for each of our groups we employ
+the \texttt{ad.test \{nortest}\} function in the statistical computing
+language \textsc{R} \citep{r2013} -- large values of the ADN statistic
+are indicative of less Gaussian distributions.
+\par
+Initially, we examine the dynamical states of galaxies within the XRW
+and XRS samples globally (ie.\ no radial cuts) and we find no
+systematic differences between the dynamical states of XRW and XRS
+galaxies.  \citet{popesso2007a} study the difference between X-ray
+underluminous Abell (AXU) clusters and normal Abell clusters.  They
+find that while both AXU and normal Abell clusters show Gaussian
+velocity distributions within the virialized region ($R <
+1.5\,\mathrm{R_{200}}$), within the exterior regions ($1.5 \le R \le
+3.5\,\mathrm{r_{200}}$) the AXU cluster show sharply peaked,
+non-Gaussian velocity distributions.  The authors interpret these
+leptokurtic velocity distributions in the outer cluster regions as
+evidence that AXU clusters have experienced recent accretion/merging.
+If the XRW groups have experienced more recent accretion of galaxies
+from the field and smaller groups than the XRS groups, then this could
+contribute to the dependence we observe between star-forming and disc
+fractions on X-ray luminosity.  Galaxies in underdense regions (the
+field, low-mass groups) have been found to be preferentially star-
+forming with late-type morphologies.  Accordingly, groups experiencing
+recent accretion may contain more star-forming, late-type, galaxies
+when compared to groups which are dynamically older.
+\par
+To investigate this possibility we study the dynamical states of
+groups in both the XRW and XRS samples, and divide member galaxies
+into two radial subsamples: those found in the inner regions ($R <
+R_{180}$) of their host group, and those found in the outer regions
+($R \ge R_{180}$) of their host group.  This is similar to the
+analysis performed by \citet{popesso2007a}.  Instead of making an
+arbitrary, discrete cut to define Gaussian and non-Gaussian groups we
+treat the AD statistic values as continuous and compare the
+distributions of ADN statistics from the four subsamples (XRW inner,
+XRW outer, XRS inner, XRS outer) to determine whether there are any
+significant differences in dynamical state.  To quantitatively compare
+the distributions we utilize the two-sample Anderson-Darling (AD2)
+test.  The AD2 test is similar to the ADN test, however instead of
+comparing observed data to the normal distribution, it compares the
+CDFs of two data samples to determine whether they are drawn from the
+same underlying distribution.  We apply the AD2 test to the
+distributions of ADN statistic values for the XRW and XRS samples to
+determine if the dynamical states vary between the inner and the outer
+regions.  To perform the AD2 test between the subsamples we use the
+\texttt{ad.test \{kSamples\}} function in the statistical computing
+language \textsc{R} \citep{r2013}.
+\par
+We find no evidence ($\mathrm{p-value} = 0.38$) for different
+dynamical states in the inner and outer regions of the XRS sample,
+however for the XRW sample we find strong evidence ($\mathrm{p-value}
+= 3 \times 10^{-7}$) that the dynamical state of galaxies in the outer
+region is different from those in the inner region.  When we examine
+the distributions of ADN statistics for the four subsamples we find
+that the ADN statistic values for the XRW outer subsample are
+systematically higher than for the other three subsamples.  This
+suggests that the velocity distributions for galaxies outside of the
+virial radius in the XRW sample are less Gaussian than the rest of the
+data set.
+\par
+This result is consistent with \citet{popesso2007a}, who find
+non-Gaussian velocity distributions for galaxies in the outer regions
+of X-ray underluminous Abell clusters.  This result supports the
+notion that the increased number of star-forming and late-type
+galaxies we observe in the XRW sample can potentially be explained by
+underluminous X-ray groups experiencing recent accretion of field
+galaxies and small galaxy groups, as this recent accretion can give
+rise to less Gaussian velocity distributions in the exteriors of these
+groups.
+\par
+We do note that it remains difficult to simultaneously explain the
+dynamical results together with the fact that we observe no dependence
+of SF and disc excess on radius (Fig.~\ref{fig:lxDiff_r}).
+
 \section{Summary \& Conclusions}
 \label{sec:conclusions_x}
+
+We have used a sample of galaxies taken from X-ray emitting groups and
+clusters in the SDSS to study the effect of X-ray luminosity on galaxy
+star formation and morphological properties.  Using a data set
+spanning a large range in stellar mass ($10^9 - 10^{11.3}\Msun$), halo
+mass ($10^{13} - 10^{15}\Msun$), and X-ray luminosity ($10^{39.6} -
+10^{46.4}\mathrm{erg}\,\mathrm{s^{-1}}$) we have investigated the
+differences between disc and star-forming fractions within different
+X-ray environments.  The main results of this paper are as follows.
+
+\begin{enumerate}[(i)]
+  \item Star-forming and disc fractions are preferentially lower
+    within the X-ray strong sample when compared to galaxies within
+    the X-ray weak sample -- this trend remains after controlling for
+    any halo mass dependence.
+
+  \item This difference between the X-ray strong and X-ray weak
+    samples is most apparent at intermediate to high halo mass and at
+    low stellar mass.
+
+  \item The differences we observe between the X-ray weak and X-ray
+    strong samples do not depend on whether we consider galaxies
+    inside of, or outside their host halo's X-ray radius.
+
+  \item The enhancement of star-forming and disc fractions we observe
+    in the X-ray weak sample is present for satellites but not central
+    galaxies, which is not surprising given that the difference
+    between X-ray samples is only seen at low stellar mass.
+
+  \item Our results are consistent with quenching by strangulation, in
+    particular we see a somewhat stronger strangulation signal at low
+    stellar mass within the XRS sample.
+\end{enumerate}
 
 % Bibliography
 %
