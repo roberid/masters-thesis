@@ -1,0 +1,44 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Butcher} \& {Oemler}(1978)}]{butcher1978}
+{Butcher}, H. \& {Oemler}, Jr., A. 1978, \apj, 219, 18
+
+\bibitem[{{Butcher} \& {Oemler}(1984)}]{butcher1984}
+---. 1984, \apj, 285, 426
+
+\bibitem[{{Dressler}(1980)}]{dressler1980}
+{Dressler}, A. 1980, \apj, 236, 351
+
+\bibitem[{{Ellingson} {et~al.}(2001){Ellingson}, {Lin}, {Yee}, \&
+  {Carlberg}}]{ellingson2001}
+{Ellingson}, E., {Lin}, H., {Yee}, H.~K.~C., \& {Carlberg}, R.~G. 2001, \apj,
+  547, 609
+
+\bibitem[{{Hubble}(1926)}]{hubble1926}
+{Hubble}, E.~P. 1926, \apj, 64
+
+\bibitem[{{Kennicutt} \& {Evans}(2012)}]{kennicutt2012}
+{Kennicutt}, R.~C. \& {Evans}, N.~J. 2012, \araa, 50, 531
+
+\bibitem[{{Loh} {et~al.}(2008){Loh}, {Ellingson}, {Yee}, {Gilbank}, {Gladders},
+  \& {Barrientos}}]{loh2008}
+{Loh}, Y.-S., {Ellingson}, E., {Yee}, H.~K.~C., {Gilbank}, D.~G., {Gladders},
+  M.~D., \& {Barrientos}, L.~F. 2008, \apj, 680, 214
+
+\bibitem[{{Sersic}(1968)}]{sersic1968}
+{Sersic}, J.~L. 1968, {Atlas de galaxias australes} (Observatorio Astronomico,
+  Universidad Nacional de Cordoba)
+
+\bibitem[{{Simard} {et~al.}(2002){Simard}, {Willmer}, {Vogt}, {Sarajedini},
+  {Phillips}, {Weiner}, {Koo}, {Im}, {Illingworth}, \& {Faber}}]{simard2002}
+{Simard}, L., {Willmer}, C.~N.~A., {Vogt}, N.~P., {Sarajedini}, V.~L.,
+  {Phillips}, A.~C., {Weiner}, B.~J., {Koo}, D.~C., {Im}, M., {Illingworth},
+  G.~D., \& {Faber}, S.~M. 2002, \apjs, 142, 1
+
+\bibitem[{{Urquhart} {et~al.}(2010){Urquhart}, {Willis}, {Hoekstra}, \&
+  {Pierre}}]{urquhart2010}
+{Urquhart}, S.~A., {Willis}, J.~P., {Hoekstra}, H., \& {Pierre}, M. 2010,
+  \mnras, 406, 368
+
+\end{thebibliography}

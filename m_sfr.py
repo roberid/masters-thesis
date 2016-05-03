@@ -1,0 +1,71 @@
+from __future__ import print_function
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.stats as st
+from pyqt_fit import kde
+import matplotlib.image as mpimg
+import colormaps as cmaps
+
+m, sfr, ssfr = np.loadtxt('m_sfr_z05.dat', unpack=True)
+
+xmin, xmax = 9, 11
+ymin, ymax = -3, 3
+
+x, y = np.mgrid[xmin:xmax:100j, ymin:ymax:100j]
+pos = np.vstack([x.ravel(), y.ravel()])
+val = np.vstack([m, sfr])
+kern = st.gaussian_kde(val)
+f = np.reshape(kern(pos).T, x.shape)
+
+xx = np.linspace(np.min(ssfr), np.max(ssfr), 500)
+dist = kde.KDE1D(ssfr)
+yy = dist(xx)
+
+################################
+
+plt.rc('font', family='serif')
+
+lw=1.75
+
+fig = plt.figure()
+fig.subplots_adjust(wspace=0.25)
+
+ax0 = fig.add_subplot(221)
+
+ax0.set_xlim([9,10.8])
+ax0.set_ylim([-2.6,0.6])
+ax0.set_xticks(np.linspace(9,10.6,5))
+ax0.set_yticks(np.linspace(-2.5,0.5,7))
+ax0.set_xlabel('log M$_\star$/M$_\odot$', fontsize=16)
+ax0.set_ylabel('log SFR [M$_\odot$ yr$^{-1}$]', fontsize=16)
+ax0.tick_params(axis='both', labelsize=12)
+
+#map = mpl.cm.get_cmap('magma')
+
+#ax0.plot(m, sfr, 'k.', ms=1)
+lev = np.linspace(0,0.9,25)
+plt.register_cmap(name='magma', cmap=cmaps.magma)
+plt.set_cmap(cmaps.magma)
+cf = ax0.contourf(x, y, f, levels=lev, lw=0)
+
+for c in cf.collections:
+    c.set_edgecolor("face")
+#cbar = fig.colorbar(cf)
+
+ax0.text(10.6, 0.2, '(a)', fontsize=12)
+
+ax1 = fig.add_subplot(222)
+
+ax1.set_xlim([-13,-9])
+ax1.set_ylim([0,0.7])
+ax1.set_xticks(np.linspace(-13,-9,5))
+ax1.set_yticks(np.linspace(0.1,0.7,7))
+ax1.set_xlabel('log SSFR [yr$^{-1}]$', fontsize=16)
+ax1.set_ylabel('Density', fontsize=16)
+ax1.tick_params(axis='both', labelsize=12)
+
+ax1.plot(xx, yy, 'k-', lw=lw)
+
+ax1.text(-9.45, 0.62, '(b)', fontsize=12)
+
+fig.savefig('m_sfr.pdf', dpi=1200, bbox_inches='tight')

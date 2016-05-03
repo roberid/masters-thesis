@@ -1,0 +1,22 @@
+from __future__ import print_function
+import numpy as np
+import matplotlib.pyplot as plt
+from pyqt_fit import kde
+
+gr = np.loadtxt('gr_z05.dat', unpack=True)
+
+x = np.linspace(0, 1.1, 500)
+dist = kde.KDE1D(gr)
+y = dist(x)
+
+#####################################
+
+plt.rc('font', family='serif')
+
+fig = plt.figure()
+
+ax0 = fig.add_subplot(221)
+
+ax0.plot(x, y, 'k-')
+
+fig.savefig('gr_dist.pdf', dpi=1200, bbox_inches='tight')
