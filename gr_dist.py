@@ -50,8 +50,8 @@ ax0.plot(x, f(x,fit[0][0],fit[0][1],fit[0][2],fit[0][3],fit[0][4],fit[0][5]), 'k
 ax0.plot(x, fit[0][0] * norm(x,fit[0][1],fit[0][2]), color=blue, ls='-', lw=lw)
 ax0.plot(x, fit[0][3] * norm(x,fit[0][4],fit[0][5]), color=red, ls='-', lw=lw)
 
-ax0.text(0.15, 2, 'Blue sequence + red cloud', fontsize=9)
-ax0.text(0.15, 1.85, 'Blue sequence', color=blue, fontsize=9)
-ax0.text(0.15, 1.7, 'Red cloud', color=red, fontsize=9)
+ax0.text(0.15, 2, 'Blue cloud + red sequence', fontsize=9)
+ax0.text(0.15, 1.85, 'Blue cloud', color=blue, fontsize=9)
+ax0.text(0.15, 1.7, 'Red sequence', color=red, fontsize=9)
 
 fig.savefig('gr_dist.pdf', dpi=1200, bbox_inches='tight')

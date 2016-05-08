@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: introduction.aux
 The style file: apj.bst
 Database file #1: masters-thesis.bib
-You've used 10 entries,
+You've used 47 entries,
             2948 wiz_defined-function locations,
-            734 strings with 6324 characters,
-and the built_in function-call counts, 4479 in all, are:
-= -- 374
-> -- 298
-< -- 6
-+ -- 109
-- -- 99
-* -- 372
-:= -- 863
-add.period$ -- 10
-call.type$ -- 10
-change.case$ -- 73
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 182
-empty$ -- 271
-format.name$ -- 129
-if$ -- 859
-int.to.chr$ -- 1
+            933 strings with 15999 characters,
+and the built_in function-call counts, 29607 in all, are:
+= -- 2214
+> -- 2896
+< -- 8
++ -- 1065
+- -- 1017
+* -- 2949
+:= -- 5726
+add.period$ -- 47
+call.type$ -- 47
+change.case$ -- 527
+chr.to.int$ -- 46
+cite$ -- 47
+duplicate$ -- 886
+empty$ -- 1270
+format.name$ -- 1166
+if$ -- 5455
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 10
-newline$ -- 34
-num.names$ -- 40
-pop$ -- 78
+missing$ -- 47
+newline$ -- 145
+num.names$ -- 188
+pop$ -- 563
 preamble$ -- 1
-purify$ -- 73
+purify$ -- 527
 quote$ -- 0
-skip$ -- 157
+skip$ -- 725
 stack$ -- 0
-substring$ -- 181
-swap$ -- 0
+substring$ -- 963
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 87
+type$ -- 420
 warning$ -- 0
-while$ -- 38
+while$ -- 185
 width$ -- 0
-write$ -- 103
+write$ -- 472

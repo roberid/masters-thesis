@@ -1,0 +1,22 @@
+from __future__ import print_function
+import numpy as np
+import matplotlib.pyplot as plt
+from pyqt_fit import kde
+
+v = np.loadtxt('sloan8_yang946.dat', usecols=(30,), unpack=True)
+
+x = np.linspace(-4,4,500)
+dist = kde.KDE1D(v)
+y = dist(x)
+
+#####################################
+
+plt.rc('font', family='serif')
+
+fig = plt.figure()
+
+ax0 = fig.add_subplot(221)
+
+ax0.plot(x, y, 'k-')
+
+fig.savefig('vdist.pdf', dpi=1200, bbox_inches='tight')

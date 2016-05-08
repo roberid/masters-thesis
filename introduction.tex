@@ -2,8 +2,10 @@
 \label{chap:intro}
 
 \section{Galaxy properties}
+\label{sec:gal_properties}
 
 \subsection{Color}
+\label{sec:color}
 
 \begin{figure}[!ht]
   \centering
@@ -50,6 +52,7 @@ studies \citep[e.g.][]{butcher1984, ellingson2001, loh2008,
 of galaxies in clusters were bluer than they are at present day.    
 
 \subsection{Morphology}
+\label{sec:morph}
 
 \begin{figure}[!ht]
   \centering
@@ -133,6 +136,7 @@ Pure elliptical galaxies will have $B/T \to 1$, and pure disc galaxies
 will have $B/T \to 0$.  
 
 \subsection{Star formation rates}
+\label{sec:sfr}
 
 \begin{figure}[!ht]
   \centering
@@ -208,16 +212,168 @@ passive galaxies.  Recent observations have shown that across
 many environments in the local Universe, the division between
 the active and quiescent populations (ie.\ the local minimum in the
 SSFR distribution) is found at $\log \mathrm{SSFR} \simeq -11$
-\citep{wetzel2012}. 
+\citep{wetzel2012}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.8\textwidth]{lilly_madau.png}
+  \caption{Cosmic star formation rate density as a function of
+    redshift, using both IR and UV derived SFRs.  Image credit:
+    \citet{madau2014}.}
+  \label{fig:lilly_madau}
+\end{figure}
+
+Star formation activity has also been shown to depend on redshift.
+The normalization of the SFMS shifts to larger SFRs with increasing
+redshift \citep{karim2011, whitaker2012, lee2015, erfanianfar2016},
+star-forming fractions of galaxies in groups and clusters (at a given
+stellar mass) increase with redshift \citep{mcgee2011, hou2013,
+  nantais2013}, as well the average SSFRs of galaxies increase with
+redshift as $(1+z)^\alpha$ where $\alpha \sim 2-4$
+\citep{oliver2010, whitaker2012}, at least out to $z=2$.  On larger
+scales, the density of star formation rate in the Universe has been
+shown to have been decreasing to the present day from its peak at $z
+\simeq 2$ \citep[e.g.][]{madau1998, madau2014}.
+Fig.~\ref{fig:lilly_madau} shows this in the form of an updated
+version of the famous Lilly-Madau plot taken from \citet{madau2014}.
 
 \section{The environmental dependence of galaxy properties}
+\label{sec:enviro_dependence}
 
-\subsection{Local density}
+\subsection{Halo mass}
+\label{sec:halo_mass}
 
-One of the first examples of the dependence of galaxy properties on
-environment is the observation that the fraction of early-type
-galaxies increases with local galaxy number
-density\citep{dressler1980}, now known as the Morphology-Density relationship.
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{quenchFrac_wetzel.png}
+  \caption{Galaxy quenched fraction ($\mathrm{SSFR} <
+    10^{-11}\,\mathrm{yr^{-1}}$) versus halo mass for central galaxies
+    (solid points) and satellite galaxies (dashed lines) in bins of stellar mass.  Image credit: \citet{wetzel2012}.}
+  \label{fig:quenchFrac_wetzel}
+\end{figure}
+
+Across galaxy groups and clusters, a wide range of halo masses is
+spanned.  From $\sim\! 10^{12}\Msun$ for low-mass groups, up to
+$\gtrsim\! 10^{15}\Msun$ for rich clusters of galaxies.  The
+properties of galaxies in these groups and clusters seem to depend on
+their host halo mass, although their is still debate as to how strong
+of an affect that this is.  For example,
+Fig.~\ref{fig:quenchFrac_wetzel}, taken from \citet{wetzel2012}, shows
+that galaxies in high-mass haloes tend to have large quenched
+fractions, in particular for low-mass galaxies.  Other studies have
+also found that color and morphology correlate with halo mass
+\citep[e.g.][]{kimm2009}, with galaxies in high mass haloes tending to
+be red and early-type.
+
+\subsection{Radial position}
+\label{sec:radial_pos}
+
+On top of correlating with the mass of the host halo, galaxy
+properties also show a strong dependence on their group-centric
+radius.  Galaxies at small radii near the group centre have been shown
+to have red colours \textbf{(REFERENCE)}, reduced star formation
+\citep{rasmussen2012, wetzel2012, haines2015}, and earlier type
+morphologies
+\citep{whitmore1993, goto2003, postman2005, fasano2015}.  Conversely, galaxies in the outer regions of
+haloes are preferentially blue, star-forming, with late-type
+morphologies.  In addition to considering the projected radial
+position of a galaxy, recent studies have used velocity-radius phase
+space to divide galaxy group and cluster populations into three main
+classes: those infalling onto the halo for the first time, those
+virialized at small radii, and those ``backsplashing'' beyond the
+virial radius after a pericentric passage
+\citep[e.g.][]{mahajan2011}.  The
+properties of galaxies have been shown to differ based upon which of
+these subclasses they are a part of.  For instance, infalling galaxies
+have been shown to have enhanced star formation rates \citep{noble2016}, post-starburst galaxies preferentially reside in
+intermediate regions of phase space \citep{muzzin2014}, as well
+backsplash galaxies should have lower masses due to tidal mass loss
+during pericentric passage \citep{gill2005}.  
+
+\subsection{Group dynamical state}
+\label{sec:dyn_state}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\textwidth]{vdist.pdf}
+  \caption{Projected velocity distributions for galaxies in a
+    Gaussian (left) and a non-Gaussian (right) SDSS group.  Solid line
+    is the median of 1000
+  bootstrap resamplings and shaded regions correspond to 68 per cent
+  confidence intervals, dashed line corresponds to the standard normal
+  distribution.}
+  \label{fig:vdist}
+\end{figure}
+
+Galaxy groups can be broadly classified by their dynamical states.
+Galaxy populations of dynamically old, relaxed groups will show
+line of sight velocity distributions which are well fit by a Gaussian
+profile, whereas galaxy populations in dynamically young, unrelaxed
+groups will have velocity distributions which show stronger deviations
+from normality.  The degree to which galaxy properties correlate with
+the dynamical state of their host group is still a question of active
+research, where no strong concensus has been reached
+\citep[e.g.][]{biviano2002, ribeiro2013b}.  Previous studies have
+indicated that galaxies in G groups tend to be redder than galaxies in
+NG groups \citep{ribeiro2010, carollo2013, ribeiro2013a}.  More
+directly investigating star-forming and morphological properties,
+\citet{hou2013} find detectable difference between the quiescent
+fractions of galaxies in G versus NG groups as a function of
+redshift.  More recently, \citet{roberts2016b} have found that
+low-mass galaxies in the virialized region of NG groups have enhanced
+star-forming and disc fractions compared to galaxies in the same
+region of G groups, whereas no differences are detected for infalling
+galaxies 
+
+\section{Star formation quenching}
+\label{sec:sfr_quench}
+
+\subsection{Environmental quenching}
+\label{sec:enviro_quench}
+
+\noindent \textit{\textbf{Ram pressure stripping}}
+\smallskip
+\newline
+
+\citep{kenney2004, chung2007,
+  chung2009, kenney2015}. \newline
+
+\noindent \textit{\textbf{Starvation}}
+\smallskip
+\newline
+As opposed to the removal of cold gas from the disc, starvation (also
+sometimes referred to as ``strangulation'') is the prevention of the
+replenishment of cold gas reserves.  This can occur either through the
+stripping of hot halo gas, or by preventing the hot halo gas from
+cooling and accreting onto the galactic disc.  \citet{larson1980}
+first proposed that preventing spiral galaxies from accreting new gas
+could account for the high fractions of passive S0 galaxies observed
+in local clusters.  Compared to ram pressure stripping, quenching by
+starvation will occur over much longer timescales on the order of
+$\sim 2 - 
+10\,\mathrm{Gyr}$ \textbf{(REFERENCE)}.  The precise quenching time
+will be set by the gas consumption timescale of a given galaxy, as
+once a galaxy it cut-off from gas accretion it will only form stars
+until it has exhausted its existing cold-gas reserves.  The results of
+previous works have indicated that in many cases long quenching times
+are required to reproduce observational results \citep{balogh2000,
+  balogh2000b, wetzel2013, wheeler2014}, which tends to be interpretted as
+evidence for the importance of starvation as a quenching mechanism.
+Recently \citet{peng2015} have presented a novel technique for
+observationally constraining the importance of starvation.  Peng et
+al. propose that evidence for starvation can be gleaned through
+examining the stellar metallicities for galaxies.  If a galaxy is
+quenched via starvation then its stellar metallicity should continue
+to rise as it exhausts its existing cold-gas reserves, therefore the
+population of passive galaxies should show higher metallicites than
+the population of star-forming galaxies.  Peng et al. argue that this
+serves as a method to distinguish between starvation and ram pressure
+stripping, as due to the rapid nature of ram pressure stripping, the
+metallicity difference between star-forming and passive galaxies would
+not be expected.  
+
+\subsection{Mass Quenching}
+\label{mass_quench}
 
 % Bibliography
 %
