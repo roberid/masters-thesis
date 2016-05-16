@@ -27,7 +27,8 @@ difference between the galaxy's $g$-band magnitude (centred on
 $477.0\,\mathrm{nm}$) and $r$-band magnitude (centred on
 $623.1\,\mathrm{nm}$).  Many studies have shown the colour
 distributions of galaxy populations to be well fit by a
-double-Gaussian across many environments \textbf{(REFERENCE)}.  The two
+double-Gaussian across many environments \citep{balogh2004,
+  baldry2006}.  The two
 components of the double-Gaussian fit are referred to as the `red
 sequence' and the `blue cloud'.  In Fig.~\ref{fig:gr_dist} I show the
 $g-r$ colour distribution for a sample of low-redshift ($z < 0.05$)
@@ -41,7 +42,7 @@ The overlap region between the red sequence
 and the blue cloud is known as the ``green valley'' and is thought to
 be a transition region.  It has been hypothesized that galaxies evolve
 from the blue cloud, through the green valley, onto the red sequence
-over time \textbf{(REFERENCE)}.  An important piece of evidence in
+over time \citep[e.g.][]{trayford2016}.  An important piece of evidence in
 support of
 this evolutionary scenario is the Butcher-Oemler (BO) effect.  The BO
 effect is an observed positive correlation between the fraction of blue
@@ -184,9 +185,9 @@ Another common star formation indicator is the 4000 angstrom break
 ($\mathrm{D_n}4000$), which refers to the strength of the break at
 $4000\,\mathrm{\mathring{A}}$ in a galaxy's spectrum.  Galaxies with
 old stellar populations and little recent star formation will show a
-strong $\mathrm{D_n}4000$ break due to strong metal absorbtion in the
+strong $\mathrm{D_n}4000$ break due to strong metal absorption in the
 atmospheres of old stars as well as a lack of UV emission from young,
-hot stars \textbf{(REFERENCE)}.  Galaxies with strong recent star
+hot stars \citep{hamilton1985}.  Galaxies with strong recent star
 formation will show a correspondingly small break at
 $4000\,\mathrm{\mathring{A}}$.
 \par
@@ -195,7 +196,7 @@ SED fitting...
 Across a wide range of environments galaxies
 can be divided into two main subpopulations based on their SFRs, those
 galaxies which are actively forming stars and those quiescent galaxies
-whose star formation has ceased \textbf{(REFERENCE)}.  One way to
+whose star formation has ceased \citep{wetzel2012}.  One way to
 define the population of star-forming galaxies is to use the
 ``star-forming main sequence'' (SFMS).  The SFMS is a tight
 correlation between SFR and stellar mass located in the upper region
@@ -237,6 +238,55 @@ shown to have been decreasing to the present day from its peak at $z
 Fig.~\ref{fig:lilly_madau} shows this in the form of an updated
 version of the famous Lilly-Madau plot taken from \citet{madau2014}.
 
+\section{Galaxy groups}
+\label{sec:groups}
+
+Galaxy groups are the most commonly populated environment in the local
+Universe \citep{geller1983, eke2005}, and also are a regime in which
+many processes capable of driving galaxy evolution are efficient.
+While populations of galaxies in the isolated field and large clusters are
+dominated by active, late-type and passive, early-type galaxies
+respectively, galaxy groups are an intermediate regime in which
+significant numbers of different galaxy types are present
+\citep{wilman2005, mcgee2011}.
+\par
+While no strict definition exists for what constitutes a galaxy
+group, historically haloes referred to as groups have properties
+(e.g.\ halo mass, galaxy membership, velocity dispersion, virial
+radius, etc.) which lie within broadly defined (albiet, somewhat
+arbitrary) ranges.  Generally
+speaking, a galaxy group is a collection of galaxies embedded within a
+dark matter halo which satisfy the following criteria
+\citep{mamon2007, connelly2012}:
+
+\begin{itemize}
+  \item Halo masses between $\sim\!10^{12}$ and $\!10^{14}\Msun$
+
+  \item Galaxy memberships between $\sim\!3$ and $50$
+
+  \item Velocity dispersions between $\sim\!200$ and
+    $800\,\mathrm{km}\,\mathrm{s^{-1}}$
+  
+  \item Virial radii between $\sim\! 0.3$ and $1\,\mathrm{Mpc}$
+\end{itemize}
+
+\noindent
+Haloes exceeding the above limits are generally referred to as galaxy
+clusters.  While the catalogues used in this thesis certainly
+contain some haloes which would be classified as clusters, for brevity
+we will refer to all haloes as groups unless otherwise specified.
+
+\subsection{Identifying galaxy groups}
+\label{sec:identify_groups}
+
+Accurately identifying galaxy groups using available observables is of
+the utmost importance to studies of galaxy evolution.  The most
+commonly used method to identify galaxy groups observationally is the
+so-called Friends-of-Friends (FOF) algorithm \citep[e.g.][]{huchra1982}.
+
+\subsection{Compact groups}
+\label{sec:compact_groups}
+
 \section{The environmental dependence of galaxy properties}
 \label{sec:enviro_dependence}
 
@@ -262,21 +312,35 @@ Fig.~\ref{fig:quenchFrac_wetzel}, taken from \citet{wetzel2012}, shows
 that galaxies in high-mass haloes tend to have large quenched
 fractions, in particular for low-mass galaxies.  Other studies have
 also found that color and morphology correlate with halo mass
-\citep[e.g.][]{kimm2009}, with galaxies in high mass haloes tending to
-be red and early-type.
+\citep[e.g.][]{kimm2009, wilman2012}, with galaxies in high mass
+haloes tending to be red and early-type.
 
 \subsection{Radial position}
 \label{sec:radial_pos}
 
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{redFrac_r_li.png}
+  \caption{Red fraction versus cluster centric radius for galaxies in
+    CNOC clusters.  Colours correspond to three different redshift
+    ranges. Image credit: \citet{li2009}.}
+  \label{fig:redFrac_r_li}
+\end{figure}
+
 On top of correlating with the mass of the host halo, galaxy
 properties also show a strong dependence on their group-centric
 radius.  Galaxies at small radii near the group centre have been shown
-to have red colours \textbf{(REFERENCE)}, reduced star formation
+to have red colours \citep{blanton2007b, hansen2009, li2009,
+  prescott2011}, reduced star formation
 \citep{rasmussen2012, wetzel2012, haines2015}, and earlier type
 morphologies
 \citep{whitmore1993, goto2003, postman2005, fasano2015}.  Conversely, galaxies in the outer regions of
 haloes are preferentially blue, star-forming, with late-type
-morphologies.  In addition to considering the projected radial
+morphologies.  Fig.~\ref{fig:redFrac_r_li} shows an example from
+\citet{li2009} where a clear anti-correlation is seen between red
+fraction and cluster-centric radius for galaxies in cluster from the
+Canadian Network for Observational Cosmology (CNOC) Survey. In
+addition to considering the projected radial
 position of a galaxy, recent studies have used velocity-radius phase
 space to divide galaxy group and cluster populations into three main
 classes: those infalling onto the halo for the first time, those
@@ -328,15 +392,57 @@ galaxies
 \section{Star formation quenching}
 \label{sec:sfr_quench}
 
+It has been well established that populations of galaxies are bimodal
+in SFR across all environments (see Fig.~\ref{fig:m_sfr})
+\textbf{(REFERENCE)}, with galaxies either actively forming stars as
+part of the blue cloud or evolving quiescently on the red sequence.  A
+question which has had much attention devoted to it is determining
+what are the dominant mechanism(s) which are shutting down star
+formation in galaxies.  In particular, it has been argued that there
+are to main classes of SFR quenching occuring in the Universe: secular
+or mass-quenching, and environmental quenching.  The dichotomy between
+these two quenching modes is outlined in detail by \citet{peng2010},
+where they conclude that low-mass ($\lesssim \! 10^{10.5}\Msun$)
+galaxies in the local Universe are quenched by environmental
+mechanisms and that galaxies more massive than $\sim \!
+10^{10.5}\Msun$ are quenched through internal, secular processes.  
+
 \subsection{Environmental quenching}
 \label{sec:enviro_quench}
 
 \noindent \textit{\textbf{Ram pressure stripping}}
 \smallskip
 \newline
-
-\citep{kenney2004, chung2007,
-  chung2009, kenney2015}. \newline
+A straight forward way to quench the star formation of a galaxy
+is to directly remove the cold gas reserves from the disc.  A commonly invoked
+mechanism to achieve this is the ram pressure stripping of cold gas by the
+intracluster medium (ICM).  Galaxies will feel a ram pressure force as
+they move through the ICM and if this force is enough to overcome to
+galaxy's gravitational potential then gas can be stripped from the
+disc.  The ram pressure felt by a galaxy scales with the density of
+the ICM as well as the square of the galaxy velocity relative to the ICM,
+$P_{RP} \propto \rho v^2$ \citep{gunn1972}, and therefore should be
+most effective in the cores of high-mass clusters where both densities
+and galaxy velocities are high.  One of the characteristic
+features of ram pressure stripping is the rapid timescales over which
+it is able to quench star formation, if ram pressure stripping is
+acting efficiently then cold gas can be removed in $\lesssim
+\! 1\,\mathrm{Gyr}$ \citep{abadi1999, quilis2000, roediger2005,
+  steinhauser2016}.  Studies which require short
+quenching timescales to account for observational results often use
+this fact to argue that ram pressure stripping is playing an important
+role \citep{muzzin2014, fillingham2015, wetzel2015}.  Additionally, it
+is possible to constrain ram
+pressure stripping by looking for direct evidence.  For example,
+H\textsc{i} distributions which are extended in the direction opposite
+to the motion of the galaxy are interpretted as evidence of ram
+pressure stripping \citep{kenney2004, chung2007,
+  chung2009, kenney2015}.  It is also important to note that while
+ram pressure stripping appears to have a measureable affect on atomic
+hydrogen (at least in high-mass clusters), how
+effectively it can remove molecular hydrogen from the disc is still a
+debated question \citep{boselli2002, boselli2006, fumagalli2009,
+  sivanandam2014} \newline
 
 \noindent \textit{\textbf{Starvation}}
 \smallskip

@@ -3,7 +3,7 @@
 \contentsline {preface}{\abstractname }{iii}
 \contentsline {preface}{\acknowledgementname }{iv}
 \contentsline {preface}{\listfigurename }{ix}
-\contentsline {preface}{\listtablename }{xiii}
+\contentsline {preface}{\listtablename }{xiv}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
@@ -11,41 +11,44 @@
 \contentsline {subsection}{\numberline {1.1.1}Color}{1}
 \contentsline {subsection}{\numberline {1.1.2}Morphology}{3}
 \contentsline {subsection}{\numberline {1.1.3}Star formation rates}{6}
-\contentsline {section}{\numberline {1.2}The environmental dependence of galaxy properties}{9}
-\contentsline {subsection}{\numberline {1.2.1}Halo mass}{9}
-\contentsline {subsection}{\numberline {1.2.2}Radial position}{10}
-\contentsline {subsection}{\numberline {1.2.3}Group dynamical state}{11}
-\contentsline {section}{\numberline {1.3}Star formation quenching}{12}
-\contentsline {subsection}{\numberline {1.3.1}Environmental quenching}{12}
-\contentsline {subsection}{\numberline {1.3.2}Mass Quenching}{14}
+\contentsline {section}{\numberline {1.2}Galaxy groups}{9}
+\contentsline {subsection}{\numberline {1.2.1}Identifying galaxy groups}{10}
+\contentsline {subsection}{\numberline {1.2.2}Compact groups}{11}
+\contentsline {section}{\numberline {1.3}The environmental dependence of galaxy properties}{11}
+\contentsline {subsection}{\numberline {1.3.1}Halo mass}{11}
+\contentsline {subsection}{\numberline {1.3.2}Radial position}{12}
+\contentsline {subsection}{\numberline {1.3.3}Group dynamical state}{13}
+\contentsline {section}{\numberline {1.4}Star formation quenching}{15}
+\contentsline {subsection}{\numberline {1.4.1}Environmental quenching}{15}
+\contentsline {subsection}{\numberline {1.4.2}Mass Quenching}{17}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
-\contentsline {chapter}{\numberline {2}Mass segregation trends in SDSS galaxy groups}{21}
-\contentsline {section}{\numberline {2.1}Introduction}{21}
-\contentsline {section}{\numberline {2.2}Data}{24}
-\contentsline {section}{\numberline {2.3}Results}{27}
-\contentsline {subsection}{\numberline {2.3.1}Mass segregation in SDSS groups}{27}
-\contentsline {subsection}{\numberline {2.3.2}Massive galaxy fraction}{28}
-\contentsline {section}{\numberline {2.4}Discussion}{30}
-\contentsline {subsection}{\numberline {2.4.1}Effect of including low-mass galaxies}{30}
-\contentsline {subsection}{\numberline {2.4.2}Halo mass dependence}{31}
-\contentsline {subsection}{\numberline {2.4.3}Reconciling previous results}{33}
-\contentsline {section}{\numberline {2.5}Conclusion}{33}
-\contentsline {section}{\numberline {2.6}Acknowledgements}{34}
+\contentsline {chapter}{\numberline {2}Mass segregation trends in SDSS galaxy groups}{27}
+\contentsline {section}{\numberline {2.1}Introduction}{27}
+\contentsline {section}{\numberline {2.2}Data}{30}
+\contentsline {section}{\numberline {2.3}Results}{33}
+\contentsline {subsection}{\numberline {2.3.1}Mass segregation in SDSS groups}{33}
+\contentsline {subsection}{\numberline {2.3.2}Massive galaxy fraction}{34}
+\contentsline {section}{\numberline {2.4}Discussion}{36}
+\contentsline {subsection}{\numberline {2.4.1}Effect of including low-mass galaxies}{36}
+\contentsline {subsection}{\numberline {2.4.2}Halo mass dependence}{37}
+\contentsline {subsection}{\numberline {2.4.3}Reconciling previous results}{39}
+\contentsline {section}{\numberline {2.5}Conclusion}{39}
+\contentsline {section}{\numberline {2.6}Acknowledgements}{40}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\numberline {3}Comparing galaxy morphology and star formation properties in X-ray bright and faint groups and cluster}{41}
-\contentsline {section}{\numberline {3.1}Introduction}{41}
-\contentsline {section}{\numberline {3.2}Data}{45}
-\contentsline {subsection}{\numberline {3.2.1}Yang group catalogue}{45}
-\contentsline {subsection}{\numberline {3.2.2}SDSS X-ray catalogue}{47}
-\contentsline {subsection}{\numberline {3.2.3}Final data set}{48}
-\contentsline {section}{\numberline {3.3}Results}{53}
-\contentsline {subsection}{\numberline {3.3.1}Star-forming and morphology trends in strong and weak $L_X$ samples}{53}
-\contentsline {subsection}{\numberline {3.3.2}Radial dependence of star-forming and morphology trends}{56}
-\contentsline {section}{\numberline {3.4}Discussion}{60}
-\contentsline {subsection}{\numberline {3.4.1}AGN contamination}{62}
-\contentsline {subsection}{\numberline {3.4.2}Implications for star formation quenching}{65}
-\contentsline {subsection}{\numberline {3.4.3}Group evolutionary/dynamical state}{71}
-\contentsline {section}{\numberline {3.5}Summary \& Conclusions}{74}
+\contentsline {chapter}{\numberline {3}Comparing galaxy morphology and star formation properties in X-ray bright and faint groups and cluster}{47}
+\contentsline {section}{\numberline {3.1}Introduction}{47}
+\contentsline {section}{\numberline {3.2}Data}{51}
+\contentsline {subsection}{\numberline {3.2.1}Yang group catalogue}{51}
+\contentsline {subsection}{\numberline {3.2.2}SDSS X-ray catalogue}{53}
+\contentsline {subsection}{\numberline {3.2.3}Final data set}{54}
+\contentsline {section}{\numberline {3.3}Results}{59}
+\contentsline {subsection}{\numberline {3.3.1}Star-forming and morphology trends in strong and weak $L_X$ samples}{59}
+\contentsline {subsection}{\numberline {3.3.2}Radial dependence of star-forming and morphology trends}{62}
+\contentsline {section}{\numberline {3.4}Discussion}{66}
+\contentsline {subsection}{\numberline {3.4.1}AGN contamination}{68}
+\contentsline {subsection}{\numberline {3.4.2}Implications for star formation quenching}{71}
+\contentsline {subsection}{\numberline {3.4.3}Group evolutionary/dynamical state}{77}
+\contentsline {section}{\numberline {3.5}Summary \& Conclusions}{80}
 \gdef \the@ipfilectr {}
