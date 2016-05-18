@@ -1,4 +1,4 @@
-\begin{thebibliography}{96}
+\begin{thebibliography}{102}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abadi} {et~al.}(1999){Abadi}, {Moore}, \& {Bower}}]{abadi1999}
@@ -39,6 +39,14 @@
   {Simard}, {Patton}, \& {Starkenburg}}]{bluck2014}
 {Bluck}, A.~F.~L., {Mendel}, J.~T., {Ellison}, S.~L., {Moreno}, J., {Simard},
   L., {Patton}, D.~R., \& {Starkenburg}, E. 2014, \mnras, 441, 599
+
+\bibitem[{{Bongiorno} {et~al.}(2016){Bongiorno}, {Schulze}, {Merloni},
+  {Zamorani}, {Ilbert}, {La Franca}, {Peng}, {Piconcelli}, {Mainieri},
+  {Silverman}, {Brusa}, {Fiore}, {Salvato}, \& {Scoville}}]{bongiorno2016}
+{Bongiorno}, A., {Schulze}, A., {Merloni}, A., {Zamorani}, G., {Ilbert}, O.,
+  {La Franca}, F., {Peng}, Y., {Piconcelli}, E., {Mainieri}, V., {Silverman},
+  J.~D., {Brusa}, M., {Fiore}, F., {Salvato}, M., \& {Scoville}, N. 2016, \aap,
+  588, A78
 
 \bibitem[{{Boselli} \& {Gavazzi}(2006)}]{boselli2006}
 {Boselli}, A. \& {Gavazzi}, G. 2006, \pasp, 118, 517
@@ -108,6 +116,11 @@
   R.~J., {Wang}, L., {Wilkins}, S.~M., {Dunne}, L., {Bourne}, N., \& {Smith},
   M.~W.~L. 2015, \mnras, 452, 616
 
+\bibitem[{{Dubois} {et~al.}(2013){Dubois}, {Gavazzi}, {Peirani}, \&
+  {Silk}}]{dubois2013}
+{Dubois}, Y., {Gavazzi}, R., {Peirani}, S., \& {Silk}, J. 2013, \mnras, 433,
+  3297
+
 \bibitem[{{Eke} {et~al.}(2005){Eke}, {Baugh}, {Cole}, {Frenk}, {King}, \&
   {Peacock}}]{eke2005}
 {Eke}, V.~R., {Baugh}, C.~M., {Cole}, S., {Frenk}, C.~S., {King}, H.~M., \&
@@ -149,6 +162,9 @@
   {Garrison-Kimmel}, {Boylan-Kolchin}, \& {Bullock}}]{fillingham2015}
 {Fillingham}, S.~P., {Cooper}, M.~C., {Wheeler}, C., {Garrison-Kimmel}, S.,
   {Boylan-Kolchin}, M., \& {Bullock}, J.~S. 2015, \mnras, 454, 2039
+
+\bibitem[{{Fujita}(1998)}]{fujita1998}
+{Fujita}, Y. 1998, \apj, 509, 587
 
 \bibitem[{{Fumagalli} {et~al.}(2009){Fumagalli}, {Krumholz}, {Prochaska},
   {Gavazzi}, \& {Boselli}}]{fumagalli2009}
@@ -262,6 +278,13 @@
 \bibitem[{{Li} {et~al.}(2009){Li}, {Yee}, \& {Ellingson}}]{li2009}
 {Li}, I.~H., {Yee}, H.~K.~C., \& {Ellingson}, E. 2009, \apj, 698, 83
 
+\bibitem[{{Lintott} {et~al.}(2008){Lintott}, {Schawinski}, {Slosar}, {Land},
+  {Bamford}, {Thomas}, {Raddick}, {Nichol}, {Szalay}, {Andreescu}, {Murray}, \&
+  {Vandenberg}}]{lintott2008}
+{Lintott}, C.~J., {Schawinski}, K., {Slosar}, A., {Land}, K., {Bamford}, S.,
+  {Thomas}, D., {Raddick}, M.~J., {Nichol}, R.~C., {Szalay}, A., {Andreescu},
+  D., {Murray}, P., \& {Vandenberg}, J. 2008, \mnras, 389, 1179
+
 \bibitem[{{Loh} {et~al.}(2008){Loh}, {Ellingson}, {Yee}, {Gilbank}, {Gladders},
   \& {Barrientos}}]{loh2008}
 {Loh}, Y.-S., {Ellingson}, E., {Yee}, H.~K.~C., {Gilbank}, D.~G., {Gladders},
@@ -308,6 +331,11 @@ Mamon, G. 2007, Groups of Galaxies in the Nearby Universe: Proceedings of the
 
 \bibitem[{{Mihos} \& {Hernquist}(1994{\natexlab{b}})}]{mihos1994b}
 ---. 1994{\natexlab{b}}, \apjl, 431, L9
+
+\bibitem[{{Moore} {et~al.}(1996){Moore}, {Katz}, {Lake}, {Dressler}, \&
+  {Oemler}}]{moore1996}
+{Moore}, B., {Katz}, N., {Lake}, G., {Dressler}, A., \& {Oemler}, A. 1996,
+  \nat, 379, 613
 
 \bibitem[{{Muzzin} {et~al.}(2014){Muzzin}, {van der Burg}, {McGee}, {Balogh},
   {Franx}, {Hoekstra}, {Hudson}, {Noble}, {Taranu}, {Webb}, {Wilson}, \&
@@ -449,6 +477,11 @@ Mamon, G. 2007, Groups of Galaxies in the Nearby Universe: Proceedings of the
 \bibitem[{{Sivanandam} {et~al.}(2014){Sivanandam}, {Rieke}, \&
   {Rieke}}]{sivanandam2014}
 {Sivanandam}, S., {Rieke}, M.~J., \& {Rieke}, G.~H. 2014, \apj, 796, 89
+
+\bibitem[{{Somerville} {et~al.}(2008){Somerville}, {Hopkins}, {Cox},
+  {Robertson}, \& {Hernquist}}]{somerville2008}
+{Somerville}, R.~S., {Hopkins}, P.~F., {Cox}, T.~J., {Robertson}, B.~E., \&
+  {Hernquist}, L. 2008, \mnras, 391, 481
 
 \bibitem[{{Steinhauser} {et~al.}(2016){Steinhauser}, {Schindler}, \&
   {Springel}}]{steinhauser2016}
