@@ -50,7 +50,14 @@ galaxies within galaxy clusters and redshift, first observed by
 \citet{butcher1978} and subsequently observed by many more recent
 studies \citep[e.g.][]{butcher1984, ellingson2001, loh2008,
   urquhart2010}.  Therefore it seems that at early times populations
-of galaxies in clusters were bluer than they are at present day.    
+of galaxies in clusters were bluer than they are at present day.
+\par
+In addition to redshift correlations, galaxy colours also depend
+strongly on stellar mass.  Both the fraction of red galaxies \citep{baldry2006,
+  bamford2009, kimm2009, prescott2011} as well as the average colour
+of galaxies \citep{cooper2008, vandenbosch2008a} increase significantly toward
+high stellar masses.  These stellar mass trends are not only in place
+in the local Universe, but also at high redshift \citep{grutzbauch2011}.
 
 \subsection{Morphology}
 \label{sec:morph}
@@ -134,7 +141,14 @@ components is then the model for the galaxy as a whole.  The fraction
 of the total light produced in the bulge component is the bulge-to-total ratio
 ($B/T$) which is used as a morphological discriminator for galaxies.
 Pure elliptical galaxies will have $B/T \to 1$, and pure disc galaxies
-will have $B/T \to 0$.  
+will have $B/T \to 0$.
+\par
+Galaxy morphology is also strongly correlated with stellar mass, with
+high-mass galaxies showing earlier types morphologies.  This trend has
+been confirmed using different probes of morphology, such as
+S{\'e}rsic index \citep{vanderwel2008}, bulge-to-total ratio
+\citep{bluck2014}, as well as visual morphological classifications
+\citep{bamford2009}.   
 
 \subsection{Star formation rates}
 \label{sec:sfr}
@@ -241,6 +255,14 @@ version of the famous Lilly-Madau plot taken from \citet{madau2014}.
 \section{Galaxy groups}
 \label{sec:groups}
 
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.8\textwidth]{225.jpeg}
+  \caption{SDSS image of a galaxy group from the \citet{yang2007}
+    group catalogue.  Image credit: Sloan Digital Sky Survey.}
+  \label{fig:sdss_225}
+\end{figure}
+
 Galaxy groups are the most commonly populated environment in the local
 Universe \citep{geller1983, eke2005}, and also are a regime in which
 many processes capable of driving galaxy evolution are efficient.
@@ -280,12 +302,102 @@ we will refer to all haloes as groups unless otherwise specified.
 \label{sec:identify_groups}
 
 Accurately identifying galaxy groups using available observables is of
-the utmost importance to studies of galaxy evolution.  The most
-commonly used method to identify galaxy groups observationally is the
-so-called Friends-of-Friends (FOF) algorithm \citep[e.g.][]{huchra1982}.
+the utmost importance to studies of galaxy evolution.  The simplest
+method used to identify galaxy groups observationally is the
+so-called Friends-of-Friends (FoF) algorithm
+\citep[e.g.][]{huchra1982, press1982}.  The FoF
+algorithm joins galaxies into
+groups based upon their seperations in projected distance as well as
+line-of-sight (LOS) velocity.  In this implementation the algorithm
+has two
+free parameters known as ``linking lengths'', one corresponding to
+projected distance and the other to LOS velocity.  Two galaxies are
+linked if their seperations in projected distance as well as velocity
+are both smaller than the corresponding linking lengths.  The process
+continues as more galaxies are linked together and larger and larger
+groups are therefore built up.  The algorithm is succinctly summarized
+by \citet{press1982} in saying that pairs of galaxies are
+``friends'', and that ``any friend of a friend is a friend''.  While
+strong in its simplicity as well as its ability to create unique
+groups without making any assumptions regarding group properties,
+there are weaknesses to generating groups via the FoF method.  One
+example is that the algorithm does not require a well defined group
+centre.  To account for this, the location of the most-massive galaxy,
+the luminosity-weighted centre of member galaxies, as well as the peak
+of X-ray emission (given an X-ray bright group), are all used to
+define a group centre however there is no guarantee that these
+different definitions will agree.  Another shortcoming lies in the
+fact that dynamically distinct groups may be connected given a linking
+length that is too large, and conversely if the assumed linking length
+is too small then subgroups which are physically associated may not be
+connected by the algorithm.
+\par
+More recent work has been done in order to build off of and improve
+upon the simplistic FoF approach.  One example is the ``halo based''
+group finding algorithm from \citet{yang2005, yang2007} which
+initially seeds groups using the basic FoF algorithm with very small
+linking lengths, and then proceeds to further populate these seed
+groups based on the assumption that the phase space distribution of
+galaxies follows that of dark matter particles -- assumed to be a
+spherical Navarro-Frenk-White (NFW) profile \citep{navarro1997}.
+\par
+Another modern technique of defining galaxy groups from redshift data
+is to use a Voronoi tessalation \citep{marinoni2002, gerke2005,
+  gerke2012}.  This technique uses a Voronoi partition to divide a
+survey volume into distinct subvolumes, each containing one
+galaxy as well as all points in the space which are closer to that
+galaxy than any other.  These Voronoi cells provide a useful measure
+of galaxy density, as those galaxies contained in cells with small
+volumes will by definition be located in dense regions.  These initial
+Voronoi cells act as seeds for potential groups which are built up by
+linking closly neighbouring cells together.
+\par
+At high-redshift in particular, one of the strongest group finding
+techniques is to look for extended X-ray emission from the hot
+intragroup medium (IGM), though this method is biased toward finding
+groups with rich IGM which may not be representative of the total
+group population \citep{connelly2012}.
 
 \subsection{Compact groups}
 \label{sec:compact_groups}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.7\textwidth]{stephans_quintet.jpg}
+  \caption{Hickson compact group 92, known as Stephan's Quintet.
+    Image credit: NASA/Hubble Space Telescope.}
+  \label{fig:steph_quintet}
+\end{figure}
+
+A subclass of galaxy groups are what are known as compact groups.
+Compact groups were initially defined by \citet{hickson1982} by the
+following criteria:
+
+\begin{itemize}
+  \item $N(\Delta m = 3) \ge 4$
+
+  \item $\theta_N \ge 3\,\theta_G$
+
+  \item $\mu_e \le 26.0\,\mathrm{mag}\,\mathrm{arcsec^{-2}}$
+\end{itemize}
+
+\noindent
+where $N(\Delta m = 3)$ is the number of galaxies within 3 magnitudes
+of the brightest galaxy in the group, $\mu_e$ is the effective surface
+brightness of the galaxies, $\theta_G$ is the angular diameter of the
+smallest circle containing the centres of all group galaxies, and
+$\theta_N$ is the angular diameter of the largest circle containing no
+galaxies brighter than the surface brightness constraint
+\citep{hickson1982, mcconnachie2009}.
+\par
+Compact groups have proven to be important probes of galaxy evolution,
+as due to the close proximity of members many galaxy interactions are
+favoured.  When comparing the properties of galaxies in compact groups
+to those in loose groups (groups which do not satisfy the Hickson
+criteria) it has been shown that galaxies in compact groups tend to be
+more evolved.  Namely, they have higher fractions of red, passive,
+early-type galaxies as well as older stellar populations and lower
+SSFRs \citep{coenda2012, coenda2015}.
 
 \section{The environmental dependence of galaxy properties}
 \label{sec:enviro_dependence}
@@ -393,8 +505,9 @@ galaxies
 \label{sec:sfr_quench}
 
 It has been well established that populations of galaxies are bimodal
-in SFR across all environments (see Fig.~\ref{fig:m_sfr})
-\textbf{(REFERENCE)}, with galaxies either actively forming stars as
+in SFR across essentially all environments (see Fig.~\ref{fig:m_sfr})
+\citep[e.g.][]{wetzel2012}, with galaxies either actively forming
+stars as
 part of the blue cloud or evolving quiescently on the red sequence.  A
 question which has had much attention devoted to it is determining
 what are the dominant mechanism(s) which are shutting down star
@@ -457,7 +570,8 @@ could account for the high fractions of passive S0 galaxies observed
 in local clusters.  Compared to ram pressure stripping, quenching by
 starvation will occur over much longer timescales on the order of
 $\sim 2 - 
-10\,\mathrm{Gyr}$ \textbf{(REFERENCE)}.  The precise quenching time
+10\,\mathrm{Gyr}$ \citep{wheeler2014, fillingham2015, peng2015,
+  wetzel2015}.  The precise quenching time
 will be set by the gas consumption timescale of a given galaxy, as
 once a galaxy it cut-off from gas accretion it will only form stars
 until it has exhausted its existing cold-gas reserves.  The results of
@@ -476,7 +590,29 @@ the population of star-forming galaxies.  Peng et al. argue that this
 serves as a method to distinguish between starvation and ram pressure
 stripping, as due to the rapid nature of ram pressure stripping, the
 metallicity difference between star-forming and passive galaxies would
-not be expected.  
+not be expected.\newline  
+
+\noindent \textit{\textbf{Galaxy interactions}}
+\smallskip
+\newline
+As opposed to quenching through interactions with surrounding gas, it
+is possible that quenching can be driven by more direct interactions
+between galaxies.  These interactions can be broadly divided into
+three main categories: major mergers, minor mergers, and impulsive
+interactions.  Major mergers (mass ratio, $M_1/M_2 \lesssim 3-4$) have
+been shown to induce starburst events which can very quickly exhaust the gas
+reserves of a galaxy, leaving it quenched \citep[e.g.][]{mihos1994b}.
+As well, observations of closly paired galaxies show that paired
+galaxies of similar mass demonstrate stong enhancements in SFRs with
+decreasing seperation, consistent with interaction induced starbursts
+\citep{ellison2008, davies2015}.  Minor mergers ($M_1/M_2 \gtrsim
+3-4$) have also been shown to be capable of inducing starbursts in the
+primary galaxy \citep[e.g.][]{mihos1994a}, and seeing as minor mergers
+are significantly more common than major mergers \citep{lotz2011},
+this plays a potentially important role in transforming galaxies.
+Observations of galaxies in minor pair haves shown that star formation
+in enhanced in the higher mass primary, but suppressed in the
+secondary galaxy \citep{davies2015}.  
 
 \subsection{Mass Quenching}
 \label{mass_quench}
