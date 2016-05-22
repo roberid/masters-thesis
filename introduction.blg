@@ -4,45 +4,45 @@ The top-level auxiliary file: introduction.aux
 The style file: apj.bst
 Database file #1: masters-thesis.bib
 Warning--can't use both author and editor fields in mamon2007
-You've used 102 entries,
+You've used 116 entries,
             2948 wiz_defined-function locations,
-            1209 strings with 28973 characters,
-and the built_in function-call counts, 64427 in all, are:
-= -- 4823
-> -- 6292
-< -- 23
-+ -- 2315
-- -- 2211
-* -- 6402
-:= -- 12447
-add.period$ -- 102
-call.type$ -- 102
-change.case$ -- 1144
-chr.to.int$ -- 100
-cite$ -- 103
-duplicate$ -- 1926
-empty$ -- 2766
-format.name$ -- 2536
-if$ -- 11883
+            1276 strings with 33338 characters,
+and the built_in function-call counts, 75582 in all, are:
+= -- 5595
+> -- 7562
+< -- 28
++ -- 2785
+- -- 2667
+* -- 7588
+:= -- 14619
+add.period$ -- 116
+call.type$ -- 116
+change.case$ -- 1352
+chr.to.int$ -- 114
+cite$ -- 117
+duplicate$ -- 2190
+empty$ -- 3150
+format.name$ -- 3040
+if$ -- 13892
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 102
-newline$ -- 310
-num.names$ -- 409
-pop$ -- 1221
+missing$ -- 116
+newline$ -- 352
+num.names$ -- 465
+pop$ -- 1439
 preamble$ -- 1
-purify$ -- 1144
+purify$ -- 1352
 quote$ -- 0
-skip$ -- 1588
+skip$ -- 1815
 stack$ -- 0
-substring$ -- 2122
+substring$ -- 2434
 swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 912
+type$ -- 1038
 warning$ -- 1
-while$ -- 405
+while$ -- 461
 width$ -- 0
-write$ -- 1020
+write$ -- 1160
 (There was 1 warning)

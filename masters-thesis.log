@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Mageia) (format=pdflatex 2015.7.3)  18 MAY 2016 17:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Mageia) (format=pdflatex 2015.7.3)  22 MAY 2016 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -393,13 +393,13 @@ Package pdftex.def Info: figures/m_sfr.pdf used on input line 171.
 File: figures/lilly_madau.png Graphic file (type png)
 
 <use figures/lilly_madau.png>
-Package pdftex.def Info: figures/lilly_madau.png used on input line 247.
+Package pdftex.def Info: figures/lilly_madau.png used on input line 257.
 (pdftex.def)             Requested size: 317.9892pt x 246.58176pt.
  [9]
 <figures/225.jpeg, id=198, 1991.44pt x 1366.10374pt>
 File: figures/225.jpeg Graphic file (type jpg)
  <use figures/225.jpeg>
-Package pdftex.def Info: figures/225.jpeg used on input line 273.
+Package pdftex.def Info: figures/225.jpeg used on input line 283.
 (pdftex.def)             Requested size: 317.9892pt x 218.12247pt.
 
 [10 <./figures/lilly_madau.png>] [11 <./figures/225.jpeg>] [12] [13]
@@ -407,10 +407,10 @@ Package pdftex.def Info: figures/225.jpeg used on input line 273.
 File: figures/stephans_quintet.jpg Graphic file (type jpg)
 
 <use figures/stephans_quintet.jpg>
-Package pdftex.def Info: figures/stephans_quintet.jpg used on input line 379.
+Package pdftex.def Info: figures/stephans_quintet.jpg used on input line 389.
 (pdftex.def)             Requested size: 278.23827pt x 310.24149pt.
- [14 <./figures/stephans_quintet.jpg>]
-Overfull \hbox (5.07149pt too wide) in paragraph at lines 415--417
+ [14]
+Overfull \hbox (5.07149pt too wide) in paragraph at lines 425--427
 \T1/cmr/bx/n/17.28 1.4 The en-vi-ron-men-tal de-pen-dence of galaxy prop-
  []
 
@@ -418,116 +418,123 @@ Overfull \hbox (5.07149pt too wide) in paragraph at lines 415--417
 File: figures/quenchFrac_wetzel.png Graphic file (type png)
 
 <use figures/quenchFrac_wetzel.png>
-Package pdftex.def Info: figures/quenchFrac_wetzel.png used on input line 426.
+Package pdftex.def Info: figures/quenchFrac_wetzel.png used on input line 436.
 (pdftex.def)             Requested size: 317.9892pt x 239.43298pt.
- [15]
-<figures/redFrac_r_li.png, id=220, 851.18pt x 611.28375pt>
+ [15 <./figures/stephans_quintet.jpg>]
+[16 <./figures/quenchFrac_wetzel.png>]
+<figures/redFrac_r_li.png, id=224, 851.18pt x 611.28375pt>
 File: figures/redFrac_r_li.png Graphic file (type png)
 
 <use figures/redFrac_r_li.png>
-Package pdftex.def Info: figures/redFrac_r_li.png used on input line 451.
+Package pdftex.def Info: figures/redFrac_r_li.png used on input line 461.
 (pdftex.def)             Requested size: 317.9892pt x 228.37271pt.
- [16 <./figures/quenchFrac_wetzel.png>] [17 <./figures/redFrac_r_li.png>]
+ [17 <./figures/redFrac_r_li.png>]
 <figures/vdist.pdf, id=229, 506.26953pt x 208.89635pt>
 File: figures/vdist.pdf Graphic file (type pdf)
  <use figures/vdist.pdf>
-Package pdftex.def Info: figures/vdist.pdf used on input line 490.
+Package pdftex.def Info: figures/vdist.pdf used on input line 500.
 (pdftex.def)             Requested size: 397.48499pt x 164.01266pt.
 
-[18 <./figures/vdist.pdf>] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 542--575
+[18] [19 <./figures/vdist.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 552--585
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 576--610
+Underfull \hbox (badness 10000) in paragraph at lines 586--620
 
  []
 
-[21] [22] (./introduction.bbl [23] [24] [25
+[21] [22] [23] [24]
+Overfull \hbox (4.76617pt too wide) in paragraph at lines 704--722
+[]\T1/cmr/m/n/12 Considering the afore-men-tioned quench-ing mech-a-nisms. Ram-
+pressure strip-
+ []
 
-] [26] [27] [28] [29] [30] [31]
-[32] [33] [34])) [35] [36
+[25] (./introduction.bbl [26] [27
+
+] [28] [29] [30] [31] [32] [33] [34] [35]
+[36] [37] [38])) [39] [40
 
 
 ]
 \openout2 = `massSeg.aux'.
 
- (./massSeg.tex [37
+ (./massSeg.tex [41
 
 
 
-] [38] [39] [40] [41]
-<figures/Rmass.pdf, id=358, 529.20679pt x 392.30313pt>
+] [42] [43] [44] [45]
+<figures/Rmass.pdf, id=371, 529.20679pt x 392.30313pt>
 File: figures/Rmass.pdf Graphic file (type pdf)
  <use figures/Rmass.pdf>
 Package pdftex.def Info: figures/Rmass.pdf used on input line 197.
 (pdftex.def)             Requested size: 397.48499pt x 294.66359pt.
 
-[42] [43 <./figures/Rmass.pdf>]
-<figures/Rfrac.pdf, id=438, 522.60399pt x 211.62813pt>
+[46] [47 <./figures/Rmass.pdf>]
+<figures/Rfrac.pdf, id=451, 522.60399pt x 211.62813pt>
 File: figures/Rfrac.pdf Graphic file (type pdf)
  <use figures/Rfrac.pdf>
 Package pdftex.def Info: figures/Rfrac.pdf used on input line 246.
 (pdftex.def)             Requested size: 397.48499pt x 160.96175pt.
 
-[44] [45 <./figures/Rfrac.pdf>] [46] [47] [48] [49] (./massSeg.bbl [50]
-[51
+[48] [49 <./figures/Rfrac.pdf>] [50] [51] [52] [53] (./massSeg.bbl [54]
+[55
 
-] [52] [53] [54])) [55] [56
+] [56] [57] [58])) [59] [60
 
 
 ]
 \openout2 = `xray.aux'.
 
- (./xray.tex [57
+ (./xray.tex [61
 
 
 
-] [58] [59] [60]
+] [62] [63] [64]
 Overfull \hbox (1.27997pt too wide) in paragraph at lines 143--159
 []\T1/cmr/m/n/12 Groups are ini-tially pop-u-lated us-ing the tra-di-tional fri
 ends-of-friends (FOF)
  []
 
-[61] [62] [63] <figures/mh_lx_con.pdf, id=572, 259.96782pt x 206.88884pt>
+[65] [66] [67] <figures/mh_lx_con.pdf, id=584, 259.96782pt x 206.88884pt>
 File: figures/mh_lx_con.pdf Graphic file (type pdf)
 
 <use figures/mh_lx_con.pdf>
 Package pdftex.def Info: figures/mh_lx_con.pdf used on input line 237.
 (pdftex.def)             Requested size: 317.9892pt x 253.0922pt.
- [64] [65 <./figures/mh_lx_con.pdf>]
-<figures/data_smooth_lx2.pdf, id=639, 323.4479pt x 407.96164pt>
+ [68] [69 <./figures/mh_lx_con.pdf>]
+<figures/data_smooth_lx2.pdf, id=652, 323.4479pt x 407.96164pt>
 File: figures/data_smooth_lx2.pdf Graphic file (type pdf)
 
 <use figures/data_smooth_lx2.pdf>
 Package pdftex.def Info: figures/data_smooth_lx2.pdf used on input line 290.
 (pdftex.def)             Requested size: 317.9892pt x 401.08824pt.
- [66] [67 <./figures/data_smooth_lx2.pdf>]
+ [70] [71 <./figures/data_smooth_lx2.pdf>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 337.
 
 
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [68]
-<figures/disk_sfFrac_w_lx1234.pdf, id=722, 517.13826pt x 217.74188pt>
+) [72]
+<figures/disk_sfFrac_w_lx1234.pdf, id=735, 517.13826pt x 217.74188pt>
 File: figures/disk_sfFrac_w_lx1234.pdf Graphic file (type pdf)
 
 <use figures/disk_sfFrac_w_lx1234.pdf>
 Package pdftex.def Info: figures/disk_sfFrac_w_lx1234.pdf used on input line 39
 1.
 (pdftex.def)             Requested size: 397.48499pt x 167.36273pt.
- [69]
-<figures/disk_sfFrac_w_lx2_mh.pdf, id=727, 522.27464pt x 393.30688pt>
+ [73]
+<figures/disk_sfFrac_w_lx2_mh.pdf, id=739, 522.27464pt x 393.30688pt>
 File: figures/disk_sfFrac_w_lx2_mh.pdf Graphic file (type pdf)
 
 <use figures/disk_sfFrac_w_lx2_mh.pdf>
 Package pdftex.def Info: figures/disk_sfFrac_w_lx2_mh.pdf used on input line 41
 1.
 (pdftex.def)             Requested size: 397.48499pt x 299.34242pt.
- [70 <./figures/disk_sfFrac_w_lx1234.pdf>] [71 <./figures/disk_sfFrac_w_lx2_mh.
+ [74 <./figures/disk_sfFrac_w_lx1234.pdf>] [75 <./figures/disk_sfFrac_w_lx2_mh.
 pdf>]
-<figures/disk_sfFrac_w_lx2_mh_rxh.pdf, id=896, 651.25026pt x 450.78413pt>
+<figures/disk_sfFrac_w_lx2_mh_rxh.pdf, id=909, 651.25026pt x 450.78413pt>
 File: figures/disk_sfFrac_w_lx2_mh_rxh.pdf Graphic file (type pdf)
 
 <use figures/disk_sfFrac_w_lx2_mh_rxh.pdf>
@@ -535,7 +542,7 @@ Package pdftex.def Info: figures/disk_sfFrac_w_lx2_mh_rxh.pdf used on input lin
 e 455.
 (pdftex.def)             Requested size: 397.48499pt x 275.14299pt.
 
-<figures/disk_sfFrac_w_lx2_mh_rxl.pdf, id=897, 651.25026pt x 450.78413pt>
+<figures/disk_sfFrac_w_lx2_mh_rxl.pdf, id=910, 651.25026pt x 450.78413pt>
 File: figures/disk_sfFrac_w_lx2_mh_rxl.pdf Graphic file (type pdf)
 
 <use figures/disk_sfFrac_w_lx2_mh_rxl.pdf>
@@ -548,82 +555,85 @@ Overfull \hbox (1.65211pt too wide) in paragraph at lines 472--488
 tively small group-
  []
 
-[72] [73 <./figures/disk_sfFrac_w_lx2_mh_rxh.pdf>] [74 <./figures/disk_sfFrac_w
-_lx2_mh_rxl.pdf>] <figures/lxDiff_r.pdf, id=1242, 654.83868pt x 293.38043pt>
+[76] [77 <./figures/disk_sfFrac_w_lx2_mh_rxh.pdf>] [78 <./figures/disk_sfFrac_w
+_lx2_mh_rxl.pdf>] <figures/lxDiff_r.pdf, id=1255, 654.83868pt x 293.38043pt>
 File: figures/lxDiff_r.pdf Graphic file (type pdf)
 
 <use figures/lxDiff_r.pdf>
 Package pdftex.def Info: figures/lxDiff_r.pdf used on input line 500.
 (pdftex.def)             Requested size: 397.48499pt x 178.08437pt.
- [75 <./figures/lxDiff_r.pdf>]
-<figures/r_smooth_lx2.pdf, id=1321, 258.85428pt x 205.88509pt>
+ [79 <./figures/lxDiff_r.pdf>]
+<figures/r_smooth_lx2.pdf, id=1333, 258.85428pt x 205.88509pt>
 File: figures/r_smooth_lx2.pdf Graphic file (type pdf)
 
 <use figures/r_smooth_lx2.pdf>
 Package pdftex.def Info: figures/r_smooth_lx2.pdf used on input line 540.
 (pdftex.def)             Requested size: 317.9892pt x 252.92613pt.
- [76] [77 <./figures/r_smooth_lx2.pdf>]
-<figures/AGNFrac_w_lx2.pdf, id=1382, 263.96713pt x 206.88884pt>
+ [80] [81 <./figures/r_smooth_lx2.pdf>]
+<figures/AGNFrac_w_lx2.pdf, id=1395, 263.96713pt x 206.88884pt>
 File: figures/AGNFrac_w_lx2.pdf Graphic file (type pdf)
 
 <use figures/AGNFrac_w_lx2.pdf>
 Package pdftex.def Info: figures/AGNFrac_w_lx2.pdf used on input line 584.
 (pdftex.def)             Requested size: 317.9892pt x 249.2566pt.
- [78] [79 <./figures/AGNFrac_w_lx2.pdf>]
-[80] <figures/lxDiff_cs.pdf, id=1455, 561.24684pt x 375.34552pt>
+ [82] [83 <./figures/AGNFrac_w_lx2.pdf>]
+[84] <figures/lxDiff_cs.pdf, id=1468, 561.24684pt x 375.34552pt>
 File: figures/lxDiff_cs.pdf Graphic file (type pdf)
 
 <use figures/lxDiff_cs.pdf>
 Package pdftex.def Info: figures/lxDiff_cs.pdf used on input line 627.
 (pdftex.def)             Requested size: 397.48499pt x 265.83855pt.
- [81 <./figures/lxDiff_cs.pdf>] [82]
-<figures/met_m.pdf, id=1521, 339.53926pt x 401.1236pt>
+ [85 <./figures/lxDiff_cs.pdf>] [86]
+<figures/met_m.pdf, id=1533, 339.53926pt x 401.1236pt>
 File: figures/met_m.pdf Graphic file (type pdf)
  <use figures/met_m.pdf>
 Package pdftex.def Info: figures/met_m.pdf used on input line 692.
 (pdftex.def)             Requested size: 317.9892pt x 375.66684pt.
 
-[83] [84 <./figures/met_m.pdf>] [85] [86] [87] [88] [89] [90] (./xray.bbl
-[91] [92
+[87] [88 <./figures/met_m.pdf>] [89] [90] [91] [92] [93] [94] (./xray.bbl
+[95] [96
 
-] [93] [94] [95] [96] [97])) [98] [98
+] [97] [98] [99] [100] [101])) [102] [102
 
 
 ] (./masters-thesis.aux
-(./front.aux) (./introduction.aux) (./massSeg.aux) (./xray.aux)) ) 
+(./front.aux) (./introduction.aux) (./massSeg.aux) (./xray.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4592 strings out of 493315
- 62990 string characters out of 6143676
- 135446 words of memory out of 5000000
- 7877 multiletter control sequences out of 15000+600000
+ 4647 strings out of 493315
+ 64047 string characters out of 6143676
+ 137610 words of memory out of 5000000
+ 7932 multiletter control sequences out of 15000+600000
  22511 words of font info for 59 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,8n,30p,1233b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/t
-exmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmssdc10.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
-0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/f
-onts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfb
-x2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr
-/share/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf-di
-st/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/
-public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super
-/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><
-/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texm
-f-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/cm-super/sftt1200.pfb>
-Output written on masters-thesis.pdf (115 pages, 3106563 bytes).
+ 38i,8n,30p,1233b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmssdc10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi120
+0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/f
+onts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfc
+c1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr
+/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-di
+st/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/
+public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super
+/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><
+/usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texm
+f-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on masters-thesis.pdf (119 pages, 3113881 bytes).
 PDF statistics:
- 1715 PDF objects out of 1728 (max. 8388607)
- 658 compressed objects within 7 object streams
+ 1727 PDF objects out of 1728 (max. 8388607)
+ 666 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

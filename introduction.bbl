@@ -1,4 +1,4 @@
-\begin{thebibliography}{102}
+\begin{thebibliography}{116}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abadi} {et~al.}(1999){Abadi}, {Moore}, \& {Bower}}]{abadi1999}
@@ -28,6 +28,15 @@
   {Torki}, M., {Andreescu}, D., {Edmondson}, E.~M., {Miller}, C.~J., {Murray},
   P., {Raddick}, M.~J., \& {Vandenberg}, J. 2009, \mnras, 393, 1324
 
+\bibitem[{{Barnes}(1989)}]{barnes1989}
+{Barnes}, J.~E. 1989, \nat, 338, 123
+
+\bibitem[{{Bekki} \& {Couch}(2011)}]{bekki2011}
+{Bekki}, K. \& {Couch}, W.~J. 2011, \mnras, 415, 1783
+
+\bibitem[{{Birnboim} \& {Dekel}(2003)}]{birnboim2003}
+{Birnboim}, Y. \& {Dekel}, A. 2003, \mnras, 345, 349
+
 \bibitem[{{Biviano} {et~al.}(2002){Biviano}, {Katgert}, {Thomas}, \&
   {Adami}}]{biviano2002}
 {Biviano}, A., {Katgert}, P., {Thomas}, T., \& {Adami}, C. 2002, \aap, 387, 8
@@ -55,6 +64,14 @@
   {Gavazzi}}]{boselli2002}
 {Boselli}, A., {Lequeux}, J., \& {Gavazzi}, G. 2002, \aap, 384, 33
 
+\bibitem[{{Bundy} {et~al.}(2010){Bundy}, {Scarlata}, {Carollo}, {Ellis},
+  {Drory}, {Hopkins}, {Salvato}, {Leauthaud}, {Koekemoer}, {Murray}, {Ilbert},
+  {Oesch}, {Ma}, {Capak}, {Pozzetti}, \& {Scoville}}]{bundy2010}
+{Bundy}, K., {Scarlata}, C., {Carollo}, C.~M., {Ellis}, R.~S., {Drory}, N.,
+  {Hopkins}, P., {Salvato}, M., {Leauthaud}, A., {Koekemoer}, A.~M., {Murray},
+  N., {Ilbert}, O., {Oesch}, P., {Ma}, C.-P., {Capak}, P., {Pozzetti}, L., \&
+  {Scoville}, N. 2010, \apj, 719, 1969
+
 \bibitem[{{Butcher} \& {Oemler}(1978)}]{butcher1978}
 {Butcher}, H. \& {Oemler}, Jr., A. 1978, \apj, 219, 18
 
@@ -67,6 +84,14 @@
 {Carollo}, C.~M., {Cibinel}, A., {Lilly}, S.~J., {Miniati}, F., {Norberg}, P.,
   {Silverman}, J.~D., {van Gorkom}, J., {Cameron}, E., {Finoguenov}, A.,
   {Peng}, Y., {Pipino}, A., \& {Rudick}, C.~S. 2013, \apj, 776, 71
+
+\bibitem[{{Cattaneo} {et~al.}(2006){Cattaneo}, {Dekel}, {Devriendt},
+  {Guiderdoni}, \& {Blaizot}}]{cattaneo2006}
+{Cattaneo}, A., {Dekel}, A., {Devriendt}, J., {Guiderdoni}, B., \& {Blaizot},
+  J. 2006, \mnras, 370, 1651
+
+\bibitem[{{Christlein} \& {Zabludoff}(2004)}]{christlein2004}
+{Christlein}, D. \& {Zabludoff}, A.~I. 2004, \apj, 616, 192
 
 \bibitem[{{Chung} {et~al.}(2009){Chung}, {van Gorkom}, {Kenney}, {Crowl}, \&
   {Vollmer}}]{chung2009}
@@ -136,6 +161,11 @@
 {Ellison}, S.~L., {Patton}, D.~R., {Simard}, L., \& {McConnachie}, A.~W. 2008,
   \aj, 135, 1877
 
+\bibitem[{{Ellison} {et~al.}(2016){Ellison}, {Teimoorinia}, {Rosario}, \&
+  {Mendel}}]{ellison2016}
+{Ellison}, S.~L., {Teimoorinia}, H., {Rosario}, D.~J., \& {Mendel}, J.~T. 2016,
+  \mnras, 458, L34
+
 \bibitem[{{Erfanianfar} {et~al.}(2016){Erfanianfar}, {Popesso}, {Finoguenov},
   {Wilman}, {Wuyts}, {Biviano}, {Salvato}, {Mirkazemi}, {Morselli}, {Ziparo},
   {Nandra}, {Lutz}, {Elbaz}, {Dickinson}, {Tanaka}, {Altieri}, {Aussel},
@@ -171,6 +201,9 @@
 {Fumagalli}, M., {Krumholz}, M.~R., {Prochaska}, J.~X., {Gavazzi}, G., \&
   {Boselli}, A. 2009, \apj, 697, 1811
 
+\bibitem[{{Gabor} \& {Dav{\'e}}(2015)}]{gabor2015}
+{Gabor}, J.~M. \& {Dav{\'e}}, R. 2015, \mnras, 447, 374
+
 \bibitem[{{Geller} \& {Huchra}(1983)}]{geller1983}
 {Geller}, M.~J. \& {Huchra}, J.~P. 1983, \apjs, 52, 61
 
@@ -205,6 +238,12 @@
 
 \bibitem[{{Gunn} \& {Gott}(1972)}]{gunn1972}
 {Gunn}, J.~E. \& {Gott}, III, J.~R. 1972, \apj, 176, 1
+
+\bibitem[{{G{\"u}rkan} {et~al.}(2015){G{\"u}rkan}, {Hardcastle}, {Jarvis},
+  {Smith}, {Bourne}, {Dunne}, {Maddox}, {Ivison}, \& {Fritz}}]{gurkan2015}
+{G{\"u}rkan}, G., {Hardcastle}, M.~J., {Jarvis}, M.~J., {Smith}, D.~J.~B.,
+  {Bourne}, N., {Dunne}, L., {Maddox}, S., {Ivison}, R.~J., \& {Fritz}, J.
+  2015, \mnras, 452, 3776
 
 \bibitem[{{Haines} {et~al.}(2015){Haines}, {Pereira}, {Smith}, {Egami},
   {Babul}, {Finoguenov}, {Ziparo}, {McGee}, {Rawle}, {Okabe}, \&
@@ -262,6 +301,20 @@
 {Kimm}, T., {Somerville}, R.~S., {Yi}, S.~K., {van den Bosch}, F.~C., {Salim},
   S., {Fontanot}, F., {Monaco}, P., {Mo}, H., {Pasquali}, A., {Rich}, R.~M., \&
   {Yang}, X. 2009, \mnras, 394, 1131
+
+\bibitem[{{Lanzuisi} {et~al.}(2015){Lanzuisi}, {Ranalli}, {Georgantopoulos},
+  {Georgakakis}, {Delvecchio}, {Akylas}, {Berta}, {Bongiorno}, {Brusa},
+  {Cappelluti}, {Civano}, {Comastri}, {Gilli}, {Gruppioni}, {Hasinger},
+  {Iwasawa}, {Koekemoer}, {Lusso}, {Marchesi}, {Mainieri}, {Merloni},
+  {Mignoli}, {Piconcelli}, {Pozzi}, {Rosario}, {Salvato}, {Silverman},
+  {Trakhtenbrot}, {Vignali}, \& {Zamorani}}]{lanzuisi2015}
+{Lanzuisi}, G., {Ranalli}, P., {Georgantopoulos}, I., {Georgakakis}, A.,
+  {Delvecchio}, I., {Akylas}, T., {Berta}, S., {Bongiorno}, A., {Brusa}, M.,
+  {Cappelluti}, N., {Civano}, F., {Comastri}, A., {Gilli}, R., {Gruppioni}, C.,
+  {Hasinger}, G., {Iwasawa}, K., {Koekemoer}, A., {Lusso}, E., {Marchesi}, S.,
+  {Mainieri}, V., {Merloni}, A., {Mignoli}, M., {Piconcelli}, E., {Pozzi}, F.,
+  {Rosario}, D.~J., {Salvato}, M., {Silverman}, J., {Trakhtenbrot}, B.,
+  {Vignali}, C., \& {Zamorani}, G. 2015, \aap, 573, A137
 
 \bibitem[{{Larson} {et~al.}(1980){Larson}, {Tinsley}, \&
   {Caldwell}}]{larson1980}
@@ -336,6 +389,15 @@ Mamon, G. 2007, Groups of Galaxies in the Nearby Universe: Proceedings of the
   {Oemler}}]{moore1996}
 {Moore}, B., {Katz}, N., {Lake}, G., {Dressler}, A., \& {Oemler}, A. 1996,
   \nat, 379, 613
+
+\bibitem[{{Mullaney} {et~al.}(2015){Mullaney}, {Alexander}, {Aird}, {Bernhard},
+  {Daddi}, {Del Moro}, {Dickinson}, {Elbaz}, {Harrison}, {Juneau}, {Liu},
+  {Pannella}, {Rosario}, {Santini}, {Sargent}, {Schreiber}, {Simpson}, \&
+  {Stanley}}]{mullaney2015}
+{Mullaney}, J.~R., {Alexander}, D.~M., {Aird}, J., {Bernhard}, E., {Daddi}, E.,
+  {Del Moro}, A., {Dickinson}, M., {Elbaz}, D., {Harrison}, C.~M., {Juneau},
+  S., {Liu}, D., {Pannella}, M., {Rosario}, D., {Santini}, P., {Sargent}, M.,
+  {Schreiber}, C., {Simpson}, J., \& {Stanley}, F. 2015, \mnras, 453, L83
 
 \bibitem[{{Muzzin} {et~al.}(2014){Muzzin}, {van der Burg}, {McGee}, {Balogh},
   {Franx}, {Hoekstra}, {Hudson}, {Noble}, {Taranu}, {Webb}, {Wilson}, \&
@@ -464,6 +526,31 @@ Mamon, G. 2007, Groups of Galaxies in the Nearby Universe: Proceedings of the
 \bibitem[{{Roediger} \& {Hensler}(2005)}]{roediger2005}
 {Roediger}, E. \& {Hensler}, G. 2005, \aap, 433, 875
 
+\bibitem[{{Santini} {et~al.}(2012){Santini}, {Rosario}, {Shao}, {Lutz},
+  {Maiolino}, {Alexander}, {Altieri}, {Andreani}, {Aussel}, {Bauer}, {Berta},
+  {Bongiovanni}, {Brandt}, {Brusa}, {Cepa}, {Cimatti}, {Daddi}, {Elbaz},
+  {Fontana}, {F{\"o}rster Schreiber}, {Genzel}, {Grazian}, {Le Floc'h},
+  {Magnelli}, {Mainieri}, {Nordon}, {P{\'e}rez Garcia}, {Poglitsch}, {Popesso},
+  {Pozzi}, {Riguccini}, {Rodighiero}, {Salvato}, {Sanchez-Portal}, {Sturm},
+  {Tacconi}, {Valtchanov}, \& {Wuyts}}]{santini2012}
+{Santini}, P., {Rosario}, D.~J., {Shao}, L., {Lutz}, D., {Maiolino}, R.,
+  {Alexander}, D.~M., {Altieri}, B., {Andreani}, P., {Aussel}, H., {Bauer},
+  F.~E., {Berta}, S., {Bongiovanni}, A., {Brandt}, W.~N., {Brusa}, M., {Cepa},
+  J., {Cimatti}, A., {Daddi}, E., {Elbaz}, D., {Fontana}, A., {F{\"o}rster
+  Schreiber}, N.~M., {Genzel}, R., {Grazian}, A., {Le Floc'h}, E., {Magnelli},
+  B., {Mainieri}, V., {Nordon}, R., {P{\'e}rez Garcia}, A.~M., {Poglitsch}, A.,
+  {Popesso}, P., {Pozzi}, F., {Riguccini}, L., {Rodighiero}, G., {Salvato}, M.,
+  {Sanchez-Portal}, M., {Sturm}, E., {Tacconi}, L.~J., {Valtchanov}, I., \&
+  {Wuyts}, S. 2012, \aap, 540, A109
+
+\bibitem[{{Schawinski} {et~al.}(2014){Schawinski}, {Urry}, {Simmons},
+  {Fortson}, {Kaviraj}, {Keel}, {Lintott}, {Masters}, {Nichol}, {Sarzi},
+  {Skibba}, {Treister}, {Willett}, {Wong}, \& {Yi}}]{schawinski2014}
+{Schawinski}, K., {Urry}, C.~M., {Simmons}, B.~D., {Fortson}, L., {Kaviraj},
+  S., {Keel}, W.~C., {Lintott}, C.~J., {Masters}, K.~L., {Nichol}, R.~C.,
+  {Sarzi}, M., {Skibba}, R., {Treister}, E., {Willett}, K.~W., {Wong}, O.~I.,
+  \& {Yi}, S.~K. 2014, \mnras, 440, 889
+
 \bibitem[{{Sersic}(1968)}]{sersic1968}
 {Sersic}, J.~L. 1968, {Atlas de galaxias australes} (Observatorio Astronomico,
   Universidad Nacional de Cordoba)
@@ -482,6 +569,12 @@ Mamon, G. 2007, Groups of Galaxies in the Nearby Universe: Proceedings of the
   {Robertson}, \& {Hernquist}}]{somerville2008}
 {Somerville}, R.~S., {Hopkins}, P.~F., {Cox}, T.~J., {Robertson}, B.~E., \&
   {Hernquist}, L. 2008, \mnras, 391, 481
+
+\bibitem[{{Stanley} {et~al.}(2015){Stanley}, {Harrison}, {Alexander},
+  {Swinbank}, {Aird}, {Del Moro}, {Hickox}, \& {Mullaney}}]{stanley2015}
+{Stanley}, F., {Harrison}, C.~M., {Alexander}, D.~M., {Swinbank}, A.~M.,
+  {Aird}, J.~A., {Del Moro}, A., {Hickox}, R.~C., \& {Mullaney}, J.~R. 2015,
+  \mnras, 453, 591
 
 \bibitem[{{Steinhauser} {et~al.}(2016){Steinhauser}, {Schindler}, \&
   {Springel}}]{steinhauser2016}
