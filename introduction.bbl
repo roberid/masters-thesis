@@ -1,4 +1,4 @@
-\begin{thebibliography}{116}
+\begin{thebibliography}{129}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abadi} {et~al.}(1999){Abadi}, {Moore}, \& {Bower}}]{abadi1999}
@@ -8,6 +8,11 @@
   {Nichol}, {Bamford}, \& {Budavari}}]{baldry2006}
 {Baldry}, I.~K., {Balogh}, M.~L., {Bower}, R.~G., {Glazebrook}, K., {Nichol},
   R.~C., {Bamford}, S.~P., \& {Budavari}, T. 2006, \mnras, 373, 469
+
+\bibitem[{{Balogh} {et~al.}(2002{\natexlab{a}}){Balogh}, {Bower}, {Smail},
+  {Ziegler}, {Davies}, {Gaztelu}, \& {Fritz}}]{balogh2002a}
+{Balogh}, M., {Bower}, R.~G., {Smail}, I., {Ziegler}, B.~L., {Davies}, R.~L.,
+  {Gaztelu}, A., \& {Fritz}, A. 2002{\natexlab{a}}, \mnras, 337, 256
 
 \bibitem[{{Balogh} {et~al.}(2004){Balogh}, {Baldry}, {Nichol}, {Miller},
   {Bower}, \& {Glazebrook}}]{balogh2004}
@@ -19,6 +24,12 @@
 
 \bibitem[{{Balogh} {et~al.}(2000){Balogh}, {Navarro}, \& {Morris}}]{balogh2000}
 {Balogh}, M.~L., {Navarro}, J.~F., \& {Morris}, S.~L. 2000, \apj, 540, 113
+
+\bibitem[{{Balogh} {et~al.}(2002{\natexlab{b}}){Balogh}, {Smail}, {Bower},
+  {Ziegler}, {Smith}, {Davies}, {Gaztelu}, {Kneib}, \& {Ebeling}}]{balogh2002b}
+{Balogh}, M.~L., {Smail}, I., {Bower}, R.~G., {Ziegler}, B.~L., {Smith}, G.~P.,
+  {Davies}, R.~L., {Gaztelu}, A., {Kneib}, J.-P., \& {Ebeling}, H.
+  2002{\natexlab{b}}, \apj, 566, 123
 
 \bibitem[{{Bamford} {et~al.}(2009){Bamford}, {Nichol}, {Baldry}, {Land},
   {Lintott}, {Schawinski}, {Slosar}, {Szalay}, {Thomas}, {Torki}, {Andreescu},
@@ -180,6 +191,11 @@
   {Ilbert}, O., {Le Floch}, E., {Magnelli}, B., {Mulchaey}, J.~S., {Nordon},
   R., {Newman}, J.~A., {Poglitsch}, A., \& {Pozzi}, F. 2016, \mnras, 455, 2839
 
+\bibitem[{{Fairley} {et~al.}(2002){Fairley}, {Jones}, {Wake}, {Collins},
+  {Burke}, {Nichol}, \& {Romer}}]{fairley2002}
+{Fairley}, B.~W., {Jones}, L.~R., {Wake}, D.~A., {Collins}, C.~A., {Burke},
+  D.~J., {Nichol}, R.~C., \& {Romer}, A.~K. 2002, \mnras, 330, 755
+
 \bibitem[{{Fasano} {et~al.}(2015){Fasano}, {Poggianti}, {Bettoni}, {D'Onofrio},
   {Dressler}, {Vulcani}, {Moretti}, {Gullieuszik}, {Fritz}, {Omizzolo}, {Cava},
   {Couch}, {Ramella}, \& {Biviano}}]{fasano2015}
@@ -263,14 +279,25 @@
 \bibitem[{{Hickson}(1982)}]{hickson1982}
 {Hickson}, P. 1982, \apj, 255, 382
 
+\bibitem[{{Hinshaw} {et~al.}(2003){Hinshaw}, {Spergel}, {Verde}, {Hill},
+  {Meyer}, {Barnes}, {Bennett}, {Halpern}, {Jarosik}, {Kogut}, {Komatsu},
+  {Limon}, {Page}, {Tucker}, {Weiland}, {Wollack}, \& {Wright}}]{hinshaw2003}
+{Hinshaw}, G., {Spergel}, D.~N., {Verde}, L., {Hill}, R.~S., {Meyer}, S.~S.,
+  {Barnes}, C., {Bennett}, C.~L., {Halpern}, M., {Jarosik}, N., {Kogut}, A.,
+  {Komatsu}, E., {Limon}, M., {Page}, L., {Tucker}, G.~S., {Weiland}, J.~L.,
+  {Wollack}, E., \& {Wright}, E.~L. 2003, \apjs, 148, 135
+
 \bibitem[{{Hou} {et~al.}(2013){Hou}, {Parker}, {Balogh}, {McGee}, {Wilman},
   {Connelly}, {Harris}, {Mok}, {Mulchaey}, {Bower}, \& {Finoguenov}}]{hou2013}
 {Hou}, A., {Parker}, L.~C., {Balogh}, M.~L., {McGee}, S.~L., {Wilman}, D.~J.,
   {Connelly}, J.~L., {Harris}, W.~E., {Mok}, A., {Mulchaey}, J.~S., {Bower},
   R.~G., \& {Finoguenov}, A. 2013, \mnras, 435, 1715
 
+\bibitem[{{Hubble}(1925)}]{hubble1925}
+{Hubble}, E.~P. 1925, Popular Astronomy, 33
+
 \bibitem[{{Hubble}(1926)}]{hubble1926}
-{Hubble}, E.~P. 1926, \apj, 64
+---. 1926, \apj, 64
 
 \bibitem[{{Huchra} \& {Geller}(1982)}]{huchra1982}
 {Huchra}, J.~P. \& {Geller}, M.~J. 1982, \apj, 257, 423
@@ -343,6 +370,10 @@
 {Loh}, Y.-S., {Ellingson}, E., {Yee}, H.~K.~C., {Gilbank}, D.~G., {Gladders},
   M.~D., \& {Barrientos}, L.~F. 2008, \apj, 680, 214
 
+\bibitem[{{Lopes} {et~al.}(2014){Lopes}, {Ribeiro}, \& {Rembold}}]{lopes2014}
+{Lopes}, P.~A.~A., {Ribeiro}, A.~L.~B., \& {Rembold}, S.~B. 2014, \mnras, 437,
+  2430
+
 \bibitem[{{Lotz} {et~al.}(2011){Lotz}, {Jonsson}, {Cox}, {Croton}, {Primack},
   {Somerville}, \& {Stewart}}]{lotz2011}
 {Lotz}, J.~M., {Jonsson}, P., {Cox}, T.~J., {Croton}, D., {Primack}, J.~R.,
@@ -368,6 +399,17 @@ Mamon, G. 2007, Groups of Galaxies in the Nearby Universe: Proceedings of the
   {Coil}}]{marinoni2002}
 {Marinoni}, C., {Davis}, M., {Newman}, J.~A., \& {Coil}, A.~L. 2002, \apj, 580,
   122
+
+\bibitem[{{Mather} {et~al.}(1990){Mather}, {Cheng}, {Eplee}, {Isaacman},
+  {Meyer}, {Shafer}, {Weiss}, {Wright}, {Bennett}, {Boggess}, {Dwek}, {Gulkis},
+  {Hauser}, {Janssen}, {Kelsall}, {Lubin}, {Moseley}, {Murdock}, {Silverberg},
+  {Smoot}, \& {Wilkinson}}]{mather1990}
+{Mather}, J.~C., {Cheng}, E.~S., {Eplee}, Jr., R.~E., {Isaacman}, R.~B.,
+  {Meyer}, S.~S., {Shafer}, R.~A., {Weiss}, R., {Wright}, E.~L., {Bennett},
+  C.~L., {Boggess}, N.~W., {Dwek}, E., {Gulkis}, S., {Hauser}, M.~G.,
+  {Janssen}, M., {Kelsall}, T., {Lubin}, P.~M., {Moseley}, Jr., S.~H.,
+  {Murdock}, T.~L., {Silverberg}, R.~F., {Smoot}, G.~F., \& {Wilkinson}, D.~T.
+  1990, \apjl, 354, L37
 
 \bibitem[{{McConnachie} {et~al.}(2009){McConnachie}, {Patton}, {Ellison}, \&
   {Simard}}]{mcconnachie2009}
@@ -430,6 +472,9 @@ Mamon, G. 2007, Groups of Galaxies in the Nearby Universe: Proceedings of the
   {Padgett}, D., {Polletta}, M., {Rowan-Robinson}, M., {Siana}, B., {Smith},
   H.~E., {Surace}, J.~A., \& {Vaccari}, M. 2010, \mnras, 405, 2279
 
+\bibitem[{{Opik}(1922)}]{opik1922}
+{Opik}, E. 1922, \apj, 55
+
 \bibitem[{{Peng} {et~al.}(2015){Peng}, {Maiolino}, \& {Cochrane}}]{peng2015}
 {Peng}, Y., {Maiolino}, R., \& {Cochrane}, R. 2015, \nat, 521, 192
 
@@ -458,6 +503,16 @@ Mamon, G. 2007, Groups of Galaxies in the Nearby Universe: Proceedings of the
   {Koekemoer}, A., {Leauthaud}, A., {Maccagni}, D., {Marinoni}, C.,
   {McCracken}, H., {Memeo}, P., {Meneux}, B., {Nair}, P., {Porciani}, C.,
   {Presotto}, V., \& {Scaramella}, R. 2010, \apj, 721, 193
+
+\bibitem[{{Penzias} \& {Wilson}(1965)}]{penzias1965}
+{Penzias}, A.~A. \& {Wilson}, R.~W. 1965, \apj, 142, 419
+
+\bibitem[{{Planck Collaboration} {et~al.}(2014){Planck Collaboration}, {Ade},
+  {Aghanim}, {Armitage-Caplan}, {Arnaud}, {Ashdown}, {Atrio-Barandela},
+  {Aumont}, {Baccigalupi}, {Banday}, \& et~al.}]{planck2014}
+{Planck Collaboration}, {Ade}, P.~A.~R., {Aghanim}, N., {Armitage-Caplan}, C.,
+  {Arnaud}, M., {Ashdown}, M., {Atrio-Barandela}, F., {Aumont}, J.,
+  {Baccigalupi}, C., {Banday}, A.~J., \& et~al. 2014, \aap, 571, A16
 
 \bibitem[{{Postman} {et~al.}(2005){Postman}, {Franx}, {Cross}, {Holden},
   {Ford}, {Illingworth}, {Goto}, {Demarco}, {Rosati}, {Blakeslee}, {Tran},
@@ -495,6 +550,9 @@ Mamon, G. 2007, Groups of Galaxies in the Nearby Universe: Proceedings of the
 
 \bibitem[{{Press} \& {Davis}(1982)}]{press1982}
 {Press}, W.~H. \& {Davis}, M. 1982, \apj, 259, 449
+
+\bibitem[{{Press} \& {Schechter}(1974)}]{press1974}
+{Press}, W.~H. \& {Schechter}, P. 1974, \apj, 187, 425
 
 \bibitem[{{Quilis} {et~al.}(2000){Quilis}, {Moore}, \& {Bower}}]{quilis2000}
 {Quilis}, V., {Moore}, B., \& {Bower}, R. 2000, Science, 288, 1617
@@ -597,6 +655,17 @@ Mamon, G. 2007, Groups of Galaxies in the Nearby Universe: Proceedings of the
 
 \bibitem[{{van der Wel}(2008)}]{vanderwel2008}
 {van der Wel}, A. 2008, \apjl, 675, L13
+
+\bibitem[{{Wake} {et~al.}(2005){Wake}, {Collins}, {Nichol}, {Jones}, \&
+  {Burke}}]{wake2005}
+{Wake}, D.~A., {Collins}, C.~A., {Nichol}, R.~C., {Jones}, L.~R., \& {Burke},
+  D.~J. 2005, \apj, 627, 186
+
+\bibitem[{{Wang} {et~al.}(2014){Wang}, {Yang}, {Shen}, {Mo}, {van den Bosch},
+  {Luo}, {Wang}, {Lau}, {Wang}, {Kang}, \& {Li}}]{wang2014}
+{Wang}, L., {Yang}, X., {Shen}, S., {Mo}, H.~J., {van den Bosch}, F.~C., {Luo},
+  W., {Wang}, Y., {Lau}, E.~T., {Wang}, Q.~D., {Kang}, X., \& {Li}, R. 2014,
+  \mnras, 439, 611
 
 \bibitem[{{Wetzel} {et~al.}(2012){Wetzel}, {Tinker}, \& {Conroy}}]{wetzel2012}
 {Wetzel}, A.~R., {Tinker}, J.~L., \& {Conroy}, C. 2012, \mnras, 424, 232
