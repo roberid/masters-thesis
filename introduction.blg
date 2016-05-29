@@ -1,48 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Mageia)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: introduction.aux
 The style file: apj.bst
 Database file #1: masters-thesis.bib
 Warning--can't use both author and editor fields in mamon2007
-You've used 129 entries,
+You've used 144 entries,
             2948 wiz_defined-function locations,
-            1343 strings with 36449 characters,
-and the built_in function-call counts, 83828 in all, are:
-= -- 6205
-> -- 8386
-< -- 32
-+ -- 3090
-- -- 2958
-* -- 8413
-:= -- 16225
-add.period$ -- 129
-call.type$ -- 129
-change.case$ -- 1501
-chr.to.int$ -- 126
-cite$ -- 130
-duplicate$ -- 2431
-empty$ -- 3492
-format.name$ -- 3370
-if$ -- 15400
+            1413 strings with 44301 characters,
+and the built_in function-call counts, 103405 in all, are:
+= -- 7371
+> -- 11146
+< -- 34
++ -- 4119
+- -- 3972
+* -- 10736
+:= -- 20125
+add.period$ -- 144
+call.type$ -- 144
+change.case$ -- 1899
+chr.to.int$ -- 141
+cite$ -- 145
+duplicate$ -- 2712
+empty$ -- 3900
+format.name$ -- 4425
+if$ -- 18755
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 129
-newline$ -- 391
-num.names$ -- 517
-pop$ -- 1594
+missing$ -- 144
+newline$ -- 436
+num.names$ -- 577
+pop$ -- 1999
 preamble$ -- 1
-purify$ -- 1501
+purify$ -- 1899
 quote$ -- 0
-skip$ -- 2011
+skip$ -- 2245
 stack$ -- 0
-substring$ -- 2690
+substring$ -- 3014
 swap$ -- 15
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1155
+type$ -- 1290
 warning$ -- 1
-while$ -- 511
+while$ -- 571
 width$ -- 0
-write$ -- 1290
+write$ -- 1440
 (There was 1 warning)

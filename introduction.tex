@@ -31,8 +31,8 @@ and subsequent evolution of these objects.
 A breakthrough in the understanding of the origin of galaxies came
 with the discovery of the cosmic microwave background radiation (CMB;
 \citealt{penzias1965}) and the subsequent measurement of the detailed
-power spectrum (COBE; \citealt{mather1990}, WMAP;
-\citealt{hinshaw2003}, Planck; \citealt{planck2014}).  With the
+power spectrum (COBE: \citealt{mather1990}, WMAP:
+\citealt{hinshaw2003}, Planck: \citealt{planck2014}).  With the
 emergent picture being one where primordial density fluctuations
 imprinted on the CMB from the early Universe provide the seeds from
 which structure, and eventually galaxies, grow.  The growth of the
@@ -46,7 +46,7 @@ virialize.  Structure in the Universe is then built up in a
 then able to merge and coalesce to form larger galaxies, galaxy
 groups, and clusters.  Insight into the structure of the Universe on
 the largest scales has been ascertained from N-body, dark matter only
-simulations \textbf{(REF, millenium, bolshoi)}.  These simulations
+simulations \citep{springel2005, klypin2011}.  These simulations
 have shown that the structure of the Universe on large scales is one
 of filaments and voids.  Galaxies tend to distribute along large
 filaments, and galaxy clusters and superclusters are found where
@@ -56,19 +56,21 @@ on large scales both observationally from the Sloan Digital Sky
 Survey, as well as from the Bolshoi simulation.
 \par
 With the onset of large redshift surveys of galaxies, such as the 2dF
-Galaxy Redshift Survey \textbf{(REF)} and the Sloan Digital Sky Survey
-\textbf{(REF)} in the local Universe as well as the COSMOS
-\textbf{(REF)} and GEEC/GEEC2 \textbf{(REF)} surveys at higher
+Galaxy Redshift Survey \citep{folkes1999} and the Sloan Digital Sky Survey
+\citep{york2000} in the local Universe as well as the COSMOS
+\citep{scoville2007} and GEEC/GEEC2 \citep{wilman2005, balogh2011} surveys at higher
 redshift, the evolution of galaxy properties across different
 environments as well as cosmic time has been successfully probed.
 Seminal papers from the past 40 years have shown that the population
 of red, passive, early-type galaxies has increased substantially over
-the past $\sim\!10$ billion years \textbf{(REF, BO)}, and additionally
+the past $\sim\!10$ billion years \citep{butcher1978}, and additionally
 that these ``red and dead'' galaxies are preferentially found in dense
-environments as opposed to the isolated field \textbf{(REF, MD)}.
-These observed trends have been confirmed by many more recent studies \textbf{(REF)},
+environments as opposed to the isolated field \citep{dressler1980}.
+These observed trends have been confirmed by many more recent studies \citep{ellingson2001, loh2008, urquhart2010} \textbf{(ADD RECENT MD REFS)},
 however the balance between different mechanisms affecting galaxies in
 different environments which are driving these trends is still not well understood.
+\par
+In the broadest sense, this thesis aims to further the understanding of the effects of different environments on galaxies, particularly within the group regime.  By studying galaxy properties across different halo environments, as well as different environments within a given halo, I look to further elucidate which mechanisms are efficient in which environments and thereby extending our knowlege regarding galaxy evolution.
 
 \section{Galaxy properties}
 \label{sec:gal_properties}
@@ -100,7 +102,7 @@ distributions of galaxy populations to be well fit by a
 double-Gaussian across many environments \citep{balogh2004,
   baldry2006}.  The two
 components of the double-Gaussian fit are referred to as the `red
-sequence' and the `blue cloud'.  In Fig.~\ref{fig:gr_dist} I show the
+sequence' and the `blue cloud'.  In Fig.~\ref{fig:gr_dist}, I show the
 $g-r$ colour distribution for a sample of low-redshift ($z < 0.05$)
 SDSS group galaxies, and a double-Gaussian fit (black) as well as the
 two components corresponding to the blue cloud and the red sequence.
@@ -166,10 +168,7 @@ to elliptical and S0 galaxies as ``early-types'' and spiral galaxies
 as ``late-types'', due to their positions on the tuning fork diagram.
 It is however important to note that this nomenclature refers solely
 to the position on the diagram and is agnostic to evolutionary
-theories\footnote{Though not always given credit, Hubble was
-  very clear on this point stating that the classification was made
-  ``without prejudice to theories of evolution'', and that ``temporal
-  connotations are made at one's peril''}.
+theories.
 \par
 The first technique used to determine galaxy morphologies was visual
 classifications \textbf{(REF)}.  Visual classifications are able to
@@ -179,9 +178,7 @@ made it difficult to apply to large data sets.  That being said, the
 onset of citizen science programs such as the Galaxy
 Zoo\footnote{https://www.galaxyzoo.org} \citep{lintott2008} have made
 the application of visual classifications to large data sets
-increasingly feasible.
-\par
-Modern automated techniques often rely on photometric measurements of 
+increasingly feasible.  Modern automated techniques often rely on photometric measurements of 
 light profiles of a galaxies to classify morphology.  In particular, two
 main measures known as the single \ser index ($n$), and the
 bulge-to-total ratio ($B/T$) are commonly used to quantitatively determine
@@ -199,8 +196,8 @@ galaxy as a function of radius is given by
 \noindent
 where $r_e$ is the effective radius which encloses half of the total
 light, $I_e$ is the intensity at the effective radius, and $k$ is a
-normalization factor which depends on the S{\'e}rsic index $n$.  In
-general, the S{\'e}rsic index runs between $1 \le n \le 8$.  Disc
+normalization factor which depends on the \ser index, $n$.  In
+general, the \ser index runs between $1 \le n \le 8$.  Disc
 dominated, spiral galaxies have light profiles which are well fit by a
 \ser index of $n \lesssim 2$, with the special case of a purely
 exponential disc being given by $n=1$.  Elliptical galaxies have more
@@ -262,10 +259,9 @@ is the fact that the existance of large amounts of interstellar dust
 causes galaxies to be relatively opaque to UV photons.  In fact,
 approximately half the emission from stars in the Universe is absorbed
 and re-emitted by dust in the infrared \citep{kennicutt2012}.
-The leads to IR continuum emission from dust being a useful probe of
+This leads to IR continuum emission from dust being a useful probe of
 galaxy SFRs.  As mentioned previously, both UV and IR continuum
-luminosities can be converted to SFRs using wavelength-dependent
-conversion factors.
+luminosities can be converted to SFRs using wavelength-dependent conversion factors, and often UV and IR observations will be used complementary to account for both obscured and unobscured star formation.
 \par
 In addition to continuum emission, emission line strengths can also be
 used as star formation indicators, with the $\mathrm{H}\alpha$ line
@@ -369,7 +365,7 @@ significant numbers of different galaxy types are present
 While no strict definition exists for what constitutes a galaxy
 group, historically haloes referred to as groups have properties
 (e.g.\ halo mass, galaxy membership, velocity dispersion, virial
-radius, etc.) which lie within broadly defined (albiet, somewhat
+radius) which lie within broadly defined (albiet, somewhat
 arbitrary) ranges.  Generally
 speaking, a galaxy group is a collection of galaxies embedded within a
 dark matter halo which satisfy the following criteria
@@ -505,7 +501,7 @@ part of the blue cloud or evolving quiescently on the red sequence.  A
 question which has had much attention devoted to it is determining
 what are the dominant mechanism(s) which are shutting down star
 formation in galaxies.  In particular, it has been argued that there
-are to main classes of SFR quenching occuring in the Universe: secular
+are two main classes of SFR quenching occuring in the Universe: secular
 or mass-quenching, and environmental quenching.  The dichotomy between
 these two quenching modes is outlined in detail by \citet{peng2010},
 where they conclude that low-mass ($\lesssim \! 10^{10.5}\Msun$)
@@ -523,7 +519,7 @@ A straight forward way to quench the star formation of a galaxy
 is to directly remove the cold gas reserves from the disc.  A commonly invoked
 mechanism to achieve this is the ram pressure stripping of cold gas by the
 intracluster medium (ICM).  Galaxies will feel a ram pressure force as
-they move through the ICM and if this force is enough to overcome to
+they move through the ICM and if this force is enough to overcome the
 galaxy's gravitational potential then gas can be stripped from the
 disc.  The ram pressure felt by a galaxy scales with the density of
 the ICM as well as the square of the galaxy velocity relative to the ICM,
@@ -531,7 +527,7 @@ $P_{RP} \propto \rho v^2$ \citep{gunn1972}, and therefore should be
 most effective in the cores of high-mass clusters where both densities
 and galaxy velocities are high.  One of the characteristic
 features of ram pressure stripping is the rapid timescales over which
-it is able to quench star formation, if ram pressure stripping is
+it is able to quench star formation.  If ram pressure stripping is
 acting efficiently then cold gas can be removed in $\lesssim
 \! 1\,\mathrm{Gyr}$ \citep{abadi1999, quilis2000, roediger2005,
   steinhauser2016}.  Studies which require short
@@ -548,8 +544,7 @@ ram pressure stripping appears to have a measureable affect on atomic
 hydrogen (at least in high-mass clusters), how
 effectively it can remove molecular hydrogen from the disc is still a
 debated question \citep{boselli2002, boselli2006, fumagalli2009,
-  sivanandam2014} \newline
-
+  sivanandam2014} \vspace{1em} \newline
 \noindent \textit{\textbf{Starvation}}
 \smallskip
 \newline
@@ -583,8 +578,7 @@ the population of star-forming galaxies.  Peng et al. argue that this
 serves as a method to distinguish between starvation and ram pressure
 stripping, as due to the rapid nature of ram pressure stripping, the
 metallicity difference between star-forming and passive galaxies would
-not be expected.\newline  
-
+not be expected.\vspace{1em} \newline  
 \noindent \textit{\textbf{Galaxy interactions}}
 \smallskip
 \newline
@@ -603,7 +597,7 @@ decreasing seperation, consistent with interaction induced starbursts
 primary galaxy \citep[e.g.][]{mihos1994a}, and seeing as minor mergers
 are significantly more common than major mergers \citep{lotz2011},
 this plays a potentially important role in transforming galaxies.
-Observations of galaxies in minor pair haves shown that star formation
+Observations of galaxies in minor pairs have shown that star formation
 in enhanced in the higher mass primary, but suppressed in the
 secondary galaxy \citep{davies2015}.  As opposed to galaxy mergers,
 impulsive interactions are high-speed close encounters between
@@ -660,7 +654,7 @@ star-forming
 galaxies tend to show late-type morphologies and passive galaxies are
 preferentially early-type.  Therefore it is important to try to
 understand how the quenching mechanisms discussed in
-Section~\ref{sec:sfr_quench}.  Specifically, whether or not the same
+Section~\ref{sec:sfr_quench} affect morphology.  Specifically, whether or not the same
 mechanisms which shut off star formation also drive morphological
 evolution.  Taking the B/T as a proxy for the morphology of a galaxy,
 there are two ways in which morphologies can evolve to earlier types.
@@ -708,10 +702,10 @@ spanned.  From $\sim\! 10^{12}\Msun$ for low-mass groups, up to
 $\gtrsim\! 10^{15}\Msun$ for rich clusters of galaxies.  The
 properties of galaxies in these groups and clusters seem to depend on
 their host halo mass, although their is still debate as to how strong
-of an affect that this is.  For example,
+of an affect that this is \textbf{(REF)}.  For example,
 Fig.~\ref{fig:quenchFrac_wetzel}, taken from \citet{wetzel2012}, shows
 that galaxies in high-mass haloes tend to have large quenched
-fractions, in particular for low-mass galaxies.  Other studies have
+fractions, in particular for low-mass galaxies, when compared to galaxies in lower mass haloes at the same stellar mass.  Other studies have
 also found that color and morphology correlate with halo mass
 \citep[e.g.][]{kimm2009, wilman2012}, with galaxies in high mass
 haloes tending to be red and early-type.
@@ -754,8 +748,7 @@ these subclasses they are a part of.  For instance, infalling galaxies
 have been shown to have enhanced star formation rates \citep{noble2016}, post-starburst galaxies preferentially reside in
 intermediate regions of phase space \citep{muzzin2014}, as well
 backsplash galaxies should have lower masses due to tidal mass loss
-during pericentric passage \citep{gill2005}. \newline
-
+during pericentric passage \citep{gill2005}. \vspace{1em} \newline
 \noindent \textit{\textbf{Mass segregation}}
 \smallskip
 \newline
@@ -763,8 +756,7 @@ Another important radial measure of galaxy properties in groups is
 mass segregation.  A galaxy group showing strong mass segregation will
 show a radial gradient in galaxy mass, where the most massive galaxies
 are concentrated in the inner region of the halo.  Mass segregation is
-often predicted as a result of dynamical friction \textbf{(REF,
-  CHANDRA)}, where the drag force associated with dynamical friction
+often predicted as a result of dynamical friction \citep{chandrasekhar1943}, where the drag force associated with dynamical friction
 will act most strongly on high-mass galaxies, thereby driving them to
 low radii.  It is very important to study the distribution of galaxy
 mass within haloes in order to determine whether the large populations
@@ -774,7 +766,7 @@ galaxies being preferentially found within the inner regions of the
 halo.  Previous studies have attempted to elucidate the importance of
 mass segregation in groups and clusters, however no clear consensus
 exists, with some recent studies finding evidence for significant mass
-segregation \citep{vandenbosch2008a, presotto2012, balogh2014}  
+segregation \citep{vandenbosch2008a, presotto2012, balogh2014} and others finding no strong evidence for a radial gradient in galaxy mass \citep{vonderlinden2010, vulcani2013, ziparo2013}.  The first aspect of this thesis is investigating the presence, or lackthereof, of mass segregation in SDSS groups attempting to explain some of the contradictory results in the recent literature.  In particular I look to determine the strength of mass segregation in SDSS galaxy groups and elucidate how this strength scales with halo mass as well as stellar mass limits.  
 
 \subsection{Group dynamical state}
 \label{sec:dyn_state}
@@ -816,7 +808,7 @@ galaxies.
 \label{sec:xray_lum}
 
 Galaxy groups and clusters can also be classified according to their
-X-ray luminosity, eminating from the hot ICM.  Much of the work
+X-ray luminosity, eminating from the hot IGM/ICM.  Much of the work
 regarding the degree to which galaxy properties depend on the X-ray
 luminosity of their host group has been focused on the higher-mass
 cluster regime, due to the relative ease of detecting X-ray bright
@@ -846,7 +838,7 @@ stellar mass dependences were not controlled for.  Knowing that galaxy
 properties depend strongly on stellar and halo mass, in order to
 robustly characterize any correlations between X-ray luminosity and
 galaxy properties, potential stellar and halo mass dependences must
-both be properly controlled for.  Part of the work in this thesis
+both be properly controlled for.  The second part of the work in this thesis
 is to make a contribution in this area by using a large sample of
 galaxies in X-ray luminous groups (derived from the \citealt{wang2014}
 sample) to study the dependence of star-forming and disc fractions of
@@ -869,14 +861,14 @@ look to answer two main questions:
     X-ray luminosity of the host halo?
 \end{enumerate}
 
-In Chapter~\ref{chap:massSeg} I investigate mass segregation in galaxy
+In Chapter~\ref{chap:massSeg}, I investigate mass segregation in galaxy
 groups.  In particular, I will use a sample of galaxies in group from
 the SDSS \citep{yang2005, yang2007} and determine the mean galaxy
 stellar mass as a function of group-centric radius.  By dividing the
 group sample into bins of halo mass I elucidate how the strength of
 mass segregation (ie.\ the slope of the $\log M_\star/M_\odot$
 vs. $R/R_{200}$ relationship) scales with the mass of the host group.
-In Chapter~\ref{chap:xray} I investigate the dependence of star
+In Chapter~\ref{chap:xray}, I investigate the dependence of star
 formation and morphology on the X-ray luminosity of their host halo.
 Using a large data set of galaxies in X-ray groups \citep{wang2014}, I
 am able to properly control for stellar and halo mass dependences, and
@@ -885,8 +877,8 @@ luminosity.  Lastly, in Chapter \textbf{REF SUMMARY/CONCLUSION
   CHAPTER} I will summarize the results and make concluding
 statements.  Chapters~\ref{chap:massSeg} and \ref{chap:xray} represent
 unchanged versions of papers that have been published
-(Chapter~\ref{chap:massSeg}: \textbf{(REF, MASS SEG PAPER)},
-Chapter~\ref{chap:xray}: \textbf{(REF, XRAY PAPER)}) in the
+(Chapter~\ref{chap:massSeg}: \citealt{roberts2015},
+Chapter~\ref{chap:xray}: \citealt{roberts2016a}) in the
 \textit{Monthly Notices of the Royal Astronomical Society}, a refereed
 astronomical journal.
 
